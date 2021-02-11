@@ -54,6 +54,17 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="text-center">
+            <h1>Arte</h1>
+
+            <br>
+
+            <p class="lead">Lista dos serviços relacionados a arte.</p>
+        </div>
+    </div>
+</section>
 <!--
 <script>
     function confirmaElimina(id) {
@@ -83,7 +94,6 @@
 -->
 
 
-<h1 style="margin-left: 26px">Lista de serviços</h1>
 <input type="text" id="search" style="margin-left: 30px">
 <div id="tableContent">
     <table class='table table-striped' width="100%">

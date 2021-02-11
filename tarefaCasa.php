@@ -54,6 +54,18 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="text-center">
+            <h1>Tarefas de Casa</h1>
+
+            <br>
+
+            <p class="lead">Lista dos serviços relacionados as tarefas de casa.</p>
+        </div>
+    </div>
+</section>
+
 <!--
 <script>
     function confirmaElimina(id) {

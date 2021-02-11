@@ -54,6 +54,18 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="text-center">
+            <h1>Trabalho manual</h1>
+
+            <br>
+
+            <p class="lead">Lista dos serviços relacionados ao trabalho manual.</p>
+        </div>
+    </div>
+</section>
+
 <!--
 <script>
     function confirmaElimina(id) {

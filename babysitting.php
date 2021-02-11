@@ -54,6 +54,17 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="text-center">
+            <h1>Babysitting</h1>
+
+            <br>
+
+            <p class="lead">Lista dos serviços relacionados ao babysitting.</p>
+        </div>
+    </div>
+</section>
 <!--
 <script>
     function confirmaElimina(id) {
