@@ -55,6 +55,18 @@
 </section>
 
 <div id="status"></div>
+<form >
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nome do Serviço">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+            <button class="submit clearfix">Submit</button>
+</form>
+
 <form id="ratingForm">
     <fieldset class="rating">
         <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
