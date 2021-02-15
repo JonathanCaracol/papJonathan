@@ -53,10 +53,19 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="text-center">
+            <h1>Adicionar novo serviço</h1>
+            <br>
+            <p class="lead">Nunca foi tão fácil ajudar pessoas, junte-se a nós!.</p>
+        </div>
+    </div>
+</section>
 
 
 <?php
-echo "<h1>Adicionar novo serviço</h1>";
+echo "<div style='width: 25%'>";
 echo "<form action=\"confirmaNovoServico.php\" method=\"post\" enctype=\"multipart/form-data\">";
 echo "<label>Nome do serviço: </label>";
 echo "<input type=\"text\" name=\"  \"><br>";
@@ -64,6 +73,14 @@ echo "<label>Nome do/a prestador/a: </label>";
 echo "<input type=\"text\" name=\"  \"><br>";
 echo "<label>Descrição: </label>";
 echo "<input type=\"text\" name=\"  \"><br>";
+echo "<label>Horas de serviço que quer prestar: </label>";
+echo "<input type=\"number\" id=\"quantity\" name=\"quantity\" min=\"1\" max=\"20\">";
+echo "<br><select class=\"form-select\" aria-label=\"Default select example\">
+      <option selected>Vai querer mostar o numero aos clientes?</option>
+        <option value=\"1\">Sim</option>
+        <option value=\"2\">Não</option>
+    </select>";
 echo "<input type=\"Submit\" value=\"Adiciona\"><br>";
+echo "</div>";
 
 ?>

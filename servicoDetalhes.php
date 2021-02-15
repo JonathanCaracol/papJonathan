@@ -54,18 +54,33 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="text-center">
+            <h1>[Nome do serviço]</h1>
+        </div>
+    </div>
+</section>
+
 <div id="status"></div>
-<form >
+
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nome</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nome do Serviço">
+            <label for="exampleFormControlTextarea1" class="form-label">Email do prestador: [Mail]</label>
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="exampleFormControlTextarea1" class="form-label">Descrição:</label>
+            <div class="overflow-auto" style="width: 40%; height: 20px">...</div>
         </div>
-            <button class="submit clearfix">Submit</button>
-</form>
+        <div class="mb-3">
+            <label>Horas disponibilizadas pelo prestador: [Horas]</label>
+        </div>
+        <div class="mb-3">
+            <label>Numero de telemovel do prestador: [Numero]</label>
+        </div>
+
+
+
+<!--- RATING ESTRELAS
 
 <form id="ratingForm">
     <fieldset class="rating">
@@ -77,4 +92,4 @@
     </fieldset>
     <div class="clearfix"></div>
     <button class="submit clearfix">Submit</button>
-</form>
+</form> --->
