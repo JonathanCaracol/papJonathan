@@ -17,6 +17,8 @@
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="js/custom.js"></script>
+
 </head>
 <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
     <div class="container">
@@ -62,6 +64,7 @@
         </div>
     </div>
 </section>
+<hr>
 
 
 <?php
@@ -73,8 +76,9 @@ echo "<label>Nome do/a prestador/a: </label>";
 echo "<input type=\"text\" name=\"  \"><br>";
 echo "<label>Descrição: </label>";
 echo "<input type=\"text\" name=\"  \"><br>";
-echo "<label>Horas de serviço que quer prestar: </label>";
-echo "<input type=\"number\" id=\"quantity\" name=\"quantity\" min=\"1\" max=\"20\">";
+// Falta meter borders a volta da barra de "scroll" horizontal
+echo "<div class='border border-2'><div class=\"bd-example\"><label for=\"customRange3\"class=\"form-label\">Escolhe um numero de horas:</label>
+      <input type=\"range\" class=\"form-range\" min=\"0\" max=\"5\" step=\"0.5\" id=\"customRange3\"></div></div>";
 echo "<br><select class=\"form-select\" aria-label=\"Default select example\">
       <option selected>Vai querer mostar o numero aos clientes?</option>
         <option value=\"1\">Sim</option>

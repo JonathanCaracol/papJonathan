@@ -16,7 +16,9 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
+
     <script src="js/custom.js"></script>
+
 
 </head>
 <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
@@ -100,10 +102,15 @@
     <table class='table table-striped' width="100%">
         <tr>
             <td>
-                <input type="text" id="search">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Pesquisar</button>
+                    </form>
             </td>
             <td colspan="3" align="right">
-                <a href="adicionaServicos.php">Adiciona</a>
+                <div>
+                    <button class="btn btn-success" type="button"><a href="adicionaServicos.php">Adicionar novo serviço</a></button>
+                </div>
             </td>
         </tr>
         <tr>

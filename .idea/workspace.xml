@@ -4,7 +4,11 @@
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adicionaServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/adicionaServicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offers.html" beforeDir="false" afterPath="$PROJECT_DIR$/offers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoManual.php" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoManual.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,17 @@
       <updated>1613044941072</updated>
       <workItem from="1613044942179" duration="398000" />
       <workItem from="1613091773923" duration="16000" />
+      <workItem from="1613485585439" duration="6122000" />
+      <workItem from="1613501258970" duration="2119000" />
     </task>
+    <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
+      <created>1613424516471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613424516471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,5 +73,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mudanças no adicionar serviços e detalhes serviços" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudanças no adicionar serviços e detalhes serviços" />
   </component>
 </project>
