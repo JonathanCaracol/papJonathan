@@ -16,11 +16,45 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
 
     <script src="js/custom.js"></script>
 
 
 </head>
+
+<nav class="navbar navbar-dark bg-dark">
+    <a href="index.html" class="navbar-brand">Minha PAP</a>
+    <li><a href="offers.html">Serviços</a></li>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--
 <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
     <div class="container">
 
@@ -31,11 +65,11 @@
                 <span class="icon icon-bar"></span>
             </button>
 
-            <!-- lOGO TEXT HERE -->
+            lOGO TEXT HERE
             <a href="index.html" class="navbar-brand">Minha PAP</a>
         </div>
 
-        <!-- MENU LINKS -->
+         MENU LINKS
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-nav-first">
                 <li><a href="index.html">Home</a></li>
@@ -54,7 +88,7 @@
         </div>
 
     </div>
-</section>
+</section> -->
 
 <section>
     <div class="container">
@@ -109,7 +143,7 @@
             </td>
             <td colspan="3" align="right">
                 <div>
-                    <button class="btn btn-success" type="button"><a href="adicionaServicos.php">Adicionar novo serviço</a></button>
+                    <button class="btn btn-success" type="button"><a href="adicionaServicos.php" style="color: #1b1e21">Adicionar novo serviço</a></button>
                 </div>
             </td>
         </tr>

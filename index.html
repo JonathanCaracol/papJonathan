@@ -19,6 +19,7 @@
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
@@ -59,7 +60,9 @@
                                 <li><a href="team.html">Equipa</a></li>
                             </ul>
                         </li>
-                         <li><a href="register.php">Registrar-se/Entrar</a></li>
+                         <li><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              Launch demo modal
+                         </button></li>
                     </ul>
                </div>
 
@@ -294,6 +297,25 @@
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+               <div class="modal-content">
+                    <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                         ...
+                    </div>
+                    <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+               </div>
+          </div>
+     </div>
 
 </body>
 </html>
