@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adicionaServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/adicionaServicos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalhoManual.php" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoManual.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,9 @@
       <workItem from="1613561667234" duration="2455000" />
       <workItem from="1613572708262" duration="3914000" />
       <workItem from="1613584666804" duration="3446000" />
-      <workItem from="1613591629364" duration="1597000" />
+      <workItem from="1613591629364" duration="1708000" />
+      <workItem from="1613644841063" duration="1268000" />
+      <workItem from="1613680003518" duration="2438000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613508689550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido.">
+      <created>1613593331033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613593331033</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mudanças no adicionar serviços e detalhes serviços" />
     <MESSAGE value="barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação" />
-    <option name="LAST_COMMIT_MESSAGE" value="barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação" />
+    <MESSAGE value="Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido." />
+    <option name="LAST_COMMIT_MESSAGE" value="Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido." />
   </component>
 </project>

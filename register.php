@@ -16,49 +16,46 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 </head>
-<section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-    <div class="container">
+<nav class="navbar navbar-dark bg-dark">
+    <a href="index.html" class="navbar-brand">Minha PAP</a>
+    <li><a href="offers.html">Serviços</a></li>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="navbar-header">
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-            </button>
-
-            <!-- lOGO TEXT HERE -->
-            <a href="index.html" class="navbar-brand">Minha PAP</a>
-        </div>
-
-        <!-- MENU LINKS -->
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-nav-first">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="offers.html">Serviços</a></li>
-                <li><a href="contact.html">Contacte-nos</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
-
-                    <ul class="dropdown-menu">
-                        <li><a href="about-us.html">Sobre nós</a></li>
-                        <li><a href="team.html">Equipa</a></li>
-                    </ul>
-                </li>
-                <li class="active"><a href="register.php">Registrar-se/Entrar</a></li>
-            </ul>
-        </div>
-
+    <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
     </div>
-</section>
+</nav>
 
-<div class="card" style="width: 100%; margin-top: 5%">
-    <div class="card-body" style="width: 300px">
+
+<div class="card" style="width: 50%; margin-top: 5%; margin-left: 5%;border-width: 5px; border-color: #29ca8e">
+    <div class="card-body">
         <form>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="inputEmail">Email</label>
+                    <label style="lab">Email</label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                 </div>
                 <div class="form-group col-md-6">
@@ -66,16 +63,16 @@
                     <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                 </div>
             </div>
-            <div class="form-group" style="margin-left: 15px">
+            <div class="form-group">
                 <label for="inputNumber">Número de telemóvel</label>
                 <input type="text" class="form-control" id="inputNumber" placeholder="Número">
             </div>
-            <div class="form-group" style="margin-left: 15px">
+            <div class="form-group">
                 <label for="inputAddress">Morada</label>
                 <input type="text" class="form-control" id="inputAddress" placeholder="Morada">
             </div>
-            <button type="submit" class="btn btn-success" style="margin-left: 15px">Regista-se</button>
-            <button type="submit" class="btn btn-primary"><a href="login.php">Já tem conta? Entre</a></button>
+            <button type="submit" class="btn" style="background-color: #29ca8e; color: white">Regista-se</button>
+            <button type="submit" class="btn" style="margin-left: 15px; background-color: black; color: white"><a style="color: white" href="login.php">Já tem conta? Entre</a></button>
         </form>
     </div>
 </div>
