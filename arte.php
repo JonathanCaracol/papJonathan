@@ -32,7 +32,7 @@
             <p class="lead">Lista dos serviços relacionados a arte.</p>
         </div>
     </div>
-</section>
+</section><hr>
 <!--
 <script>
     function confirmaElimina(id) {
@@ -62,46 +62,34 @@
 -->
 
 
-
+<div style="margin-left: 5%; margin-right: 5%">
 <div>
 
 
     <div class="position-relative">
 
         <div class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
-            <div class="d-table-cell col-2 col-lg-1 v-align-top">
-                <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/pcinformatica/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pcinformatica"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/78796061?s=100&amp;v=4" alt="@pcinformatica" width="50" height="50"></a>
-            </div>
 
             <div class="d-table-cell col-9 v-align-top pr-3">
-                <a class="d-inline-block no-underline mb-1" data-hovercard-type="user" data-hovercard-url="/users/pcinformatica/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pcinformatica">
+                <a href="servicoDetalhes.php">
                     <span class="f4 link-gray-dark"></span>
-                    <span class="link-gray">pcinformatica</span>
+                    <span class="link-gray">Pinturas</span>
                 </a>
 
                 <div class="text-gray text-small mb-2">
-                    <div>Acordar. Arrasar. Repetir</div>
+                    <div>Posso fazer pinturas para vocês e pintar o que quiser.</div>
                 </div>
 
             </div>
 
             <div class="d-table-cell col-2 v-align-top text-right">
 
-    <span class="user-following-container js-form-toggle-container">
-      <!-- '"` --><!-- </textarea></xmp> --><form class="js-form-toggle-target" action="/users/follow?target=pcinformatica" accept-charset="UTF-8" method="post" hidden="hidden"><input type="hidden" name="authenticity_token" value="MhouU7MQwoY0Kn9I2/WlfGcyO5FH/Fk96N9r9KtZW8pKrUD7SeA0iylB4ZhF2hLd11YbJBuIwJlZ5vKfOSvz2w==">
-        <input type="submit" name="commit" value="Follow" class="btn btn-sm " title="Follow pcinformatica" aria-label="Follow this person" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:78795359,&quot;target&quot;:&quot;FOLLOW_BUTTON&quot;,&quot;user_id&quot;:78795359,&quot;originating_url&quot;:&quot;https://github.com/JonathanCaracol?tab=following&quot;}}" data-hydro-click-hmac="62cc663d0fa73bb80bd9550896703635bbfc76aed7c77d4f5e574a8a4bc0740a" data-disable-with="Follow">
-</form>
-        <!-- '"` --><!-- </textarea></xmp> --><form class="js-form-toggle-target" action="/users/unfollow?target=pcinformatica" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="yORcWR9WqIqBwTShJ5dH73iwi4GkNrB/qq7xQXJVM3CejxuqbYZcKB/G2/zX0UigNS7jyCSPgxrEzIKMhvkPAQ==">
-        <input type="submit" name="commit" value="Unfollow" class="btn btn-sm" title="Unfollow pcinformatica" aria-label="Unfollow this person" data-disable-with="Unfollow">
-</form>    </span>
+                <!-- Abrir botão -->
 
             </div>
         </div>
 
         <div class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
-            <div class="d-table-cell col-2 col-lg-1 v-align-top">
-                <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/GuiRibeiro03/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/GuiRibeiro03"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/72324455?s=100&amp;v=4" alt="@GuiRibeiro03" width="50" height="50"></a>
-            </div>
 
             <div class="d-table-cell col-9 v-align-top pr-3">
                 <a class="d-inline-block no-underline mb-1" data-hovercard-type="user" data-hovercard-url="/users/GuiRibeiro03/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/GuiRibeiro03">
@@ -118,44 +106,19 @@
             <div class="d-table-cell col-2 v-align-top text-right">
 
     <span class="user-following-container js-form-toggle-container">
-      <!-- '"` --><!-- </textarea></xmp> --><form class="js-form-toggle-target" action="/users/follow?target=GuiRibeiro03" accept-charset="UTF-8" method="post" hidden="hidden"><input type="hidden" name="authenticity_token" value="/tKV0ADLHN8GtPflppWhHpfLOfvQCdEFK2Ee4K4I96qGZft4+jvq0hvfaTU4uha/J68ZTox9SKGaWIeLPHpfuw==">
-        <input type="submit" name="commit" value="Follow" class="btn btn-sm " title="Follow GuiRibeiro03" aria-label="Follow this person" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:78795359,&quot;target&quot;:&quot;FOLLOW_BUTTON&quot;,&quot;user_id&quot;:78795359,&quot;originating_url&quot;:&quot;https://github.com/JonathanCaracol?tab=following&quot;}}" data-hydro-click-hmac="62cc663d0fa73bb80bd9550896703635bbfc76aed7c77d4f5e574a8a4bc0740a" data-disable-with="Follow">
+
+<form class="js-form-toggle-target" action="/users/follow?target=GuiRibeiro03" accept-charset="UTF-8" method="post" hidden="hidden"><input type="hidden" name="authenticity_token" value="/tKV0ADLHN8GtPflppWhHpfLOfvQCdEFK2Ee4K4I96qGZft4+jvq0hvfaTU4uha/J68ZTox9SKGaWIeLPHpfuw==">
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --><form class="js-form-toggle-target" action="/users/unfollow?target=GuiRibeiro03" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="e9e16AxEqGBQDYmbglpwtEpxU6CYupIH+vFJir/2qI8tvPIbfpRcws4KZsZyHH/7B+876RgDoWKUkzpHS1qU/g==">
-        <input type="submit" name="commit" value="Unfollow" class="btn btn-sm" title="Unfollow GuiRibeiro03" aria-label="Unfollow this person" data-disable-with="Unfollow">
-</form>    </span>
-
-            </div>
-        </div>
-
-        <div class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
-            <div class="d-table-cell col-2 col-lg-1 v-align-top">
-                <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/JoaoCoel/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/JoaoCoel"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/78794203?s=100&amp;v=4" alt="@JoaoCoel" width="50" height="50"></a>
-            </div>
-
-            <div class="d-table-cell col-9 v-align-top pr-3">
-                <a class="d-inline-block no-underline mb-1" data-hovercard-type="user" data-hovercard-url="/users/JoaoCoel/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/JoaoCoel">
-                    <span class="f4 link-gray-dark"></span>
-                    <span class="link-gray">JoaoCoel</span>
-                </a>
-
-
-            </div>
-
-            <div class="d-table-cell col-2 v-align-top text-right">
-
-    <span class="user-following-container js-form-toggle-container">
-      <!-- '"` --><!-- </textarea></xmp> --><form class="js-form-toggle-target" action="/users/follow?target=JoaoCoel" accept-charset="UTF-8" method="post" hidden="hidden"><input type="hidden" name="authenticity_token" value="tcDNLftOLkITX0FqgvEw/w0n3xum//QfOYQksxHb7/7Nd6OFAb7YTw4037oc3odevUP/rvqLbbuIvb3Yg6lH7w==">
-        <input type="submit" name="commit" value="Follow" class="btn btn-sm " title="Follow JoaoCoel" aria-label="Follow this person" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:78795359,&quot;target&quot;:&quot;FOLLOW_BUTTON&quot;,&quot;user_id&quot;:78795359,&quot;originating_url&quot;:&quot;https://github.com/JonathanCaracol?tab=following&quot;}}" data-hydro-click-hmac="62cc663d0fa73bb80bd9550896703635bbfc76aed7c77d4f5e574a8a4bc0740a" data-disable-with="Follow">
+<form class="js-form-toggle-target" action="/users/unfollow?target=GuiRibeiro03" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="e9e16AxEqGBQDYmbglpwtEpxU6CYupIH+vFJir/2qI8tvPIbfpRcws4KZsZyHH/7B+876RgDoWKUkzpHS1qU/g==">
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --><form class="js-form-toggle-target" action="/users/unfollow?target=JoaoCoel" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="2B5QlmLoKB3m0QNLkBoOm/x1mLVBPV2+5wOlJNEb126OdRdlEDjcv3jW7BZgXAHUsevw/MGEbtuJYdbpJbfrHw==">
-        <input type="submit" name="commit" value="Unfollow" class="btn btn-sm" title="Unfollow JoaoCoel" aria-label="Unfollow this person" data-disable-with="Unfollow">
-</form>    </span>
+</span>
 
             </div>
         </div>
 
 
     </div>
+</div>
+
 </div>
 

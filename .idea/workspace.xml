@@ -64,7 +64,9 @@
       <workItem from="1613680003518" duration="2594000" />
       <workItem from="1613750843813" duration="160000" />
       <workItem from="1614074506793" duration="663000" />
-      <workItem from="1614096184744" duration="353000" />
+      <workItem from="1614096184744" duration="534000" />
+      <workItem from="1614112516860" duration="594000" />
+      <workItem from="1614159042439" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -94,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613682607056</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tentativa em arte">
+      <created>1614096716108</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614096716108</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +126,7 @@
     <MESSAGE value="barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação" />
     <MESSAGE value="Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido." />
     <MESSAGE value="Cards para registar e entrar na conta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cards para registar e entrar na conta" />
+    <MESSAGE value="tentativa em arte" />
+    <option name="LAST_COMMIT_MESSAGE" value="tentativa em arte" />
   </component>
 </project>
