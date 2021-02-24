@@ -149,14 +149,14 @@
         </tr>
         <tr>
             <th>Nome do Serviço</th>
-            <th>Nome do Prestador</th>
+            <th>Email do prestador</th>
             <th>Rating</th>
             <th colspan="2" align="right">Opções</th>
         </tr>
         <tr>
 
             <td><a href="servicoDetalhes.php">Madeira estatuas</a></td>
-            <td>Jonthan Carajoinas</td>
+            <td>email@gmail.com</td>
             <td>3<fieldset class="rating"><input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label></fieldset></td>
             <td><a href="editarServicos.php">Editar</a>/Apagar</td>
         </tr>

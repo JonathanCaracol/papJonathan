@@ -25,7 +25,7 @@
 <section>
     <div class="container">
         <div class="text-center">
-            <h1>Arte</h1>
+            <h1 style="color: #29ca8e"><b>Arte</b></h1>
 
             <br>
 
@@ -62,25 +62,29 @@
 -->
 
 
-<div style="margin-left: 5%; margin-right: 5%">
-<div>
+<div style="margin-left: 5%; margin-right: 5%; margin-bottom: 5%">
+    <form class="d-flex">
+        <input style="width: 50%; margin-right: 5px" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+        <button class="btn btn-primary" type="submit">Pesquisar</button>
+        <button class="btn" style="background-color: mediumseagreen; margin-left: auto" type="submit"><a href="adicionaServicos.php" style="color: white">Adicionar serviço</a></button>
+    </form>
+
+<div style="margin-top: 20px">
 
 
     <div class="position-relative">
 
-        <div class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
+        <div style="background-color: #29ca8e" class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
 
-            <div class="d-table-cell col-9 v-align-top pr-3">
-                <a href="servicoDetalhes.php">
-                    <span class="f4 link-gray-dark"></span>
-                    <span class="link-gray">Pinturas</span>
-                </a>
-
+            <h5><div class="d-table-cell col-9 v-align-top pr-3">
+                    <span class="link-gray"><b>Pinturas</b></span>
                 <div class="text-gray text-small mb-2">
                     <div>Posso fazer pinturas para vocês e pintar o que quiser.</div>
+                    <span><b>email@gmail.com</b></span>
                 </div>
+                    <span>Este serviço tem <b>x</b> horas disponíveis</span>
 
-            </div>
+            </div><h5>
 
             <div class="d-table-cell col-2 v-align-top text-right">
 
@@ -91,29 +95,32 @@
 
         <div class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
 
-            <div class="d-table-cell col-9 v-align-top pr-3">
-                <a class="d-inline-block no-underline mb-1" data-hovercard-type="user" data-hovercard-url="/users/GuiRibeiro03/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/GuiRibeiro03">
-                    <span class="f4 link-gray-dark">Guilherme Ribeiro</span>
-                    <span class="link-gray pl-1">GuiRibeiro03</span>
-                </a>
+            <h5><div class="d-table-cell col-9 v-align-top pr-3">
+                    <span class="f4 link-gray-dark"></span>
+                    <span class="link-gray"><b>Musica</b></span>
 
+                <div class="text-gray text-small mb-2">
+                    <div>Posso escrever uma musica para si.</div>
+                    <span><b>email@gmail.com</b></span>
+                </div>
+                    <span>Este serviço tem <b>x</b> horas disponíveis</span>
+            </div><h5>
 
-                <p class="text-gray text-small mb-0">
-                    <svg class="octicon octicon-location" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"></path></svg> Portugal
-                </p>
-            </div>
+        </div>
 
-            <div class="d-table-cell col-2 v-align-top text-right">
+        <div style="background-color: #29ca8e" class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
 
-    <span class="user-following-container js-form-toggle-container">
+            <h5><div class="d-table-cell col-9 v-align-top pr-3">
+                    <span class="f4 link-gray-dark"></span>
+                    <span class="link-gray"><b>Musica</b></span>
 
-<form class="js-form-toggle-target" action="/users/follow?target=GuiRibeiro03" accept-charset="UTF-8" method="post" hidden="hidden"><input type="hidden" name="authenticity_token" value="/tKV0ADLHN8GtPflppWhHpfLOfvQCdEFK2Ee4K4I96qGZft4+jvq0hvfaTU4uha/J68ZTox9SKGaWIeLPHpfuw==">
-</form>
-<form class="js-form-toggle-target" action="/users/unfollow?target=GuiRibeiro03" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="e9e16AxEqGBQDYmbglpwtEpxU6CYupIH+vFJir/2qI8tvPIbfpRcws4KZsZyHH/7B+876RgDoWKUkzpHS1qU/g==">
-</form>
-</span>
+                <div class="text-gray text-small mb-2">
+                    <div>Posso escrever uma musica para si.</div>
+                    <span><b>email@gmail.com</b></span>
+                </div>
+                    <span>Este serviço tem <b>x</b> horas disponíveis</span>
+            </div></h5>
 
-            </div>
         </div>
 
 
