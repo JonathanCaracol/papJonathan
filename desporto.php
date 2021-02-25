@@ -54,18 +54,6 @@
     </div>
 </section>
 
-<section>
-    <div class="container">
-        <div class="text-center">
-            <h1>Desporto</h1>
-
-            <br>
-
-            <p class="lead">Lista dos serviços relacionados ao desporto.</p>
-        </div>
-    </div>
-</section>
-
 <!--
 <script>
     function confirmaElimina(id) {
@@ -95,12 +83,11 @@
 -->
 
 
+<h1 style="margin-left: 26px">Lista de serviços</h1>
+<input type="text" id="search" style="margin-left: 30px">
 <div id="tableContent">
     <table class='table table-striped' width="100%">
         <tr>
-            <td>
-                <input type="text" id="search">
-            </td>
             <td colspan="6" align='right'>
                 <a href="adicionaServicos.php">Adiciona</a>
             </td>
@@ -116,7 +103,9 @@
             <td><a href="servicoDetalhes.php">Madeira estatuas</a></td>
             <td>Jonthan Carajoinas</td>
             <td>3<fieldset class="rating"><input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label></fieldset></td>
-            <td><a href="editarServicos.php">Editar</a>/Apagar</td>
+            <td><a href="editarServicos.php">Editar</a></td>
+            <td>Apagar</td>
+
         </tr>
     </table>
 </div>

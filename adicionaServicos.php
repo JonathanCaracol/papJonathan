@@ -16,43 +16,8 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-    <script src="js/custom.js"></script>
 
 </head>
-
-<nav class="navbar navbar-dark bg-dark">
-    <a href="index.html" class="navbar-brand">Minha PAP</a>
-    <li><a href="offers.html">Serviços</a></li>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExample01">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<!--
 <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
     <div class="container">
 
@@ -63,11 +28,11 @@
                 <span class="icon icon-bar"></span>
             </button>
 
-             lOGO TEXT HERE
+            <!-- lOGO TEXT HERE -->
             <a href="index.html" class="navbar-brand">Minha PAP</a>
         </div>
 
-         MENU LINKS
+        <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-nav-first">
                 <li><a href="index.html">Home</a></li>
@@ -86,39 +51,120 @@
         </div>
 
     </div>
-</section> -->
+</section>
 
-<section style="padding-bottom: 20px">
+<section>
     <div class="container">
         <div class="text-center">
-            <h1 style="color: #29ca8e"><b>Adicionar novo serviço</b></h1>
+            <h1>Adicionar um serviço</h1>
+
             <br>
-            <p class="lead">Nunca foi tão fácil ajudar pessoas, junte-se a nós!.</p>
+
+            <p class="lead">Crie um serviço para ajudar a comunidade!</p>
         </div>
     </div>
-    <hr>
-</section style="padding-bottom: 20px">
+</section>
 
+<section id="contact">
+    <div class="container">
+        <div class="row">
 
-<?php
-echo "<div style='width: 30%; padding-bottom: 70px; padding-left: 25px'>";
-echo "<form action=\"confirmaNovoServico.php\" method=\"post\" enctype=\"multipart/form-data\">";
-echo "<div class=\"input-group mb-3\">
-  <div class=\"input-group-prepend\">
-    <span class=\"input-group-text\" id=\"inputGroup-sizing-default\">Nome do serviço</span>
-  </div>
-  <input type=\"text\" class=\"form-control\" aria-label=\"Sizing example input\" aria-describedby=\"inputGroup-sizing-default\">
-</div>";
-echo "<div style='padding-bottom: 20px' class=\"input-group\">
-  <div class=\"input-group-prepend\">
-    <span class=\"input-group-text\">Descrição</span>
-  </div>
-  <textarea class=\"form-control\" aria-label=\"With textarea\"></textarea>
-</div>";
-// Falta meter borders a volta da barra de "scroll" horizontal
-echo "<div style='padding-top:10px' class='border border-2'><div class=\"bd-example\"><label style='padding-bottom: 20px' for=\"customRange3\"class=\"form-label\">Escolhe um numero de horas (Max.20h):</label>
-      <input type=\"range\" class=\"form-range\" min=\"0\" max=\"10\" step=\"0.5\" id=\"customRange3\"></div></div>";
-echo "<div style='padding-top: 15px'><input class='btn-success' type=\"Submit\" value=\"Adicionar\"></div><br>";
-echo "</div>";
+            <div class="col-md-6 col-sm-12">
+                <form id="contact-form" role="form" action="" method="post">
+                    <div class="section-title">
+                        <h2>Junte-se à nós <small>Faça parte da grande comunidade do voluntariado!</small></h2>
+                    </div>
 
-?>
+                    <div class="col-md-12 col-sm-12">
+                        <input type="text" class="form-control" placeholder="Escreva o nome do serviço" name="name" required>
+
+                        <input type="email" class="form-control" placeholder="Escreva o seu email" name="email" required>
+
+                        <textarea class="form-control" rows="6" placeholder="Escreva a descrição" name="message" required></textarea>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <input type="submit" class="form-control" name="send message" value="Adicionar serviço">
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="contact-image">
+                    <img src="images/adicionarservico.png" class="img-responsive" alt="Smiling Two Girls">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6">
+                <div class="footer-info">
+                    <div class="section-title">
+                        <h2>Headquarter</h2>
+                    </div>
+                    <address>
+                        <p>212 Barrington Court <br>New York, ABC 10001</p>
+                    </address>
+
+                    <ul class="social-icon">
+                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                    </ul>
+
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2020 Company Name</p>
+                        <p>Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="footer-info">
+                    <div class="section-title">
+                        <h2>Contact Info</h2>
+                    </div>
+                    <address>
+                        <p>+1 333 4040 5566</p>
+                        <p><a href="mailto:contact@company.com">contact@company.com</a></p>
+                    </address>
+
+                    <div class="footer_menu">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="terms.html">Terms & Conditions</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="footer-info newsletter-form">
+                    <div class="section-title">
+                        <h2>Newsletter</h2>
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <form action="#" method="get">
+                                <input type="email" class="form-control" placeholder="Escreva seu email" name="email" id="email" required>
+                                <input type="submit" class="form-control" name="submit" id="form-submit" value="Mandar newsletter">
+                            </form>
+                            <span><sup>*</sup> Nota - Não iremos mandar spam para o seu email.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>

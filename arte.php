@@ -16,23 +16,44 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="js/custom.js"></script>
 
 </head>
-
-
-<section>
+<section class="navbar custom-navbar navbar-fixed-top" role="navigation">
     <div class="container">
-        <div class="text-center">
-            <h1 style="color: #29ca8e"><b>Arte</b></h1>
 
-            <br>
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
 
-            <p class="lead">Lista dos serviços relacionados a arte.</p>
+            <!-- lOGO TEXT HERE -->
+            <a href="index.html" class="navbar-brand">Minha PAP</a>
         </div>
+
+        <!-- MENU LINKS -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-nav-first">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="offers.html">Serviços</a></li>
+                <li><a href="contact.html">Contacte-nos</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="about-us.html">Sobre nós</a></li>
+                        <li><a href="team.html">Equipa</a></li>
+                    </ul>
+                </li>
+                <li><a href="register.php">Registrar-se/Entrar</a></li>
+            </ul>
+        </div>
+
     </div>
-</section><hr>
+</section>
+
 <!--
 <script>
     function confirmaElimina(id) {
@@ -62,70 +83,29 @@
 -->
 
 
-<div style="margin-left: 5%; margin-right: 5%; margin-bottom: 5%">
-    <form class="d-flex">
-        <input style="width: 50%; margin-right: 5px" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-        <button class="btn btn-primary" type="submit">Pesquisar</button>
-        <button class="btn" style="background-color: mediumseagreen; margin-left: auto" type="submit"><a href="adicionaServicos.php" style="color: white">Adicionar serviço</a></button>
-    </form>
+<h1 style="margin-left: 26px">Lista de serviços</h1>
+<input type="text" id="search" style="margin-left: 30px">
+<div id="tableContent">
+    <table class='table table-striped' width="100%">
+        <tr>
+            <td colspan="6" align='right'>
+                <a href="adicionaServicos.php">Adiciona</a>
+            </td>
+        </tr>
+        <tr>
+            <th>Nome do Serviço</th>
+            <th>Nome do Prestador</th>
+            <th>Rating</th>
+            <th colspan="2">Opções</th>
+        </tr>
+        <tr>
 
-<div style="margin-top: 20px">
+            <td><a href="servicoDetalhes.php">Madeira estatuas</a></td>
+            <td>Jonthan Carajoinas</td>
+            <td>3<fieldset class="rating"><input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label></fieldset></td>
+            <td><a href="editarServicos.php">Editar</a></td>
+            <td>Apagar</td>
 
-
-    <div class="position-relative">
-
-        <div style="background-color: #29ca8e" class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
-
-            <h5><div class="d-table-cell col-9 v-align-top pr-3">
-                    <span class="link-gray"><b>Pinturas</b></span>
-                <div class="text-gray text-small mb-2">
-                    <div>Posso fazer pinturas para vocês e pintar o que quiser.</div>
-                    <span><b>email@gmail.com</b></span>
-                </div>
-                    <span>Este serviço tem <b>x</b> horas disponíveis</span>
-
-            </div><h5>
-
-            <div class="d-table-cell col-2 v-align-top text-right">
-
-                <!-- Abrir botão -->
-
-            </div>
-        </div>
-
-        <div class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
-
-            <h5><div class="d-table-cell col-9 v-align-top pr-3">
-                    <span class="f4 link-gray-dark"></span>
-                    <span class="link-gray"><b>Musica</b></span>
-
-                <div class="text-gray text-small mb-2">
-                    <div>Posso escrever uma musica para si.</div>
-                    <span><b>email@gmail.com</b></span>
-                </div>
-                    <span>Este serviço tem <b>x</b> horas disponíveis</span>
-            </div><h5>
-
-        </div>
-
-        <div style="background-color: #29ca8e" class="d-table table-fixed col-12 width-full py-4 border-bottom color-border-secondary">
-
-            <h5><div class="d-table-cell col-9 v-align-top pr-3">
-                    <span class="f4 link-gray-dark"></span>
-                    <span class="link-gray"><b>Musica</b></span>
-
-                <div class="text-gray text-small mb-2">
-                    <div>Posso escrever uma musica para si.</div>
-                    <span><b>email@gmail.com</b></span>
-                </div>
-                    <span>Este serviço tem <b>x</b> horas disponíveis</span>
-            </div></h5>
-
-        </div>
-
-
-    </div>
+        </tr>
+    </table>
 </div>
-
-</div>
-
