@@ -87,7 +87,7 @@
 
                     <div class="col-md-12 col-sm-12">
                         <input type="submit" class="form-control" name="send message" value="Criar a conta">
-                        <input type="submit" class="form-control" name="send message" value="Já tem conta? Entra!"><a href="register.php">login</a>
+                        <input type="submit" class="form-control" name="send message" value="Já tem conta? Entra!"><a href="login.php">login</a>
                     </div>
 
                 </form>
@@ -95,7 +95,7 @@
 
             <div class="col-md-6 col-sm-12">
                 <div class="contact-image">
-                    <img src="images/lock.png" class="img-responsive" alt="Smiling Two Girls">
+                    <img src="images/lock.png" style="height: 404px; width: 404px" class="img-responsive" alt="Smiling Two Girls">
                 </div>
             </div>
 

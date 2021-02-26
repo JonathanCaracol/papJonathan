@@ -91,7 +91,7 @@
 
             <div class="col-md-6 col-sm-12">
                 <div class="contact-image">
-                    <img src="images/lock.png" class="img-responsive" alt="Smiling Two Girls">
+                    <img src="images/lock.png" style="height: 404px; width: 404px" class="img-responsive" alt="Smiling Two Girls">
                 </div>
             </div>
 
