@@ -16,7 +16,6 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/custom.js"></script>
 
 </head>
 <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
@@ -54,15 +53,114 @@
     </div>
 </section>
 
-<div id="status"></div>
-<form id="ratingForm">
-    <fieldset class="rating">
-        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
-        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
-        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
-        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
-        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-    </fieldset>
-    <div class="clearfix"></div>
-    <button class="submit clearfix">Submit</button>
-</form>
+<section>
+    <div class="container">
+        <div class="text-center">
+            <h1>Detalhes do serviço</h1>
+
+            <br>
+
+            <p class="lead">Contacta esta pessoa e desfruta do seu serviço!</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+                <form id="contact-form" role="form" action="" method="post">
+                    <div class="section-title">
+                        <h2>Manda email <small>Contacta esta pessoa e ela irá ajudar!</small></h2>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+                        <input readonly type="text" class="form-control" placeholder="Nome do serviço" name="name" required>
+
+                        <input readonly type="email" class="form-control" placeholder="email@gmail.com" name="email" required>
+
+                        <textarea readonly class="form-control" rows="6" placeholder="Descrição" name="message" required></textarea>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="contact-image">
+                    <img src="images/emaillogo.png" style="height: 404px; width: 404px" class="img-responsive" alt="Smiling Two Girls">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6">
+                <div class="footer-info">
+                    <div class="section-title">
+                        <h2>Headquarter</h2>
+                    </div>
+                    <address>
+                        <p>212 Barrington Court <br>New York, ABC 10001</p>
+                    </address>
+
+                    <ul class="social-icon">
+                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                    </ul>
+
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2020 Company Name</p>
+                        <p>Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="footer-info">
+                    <div class="section-title">
+                        <h2>Contact Info</h2>
+                    </div>
+                    <address>
+                        <p>+1 333 4040 5566</p>
+                        <p><a href="mailto:contact@company.com">contact@company.com</a></p>
+                    </address>
+
+                    <div class="footer_menu">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="terms.html">Terms & Conditions</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="footer-info newsletter-form">
+                    <div class="section-title">
+                        <h2>Newsletter</h2>
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <form action="#" method="get">
+                                <input type="email" class="form-control" placeholder="Escreva seu email" name="email" id="email" required>
+                                <input type="submit" class="form-control" name="submit" id="form-submit" value="Mandar newsletter">
+                            </form>
+                            <span><sup>*</sup> Nota - Não iremos mandar spam para o seu email.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
