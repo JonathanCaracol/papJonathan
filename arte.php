@@ -16,7 +16,7 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/custom.js"></script>
+
 
 </head>
 <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
@@ -71,41 +71,57 @@
     };
 
 
-
-
-    $('document').ready(function (){
-        $('#search').keyup(function (){
-            fillTableEmpresas(this.value);
-        });
-        fillTableEmpresas();
-    })
-</script>
 -->
 
+<section>
+    <div class="container">
 
-<h1 style="margin-left: 26px">Lista de serviços</h1>
-<input type="text" id="search" style="margin-left: 30px">
-<div id="tableContent">
-    <table class='table table-striped' width="100%">
-        <tr>
-            <td colspan="6" align='right'>
-                <a href="adicionaServicos.php">Adiciona</a>
-            </td>
-        </tr>
-        <tr>
-            <th>Nome do Serviço</th>
-            <th>Nome do Prestador</th>
-            <th>Rating</th>
-            <th colspan="2">Opções</th>
-        </tr>
-        <tr>
+        <div class="text-center">
+            <h1>Serviços</h1>
 
-            <td><a href="servicoDetalhes.php">Madeira estatuas</a></td>
-            <td>Jonthan Carajoinas</td>
-            <td>3<fieldset class="rating"><input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label></fieldset></td>
-            <td><a href="editarServicos.php">Editar</a></td>
-            <td>Apagar</td>
+            <br>
 
-        </tr>
-    </table>
-</div>
+            <p class="lead">Escolha o serviço que precisa no nosso grande catálogo!</p>
+        </div>
+
+        <div id="tableContent">
+            <table class='table table-striped' width="100%">
+                <tr>
+                    <td colspan="4">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Pesquise">
+                            </div>
+                        </form>
+                    </td>
+                    <td   align='center' style="vertical-align: middle">
+
+                        <a class="btn-sm btn-success" href="adicionaServicos.php">Adiciona</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th width="30%">Nome do Serviço</th>
+                    <th width="40%">Nome do Prestador</th>
+                    <th  width="5%">Rating</th>
+                    <th colspan="2" style="text-align: center">Opções</th>
+                </tr>
+                <tr>
+
+                    <td><a href="servicoDetalhes.php">Pinturas</a></td>
+                    <td>Jonthan Carajoinas</td>
+                    <td>3<fieldset class="rating"><input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label></fieldset></td>
+                    <td align="center"><a href="editarServicos.php">Editar</a></td>
+                    <td align="center">Apagar</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <script src="js/custom.js"></script> -->
