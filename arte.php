@@ -54,24 +54,6 @@
     </div>
 </section>
 
-<!--
-<script>
-    function confirmaElimina(id) {
-        $.ajax({
-            url:"AJAX/AJAXGetNameEmpresa.php",
-            type:"post",
-            data:{
-                idEmpresa:id
-            },
-            success:function (result){
-                if(confirm('Confirma que deseja eliminar a empresa:'+result+"?"))
-                    window.location="eliminaEmpresa.php?id=" + id;
-            }
-        })
-    };
-
-
--->
 
 <section>
     <div class="container">
@@ -87,31 +69,28 @@
         <div id="tableContent">
             <table class='table table-striped' width="100%">
                 <tr>
-                    <td colspan="4">
+                    <td colspan="2">
                         <form>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Pesquise">
                             </div>
                         </form>
                     </td>
-                    <td   align='center' style="vertical-align: middle">
+                    <td align='center' style="vertical-align: middle">
 
                         <a class="btn-sm btn-success" href="adicionaServicos.php">Adiciona</a>
                     </td>
                 </tr>
                 <tr>
-                    <th width="30%">Nome do Serviço</th>
-                    <th width="40%">Nome do Prestador</th>
-                    <th  width="5%">Rating</th>
-                    <th colspan="2" style="text-align: center">Opções</th>
+                    <th width="40%">Nome do Serviço</th>
+                    <th width="50%">Nome do Prestador</th>
+                    <th  width="10%">Rating</th>
                 </tr>
                 <tr>
 
                     <td><a href="servicoDetalhes.php">Pinturas</a></td>
                     <td>Jonthan Carajoinas</td>
                     <td>3<fieldset class="rating"><input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label></fieldset></td>
-                    <td align="center"><a href="editarServicos.php">Editar</a></td>
-                    <td align="center">Apagar</td>
 
                 </tr>
             </table>

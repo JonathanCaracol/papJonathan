@@ -82,8 +82,8 @@
                     </div>
 
                     <div class="col-md-12 col-sm-12">
-                        <input type="submit" class="form-control" name="send message" value="Entrar na conta">
-                        <input type="submit" class="form-control" name="send message" value="Não tem conta? Regista-se!"><a href="register.php">login</a>
+                        <input type="submit" class="form-control" value="Entrar na conta">
+                        <input type="submit" class="form-control" onclick="location.href='register.php';" value="Não tem conta? Regista-se!">
                     </div>
 
                 </form>
