@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/includes/bodyinc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editarServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/editarServicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -71,7 +71,10 @@
       <workItem from="1614161742809" duration="49000" />
       <workItem from="1614196118760" duration="8299000" />
       <workItem from="1614333741040" duration="170000" />
-      <workItem from="1614337322077" duration="1204000" />
+      <workItem from="1614337322077" duration="3270000" />
+      <workItem from="1614547407276" duration="240000" />
+      <workItem from="1614614687411" duration="1584000" />
+      <workItem from="1614680435191" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -129,7 +132,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614333901312</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="edit">
+      <created>1614339943813</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614339943813</updated>
+    </task>
+    <task id="LOCAL-00010" summary="serviço detalhes e o edit">
+      <created>1614343557152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343557152</updated>
+    </task>
+    <task id="LOCAL-00011" summary="tabelas serviços">
+      <created>1614547631682</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614547631682</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +180,9 @@
     <MESSAGE value="arte listas em progresso" />
     <MESSAGE value="." />
     <MESSAGE value="registar" />
-    <option name="LAST_COMMIT_MESSAGE" value="registar" />
+    <MESSAGE value="edit" />
+    <MESSAGE value="serviço detalhes e o edit" />
+    <MESSAGE value="tabelas serviços" />
+    <option name="LAST_COMMIT_MESSAGE" value="tabelas serviços" />
   </component>
 </project>
