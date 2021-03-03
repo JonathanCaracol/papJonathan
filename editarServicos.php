@@ -29,21 +29,21 @@
             </button>
 
             <!-- lOGO TEXT HERE -->
-            <a href="index.html" class="navbar-brand">Minha PAP</a>
+            <a href="index.php" class="navbar-brand">Minha PAP</a>
         </div>
 
         <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-nav-first">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="offers.html">Serviços</a></li>
-                <li><a href="contact.html">Contacte-nos</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li class="active"><a href="offers.php">Serviços</a></li>
+                <li><a href="contact.php">Contacte-nos</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
 
                     <ul class="dropdown-menu">
-                        <li><a href="about-us.html">Sobre nós</a></li>
-                        <li><a href="team.html">Equipa</a></li>
+                        <li><a href="about-us.php">Sobre nós</a></li>
+                        <li><a href="team.php">Equipa</a></li>
                     </ul>
                 </li>
                 <li><a href="register.php">Registrar-se/Entrar</a></li>
@@ -100,71 +100,6 @@
     </div>
 </section>
 
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-4 col-sm-6">
-                <div class="footer-info">
-                    <div class="section-title">
-                        <h2>Headquarter</h2>
-                    </div>
-                    <address>
-                        <p>212 Barrington Court <br>New York, ABC 10001</p>
-                    </address>
-
-                    <ul class="social-icon">
-                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
-                        <li><a href="#" class="fa fa-instagram"></a></li>
-                    </ul>
-
-                    <div class="copyright-text">
-                        <p>Copyright &copy; 2020 Company Name</p>
-                        <p>Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <div class="footer-info">
-                    <div class="section-title">
-                        <h2>Contact Info</h2>
-                    </div>
-                    <address>
-                        <p>+1 333 4040 5566</p>
-                        <p><a href="mailto:contact@company.com">contact@company.com</a></p>
-                    </address>
-
-                    <div class="footer_menu">
-                        <h2>Quick Links</h2>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="terms.html">Terms & Conditions</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12">
-                <div class="footer-info newsletter-form">
-                    <div class="section-title">
-                        <h2>Newsletter</h2>
-                    </div>
-                    <div>
-                        <div class="form-group">
-                            <form action="#" method="get">
-                                <input type="email" class="form-control" placeholder="Escreva seu email" name="email" id="email" required>
-                                <input type="submit" class="form-control" name="submit" id="form-submit" value="Mandar newsletter">
-                            </form>
-                            <span><sup>*</sup> Nota - Não iremos mandar spam para o seu email.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</footer>
+<?php
+bottom();
+?>

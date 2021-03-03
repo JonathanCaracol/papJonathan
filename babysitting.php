@@ -30,21 +30,21 @@
             </button>
 
             <!-- lOGO TEXT HERE -->
-            <a href="index.html" class="navbar-brand">Minha PAP</a>
+            <a href="index.php" class="navbar-brand">Minha PAP</a>
         </div>
 
         <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-nav-first">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="offers.html">Serviços</a></li>
-                <li><a href="contact.html">Contacte-nos</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li class="active"><a href="offers.php">Serviços</a></li>
+                <li><a href="contact.php">Contacte-nos</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
 
                     <ul class="dropdown-menu">
-                        <li><a href="about-us.html">Sobre nós</a></li>
-                        <li><a href="team.html">Equipa</a></li>
+                        <li><a href="about-us.php">Sobre nós</a></li>
+                        <li><a href="team.php">Equipa</a></li>
                     </ul>
                 </li>
                 <li><a href="register.php">Registrar-se/Entrar</a></li>

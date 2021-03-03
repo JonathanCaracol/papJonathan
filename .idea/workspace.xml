@@ -5,8 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/includes/bodyinc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adicionaServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/adicionaServicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arte.php" beforeDir="false" afterPath="$PROJECT_DIR$/arte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arteAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/arteAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babysitting.php" beforeDir="false" afterPath="$PROJECT_DIR$/babysitting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babysittingAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/babysittingAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-post-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desporto.php" beforeDir="false" afterPath="$PROJECT_DIR$/desporto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desportoAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/desportoAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editarServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/editarServicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyinc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offers.html" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prestadores.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefaCasa.php" beforeDir="false" afterPath="$PROJECT_DIR$/tarefaCasa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefaCasaAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/tarefaCasaAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testimonials.html" beforeDir="false" afterPath="$PROJECT_DIR$/testimonials.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoManual.php" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoManual.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoManualAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoManualAdmin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +56,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1oKp3xhHDz0ElqWqEj5BTp4YsS2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,7 +105,9 @@
       <workItem from="1614337322077" duration="3270000" />
       <workItem from="1614547407276" duration="240000" />
       <workItem from="1614614687411" duration="1584000" />
-      <workItem from="1614680435191" duration="1127000" />
+      <workItem from="1614680435191" duration="1332000" />
+      <workItem from="1614715437638" duration="4682000" />
+      <workItem from="1614791403539" duration="4648000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -153,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614547631682</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="include">
+      <created>1614681838051</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614681838051</updated>
+    </task>
+    <task id="LOCAL-00013" summary="front office e resolução do botão no login e registar">
+      <created>1614720129233</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614720129233</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +230,8 @@
     <MESSAGE value="edit" />
     <MESSAGE value="serviço detalhes e o edit" />
     <MESSAGE value="tabelas serviços" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabelas serviços" />
+    <MESSAGE value="include" />
+    <MESSAGE value="front office e resolução do botão no login e registar" />
+    <option name="LAST_COMMIT_MESSAGE" value="front office e resolução do botão no login e registar" />
   </component>
 </project>
