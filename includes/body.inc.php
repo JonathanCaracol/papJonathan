@@ -167,3 +167,102 @@ function bottom(){
 <?php
 }
 ?>
+
+<?php
+include_once ("config.inc.php");
+$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+function topAdmin($menu=HOME){
+
+?>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>PAP</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- PRE LOADER -->
+<section class="preloader">
+    <div class="spinner">
+
+        <span class="spinner-rotate"></span>
+
+    </div>
+</section>
+
+<!-- MENU -->
+<section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+
+            <!-- lOGO TEXT HERE -->
+            <a href="../index.php" class="navbar-brand">Epris</a>
+        </div>
+
+        <!-- MENU LINKS -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-nav-first">
+                <li <?php if ($menu==HOME) echo "class=\"active\"";?> ><a href="../index.php">Home</a></li>
+                <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="../offers.php">Serviços</a></li>
+                <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="../contact.php">Contacte-nos</a></li>
+                <li <?php if ($menu==MAIS) echo "class=\"active\"";?> class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="../about-us.php">Sobre nós</a></li>
+                        <li><a href="../team.php">Equipa</a></li>
+                    </ul>
+                </li>
+                <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="../register.php">Registrar-se/Entrar</a></li>
+                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="../perfil.php">Meu perfil</a></li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<?php
+}
+
+function bottomAdmin(){
+
+
+?>
+
+<!-- SCRIPTS -->
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/smoothscroll.js"></script>
+<script src="../js/custom.js"></script>
+
+</body>
+</html>
+
+<?php
+}
+?>
