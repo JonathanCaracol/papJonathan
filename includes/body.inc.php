@@ -48,7 +48,7 @@ function top(){
             </button>
 
             <!-- lOGO TEXT HERE -->
-            <a href="index.php" class="navbar-brand">Minha PAP</a>
+            <a href="index.php" class="navbar-brand">Epris</a>
         </div>
 
         <!-- MENU LINKS -->
