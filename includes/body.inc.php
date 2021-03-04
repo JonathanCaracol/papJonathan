@@ -58,8 +58,8 @@ function top($menu=HOME){
             <ul class="nav navbar-nav navbar-nav-first">
                 <li <?php if ($menu==HOME) echo "class=\"active\"";?> ><a href="index.php">Home</a></li>
                 <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offers.php">Serviços</a></li>
-                <li><a href="contact.php">Contacte-nos</a></li>
-                <li class="dropdown">
+                <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="contact.php">Contacte-nos</a></li>
+                <li <?php if ($menu==MAIS) echo "class=\"active\"";?> class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
 
                     <ul class="dropdown-menu">
@@ -67,8 +67,8 @@ function top($menu=HOME){
                         <li><a href="team.php">Equipa</a></li>
                     </ul>
                 </li>
-                <li><a href="register.php">Registrar-se/Entrar</a></li>
-                <li><a href="perfil.php">Meu perfil</a></li>
+                <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="register.php">Registrar-se/Entrar</a></li>
+                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php">Meu perfil</a></li>
             </ul>
         </div>
 

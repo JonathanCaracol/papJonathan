@@ -1,8 +1,7 @@
 <?php
 include_once("includes/body.inc.php");
-top();
+top(OFFERS);
 ?>
-
 
 <section>
     <div class="container">
