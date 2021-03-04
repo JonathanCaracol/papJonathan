@@ -1,17 +1,23 @@
 <?php
-include_once ("config.inc.php");
-$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
-
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+include_once ("../includes/config.inc.php");
+ $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+echo "<pre>";
+print_r($_FILES);
 
 $nome=addslashes($_POST['nome']);
 $descricao=addslashes($_POST['descricao']);
 $imagem=$_FILES['imagem']['name'];
-$novoNome="images/".$imagem;
+$novoNome="../images/".$imagem;
 
 copy($_FILES['imagem']['tmp_name'],$novoNome);
 
 echo $sql="insert into categorias(categoriaNome,categoriaDescricao,categoriaImagemURL) values('".$nome."','.$descricao.','images/".$imagem."');";
 mysqli_query($con,$sql);
+
+echo mysqli_error($con);
 //header("location:../admin/offersAdmin.php");
 ?>
 
