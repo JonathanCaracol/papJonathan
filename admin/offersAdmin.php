@@ -38,10 +38,10 @@ $result=mysqli_query($con,$sql);
 while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
     ?>
                     <tr>
-                        <td><img width="120" src="../<?php echo $dados['categoriaImagemURL'] ?>"></td>
+                        <td><img width="120" src="../<?php echo $dados['categoriaImagemURL']?>"></td>
                         <td><?php echo $dados['categoriaNome']?></td>
-                        <td align="center"><a href="editarServicos.php">Editar</a></td>
-                        <td align="center">Apagar</td>
+                        <td align="center"><a href="editarcategoria.php?id=<?php echo $dados['categoriaId']?>">Editar</a></td>
+                        <td align="center"><a href="eliminarcategoria.php?id=<?php echo $dados['categoriaId']?>">Apagar</a></td>
                     </tr>
     <?php
 }
@@ -56,3 +56,4 @@ while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no resu
 <?php
 bottomAdmin();
 ?>
+
