@@ -1,5 +1,7 @@
 <?php
-function top(){
+include_once ("config.inc.php");
+$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+function top($menu=HOME){
 
 ?>
 
@@ -54,8 +56,8 @@ function top(){
         <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-nav-first">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="offers.php">Serviços</a></li>
+                <li <?php if ($menu==HOME) echo "class=\"active\"";?> ><a href="index.php">Home</a></li>
+                <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offers.php">Serviços</a></li>
                 <li><a href="contact.php">Contacte-nos</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
@@ -121,7 +123,7 @@ function bottom(){
                     <div class="footer_menu">
                         <h2>Quick Links</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li ><a href="index.html">Home</a></li>
                             <li><a href="about-us.html">About Us</a></li>
                             <li><a href="terms.html">Terms & Conditions</a></li>
                             <li><a href="contact.html">Contact Us</a></li>

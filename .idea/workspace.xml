@@ -5,36 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adicionaServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/adicionaServicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arte.php" beforeDir="false" afterPath="$PROJECT_DIR$/arte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arteAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/arteAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babysitting.php" beforeDir="false" afterPath="$PROJECT_DIR$/babysitting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babysittingAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/babysittingAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-post-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-posts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desporto.php" beforeDir="false" afterPath="$PROJECT_DIR$/desporto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desportoAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/desportoAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editarServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/editarServicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyinc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offers.html" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prestadores.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefaCasa.php" beforeDir="false" afterPath="$PROJECT_DIR$/tarefaCasa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefaCasaAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/tarefaCasaAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testimonials.html" beforeDir="false" afterPath="$PROJECT_DIR$/testimonials.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalhoManual.php" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoManual.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalhoManualAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoManualAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +82,7 @@
       <workItem from="1614680435191" duration="1332000" />
       <workItem from="1614715437638" duration="4682000" />
       <workItem from="1614791403539" duration="4648000" />
+      <workItem from="1614854232731" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
