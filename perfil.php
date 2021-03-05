@@ -1,9 +1,9 @@
 <?php
     include_once("includes/body.inc.php");
     top(PERFIL);
-$sql ="Select * from utilizadores";
-$result=mysqli_query($con,$sql);
-$dados=mysqli_fetch_array($result);
+    $sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId";
+    $result=mysqli_query($con,$sql);
+    $dados=mysqli_fetch_array($result);
 ?>
 
 <section>
@@ -39,14 +39,18 @@ $dados=mysqli_fetch_array($result);
                         <th width="60%">Nome do Prestador</th>
                         <th colspan="2" style="text-align: center">Opções</th>
                     </tr>
-                    <tr>
-
-                        <td><a href="servicoDetalhes.php">Madeira estatuas</a></td>
-                        <td>Jonthan Carajoinas</td>
-                        <td align="center"><a href="editarServicos.php">Editar</a></td>
-                        <td align="center">Apagar</td>
-
-                    </tr>
+                    <?php
+                    while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
+                        ?>
+                        <tr>
+                            <td><?php echo $dados['servicoNome']?></td>
+                            <td><?php echo $dados['utilizadorNome']?></td>
+                            <td align="center"><a href="editarcategoria.php?id=<?php echo $dados['categoriaId']?>">Editar</a></td>
+                            <td align="center"><a href="../papJonathan/admin/eliminarServico.php?id=<?php echo $dados['servicoId']?>">Apagar</a></td>
+                        </tr>
+                        <?php
+                    }
+                    ?>
                 </table>
             </div>
             </div>

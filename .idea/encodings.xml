@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/admin/adicionaCategorias.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/confirmaNovoServico.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/offersAdmin.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/editarServicos.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/includes/body.inc.php" charset="UTF-8" />
