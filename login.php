@@ -28,7 +28,7 @@ top(LOGINREGISTAR);
                     <div class="col-md-12 col-sm-12">
                         <input type="email" class="form-control" placeholder="Escreva o seu email" name="email" required>
 
-                        <input type="email" class="form-control" placeholder="Escreva a sua palavra-passe" name="email" required>
+                        <input type="password" class="form-control" placeholder="Escreva a sua palavra-passe" name="password" required>
                     </div>
 
                     <div class="col-md-12 col-sm-12">
