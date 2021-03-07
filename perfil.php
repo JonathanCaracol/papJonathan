@@ -45,7 +45,7 @@
                         <tr>
                             <td><?php echo $dados['servicoNome']?></td>
                             <td><?php echo $dados['utilizadorNome']?></td>
-                            <td align="center"><a href="editarcategoria.php?id=<?php echo $dados['categoriaId']?>">Editar</a></td>
+                            <td align="center"><a href="../papJonathan/admin/editaServico.php?id=<?php echo $dados['servicoId']?>">Editar</a></td>
                             <td align="center"><a href="../papJonathan/admin/eliminarServico.php?id=<?php echo $dados['servicoId']?>">Apagar</a></td>
                         </tr>
                         <?php

@@ -3,16 +3,14 @@ include_once ("../includes/config.inc.php");
 $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
 $id=intval($_GET['id']);
 
-$email=addslashes($_POST['email']);
 $nome=addslashes($_POST['nome']);
-$telefone=addslashes($_POST['telefone']);
+$descricao=addslashes($_POST['descricao']);
+$categoria=intval($_POST['categoria']);
 
-
-
-$sql="Update utilizadores set utilizadorNome='".$nome."'";
-$sql.=", utilizadorTelefone='".$telefone."'";
-$sql.=", utilizadorEmail='".$email."'";
-$sql.=" where utilizadorId=".$id;
+$sql="Update servicos set servicoNome='".$nome."'";
+$sql.=", servicoCategoriaId='".$categoria."'";
+$sql.=", servicoDescricao='".$descricao."'";
+$sql.=" where servicoId=".$id;
 
 mysqli_query($con,$sql);
 header("location:../perfil.php");
@@ -23,5 +21,3 @@ header("location:../perfil.php");
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/smoothscroll.js"></script>
 <script src="../js/custom.js"></script>
-
-

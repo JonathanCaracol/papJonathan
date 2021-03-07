@@ -3,7 +3,7 @@ $id=intval($_GET['id']);
 include_once("../includes/body.inc.php");
 topAdmin(OFFERS);
 
-$sql="select * from empresas where empresaId=".$id;
+$sql="select * from categorias where categoriaId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 
@@ -13,7 +13,7 @@ $dados=mysqli_fetch_array($result);
         <div class="container">
 
             <div class="text-center">
-                <h1>Editar categoria</h1>
+                <h1>Editar a categoria: <?php echo $dados['categoriaNome']?></h1>
             </div>
 
             <form action="confirmaEditaCategoria.php" method="post" enctype="multipart/form-data">
