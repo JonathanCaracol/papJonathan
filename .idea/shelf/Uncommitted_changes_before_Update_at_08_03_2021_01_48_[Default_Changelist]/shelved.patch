@@ -1,0 +1,226 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46_[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46_[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46_[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46_[Default_Changelist]/shelved.patch	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
++++ /dev/null	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
+@@ -1,43 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bf240784-e864-48a2-8ae7-8d83ebe49029\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/encodings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/adicionaServicos.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/adicionaServicos.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/arte.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/arte.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/editarServicos.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/editarServicos.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/trabalhoManual.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/trabalhoManual.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1oKp3xhHDz0ElqWqEj5BTp4YsS2\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/..\" />\r\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\r\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.sourceCode\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bf240784-e864-48a2-8ae7-8d83ebe49029\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1613044941072</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1613044941072</updated>\r\n      <workItem from=\"1613044942179\" duration=\"398000\" />\r\n      <workItem from=\"1613091773923\" duration=\"16000\" />\r\n      <workItem from=\"1613485585439\" duration=\"6122000\" />\r\n      <workItem from=\"1613501258970\" duration=\"2226000\" />\r\n      <workItem from=\"1613553422582\" duration=\"175000\" />\r\n      <workItem from=\"1613557973779\" duration=\"282000\" />\r\n      <workItem from=\"1613561667234\" duration=\"2455000\" />\r\n      <workItem from=\"1613572708262\" duration=\"3914000\" />\r\n      <workItem from=\"1613584666804\" duration=\"3446000\" />\r\n      <workItem from=\"1613591629364\" duration=\"1708000\" />\r\n      <workItem from=\"1613644841063\" duration=\"1268000\" />\r\n      <workItem from=\"1613680003518\" duration=\"2594000\" />\r\n      <workItem from=\"1613750843813\" duration=\"160000\" />\r\n      <workItem from=\"1614074506793\" duration=\"663000\" />\r\n      <workItem from=\"1614096184744\" duration=\"534000\" />\r\n      <workItem from=\"1614112516860\" duration=\"594000\" />\r\n      <workItem from=\"1614159042439\" duration=\"493000\" />\r\n      <workItem from=\"1614161742809\" duration=\"49000\" />\r\n      <workItem from=\"1614196118760\" duration=\"8299000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Mudanças no adicionar serviços e detalhes serviços\">\r\n      <created>1613424516471</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613424516471</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação\">\r\n      <created>1613508689550</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613508689550</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido.\">\r\n      <created>1613593331033</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613593331033</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Cards para registar e entrar na conta\">\r\n      <created>1613682607056</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613682607056</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"tentativa em arte\">\r\n      <created>1614096716108</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614096716108</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"arte listas em progresso\">\r\n      <created>1614161772707</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614161772707</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Mudanças no adicionar serviços e detalhes serviços\" />\r\n    <MESSAGE value=\"barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação\" />\r\n    <MESSAGE value=\"Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido.\" />\r\n    <MESSAGE value=\"Cards para registar e entrar na conta\" />\r\n    <MESSAGE value=\"tentativa em arte\" />\r\n    <MESSAGE value=\"arte listas em progresso\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"arte listas em progresso\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 8c23e3c8749a7da946202d7b93dcdfb92039628f)
+-+++ b/.idea/workspace.xml	(date 1614302899695)
+-@@ -4,13 +4,8 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
+--      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="[leandro]- imagens">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/adicionaServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/adicionaServicos.php" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/arte.php" beforeDir="false" afterPath="$PROJECT_DIR$/arte.php" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/editarServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/editarServicos.php" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/trabalhoManual.php" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoManual.php" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -32,6 +27,9 @@
+-     </file-type-list>
+-   </component>
+-   <component name="ProjectId" id="1oKp3xhHDz0ElqWqEj5BTp4YsS2" />
+-+  <component name="ProjectLevelVcsManager">
+-+    <ConfirmationsSetting value="2" id="Add" />
+-+  </component>
+-   <component name="ProjectViewState">
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-@@ -73,6 +71,7 @@
+-       <workItem from="1614159042439" duration="493000" />
+-       <workItem from="1614161742809" duration="49000" />
+-       <workItem from="1614196118760" duration="8299000" />
+-+      <workItem from="1614302885064" duration="15000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
+-       <created>1613424516471</created>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12_[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12_[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12_[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12_[Default_Changelist]/shelved.patch	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
++++ /dev/null	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
+@@ -1,87 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bf240784-e864-48a2-8ae7-8d83ebe49029\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/css/online.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/offers.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/offers.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1oKp3xhHDz0ElqWqEj5BTp4YsS2\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/..\" />\r\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\r\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.sourceCode\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bf240784-e864-48a2-8ae7-8d83ebe49029\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1613044941072</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1613044941072</updated>\r\n      <workItem from=\"1613044942179\" duration=\"398000\" />\r\n      <workItem from=\"1613091773923\" duration=\"16000\" />\r\n      <workItem from=\"1613485585439\" duration=\"6122000\" />\r\n      <workItem from=\"1613501258970\" duration=\"2226000\" />\r\n      <workItem from=\"1613553422582\" duration=\"175000\" />\r\n      <workItem from=\"1613557973779\" duration=\"282000\" />\r\n      <workItem from=\"1613561667234\" duration=\"2455000\" />\r\n      <workItem from=\"1613572708262\" duration=\"3914000\" />\r\n      <workItem from=\"1613584666804\" duration=\"3446000\" />\r\n      <workItem from=\"1613591629364\" duration=\"1708000\" />\r\n      <workItem from=\"1613644841063\" duration=\"1268000\" />\r\n      <workItem from=\"1613680003518\" duration=\"2594000\" />\r\n      <workItem from=\"1613750843813\" duration=\"160000\" />\r\n      <workItem from=\"1614074506793\" duration=\"663000\" />\r\n      <workItem from=\"1614096184744\" duration=\"534000\" />\r\n      <workItem from=\"1614112516860\" duration=\"594000\" />\r\n      <workItem from=\"1614159042439\" duration=\"493000\" />\r\n      <workItem from=\"1614161742809\" duration=\"49000\" />\r\n      <workItem from=\"1614196118760\" duration=\"8299000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Mudanças no adicionar serviços e detalhes serviços\">\r\n      <created>1613424516471</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613424516471</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação\">\r\n      <created>1613508689550</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613508689550</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido.\">\r\n      <created>1613593331033</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613593331033</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Cards para registar e entrar na conta\">\r\n      <created>1613682607056</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613682607056</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"tentativa em arte\">\r\n      <created>1614096716108</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614096716108</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"arte listas em progresso\">\r\n      <created>1614161772707</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614161772707</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Mudanças no adicionar serviços e detalhes serviços\" />\r\n    <MESSAGE value=\"barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação\" />\r\n    <MESSAGE value=\"Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido.\" />\r\n    <MESSAGE value=\"Cards para registar e entrar na conta\" />\r\n    <MESSAGE value=\"tentativa em arte\" />\r\n    <MESSAGE value=\"arte listas em progresso\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"arte listas em progresso\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision db501b1eb8d7578d43cbb28f59f266c5828a6643)
+-+++ b/.idea/workspace.xml	(date 1614291141092)
+-@@ -4,10 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
+--      <change afterPath="$PROJECT_DIR$/css/online.css" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/offers.html" beforeDir="false" afterPath="$PROJECT_DIR$/offers.html" afterDir="false" />
+--    </list>
+-+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="[leandro]- imagens" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -28,11 +25,15 @@
+-     </file-type-list>
+-   </component>
+-   <component name="ProjectId" id="1oKp3xhHDz0ElqWqEj5BTp4YsS2" />
+-+  <component name="ProjectLevelVcsManager">
+-+    <ConfirmationsSetting value="2" id="Add" />
+-+  </component>
+-   <component name="ProjectViewState">
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+-   <component name="PropertiesComponent">
+-+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+-     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-     <property name="WebServerToolWindowFactoryState" value="true" />
+-@@ -69,6 +70,7 @@
+-       <workItem from="1614159042439" duration="493000" />
+-       <workItem from="1614161742809" duration="49000" />
+-       <workItem from="1614196118760" duration="8299000" />
+-+      <workItem from="1614290562298" duration="574000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
+-       <created>1613424516471</created>
+-@@ -112,7 +114,21 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1614161772707</updated>
+-     </task>
+--    <option name="localTasksCounter" value="7" />
+-+    <task id="LOCAL-00007" summary="[leandro]- ficheiros do jonathan">
+-+      <created>1614290646838</created>
+-+      <option name="number" value="00007" />
+-+      <option name="presentableId" value="LOCAL-00007" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1614290646838</updated>
+-+    </task>
+-+    <task id="LOCAL-00008" summary="[leandro]- imagens">
+-+      <created>1614290707242</created>
+-+      <option name="number" value="00008" />
+-+      <option name="presentableId" value="LOCAL-00008" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1614290707242</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="9" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-@@ -131,12 +147,15 @@
+-     <option name="oldMeFiltersMigrated" value="true" />
+-   </component>
+-   <component name="VcsManagerConfiguration">
+-+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+-     <MESSAGE value="Mudanças no adicionar serviços e detalhes serviços" />
+-     <MESSAGE value="barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação" />
+-     <MESSAGE value="Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido." />
+-     <MESSAGE value="Cards para registar e entrar na conta" />
+-     <MESSAGE value="tentativa em arte" />
+-     <MESSAGE value="arte listas em progresso" />
+--    <option name="LAST_COMMIT_MESSAGE" value="arte listas em progresso" />
+-+    <MESSAGE value="[leandro]- ficheiros do jonathan" />
+-+    <MESSAGE value="[leandro]- imagens" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="[leandro]- imagens" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46__Default_Changelist_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46__Default_Changelist_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46__Default_Changelist_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46__Default_Changelist_.xml	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
++++ /dev/null	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_26_02_2021_11_46_[Default_Changelist]" date="1614339967905" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2021_11_46_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 26/02/2021 11:46 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12__Default_Changelist_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12__Default_Changelist_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12__Default_Changelist_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12__Default_Changelist_.xml	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
++++ /dev/null	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_25_02_2021_22_12_[Default_Changelist]" date="1614291163321" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 25/02/2021 22:12 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bf240784-e864-48a2-8ae7-8d83ebe49029\" name=\"Default Changelist\" comment=\"[Leandro] Base de dados Versão 1.0\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/admin/confirmaNovaCategoria.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/admin/confirmaNovaCategoria.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1oKp3xhHDz0ElqWqEj5BTp4YsS2\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/..\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\r\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.sourceCode\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bf240784-e864-48a2-8ae7-8d83ebe49029\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1613044941072</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1613044941072</updated>\r\n      <workItem from=\"1613044942179\" duration=\"398000\" />\r\n      <workItem from=\"1613091773923\" duration=\"16000\" />\r\n      <workItem from=\"1613485585439\" duration=\"6122000\" />\r\n      <workItem from=\"1613501258970\" duration=\"2226000\" />\r\n      <workItem from=\"1613553422582\" duration=\"175000\" />\r\n      <workItem from=\"1613557973779\" duration=\"282000\" />\r\n      <workItem from=\"1613561667234\" duration=\"2455000\" />\r\n      <workItem from=\"1613572708262\" duration=\"3914000\" />\r\n      <workItem from=\"1613584666804\" duration=\"3446000\" />\r\n      <workItem from=\"1613591629364\" duration=\"1708000\" />\r\n      <workItem from=\"1613644841063\" duration=\"1268000\" />\r\n      <workItem from=\"1613680003518\" duration=\"2594000\" />\r\n      <workItem from=\"1613750843813\" duration=\"160000\" />\r\n      <workItem from=\"1614074506793\" duration=\"663000\" />\r\n      <workItem from=\"1614096184744\" duration=\"534000\" />\r\n      <workItem from=\"1614112516860\" duration=\"594000\" />\r\n      <workItem from=\"1614159042439\" duration=\"493000\" />\r\n      <workItem from=\"1614161742809\" duration=\"49000\" />\r\n      <workItem from=\"1614196118760\" duration=\"8299000\" />\r\n      <workItem from=\"1614333741040\" duration=\"170000\" />\r\n      <workItem from=\"1614337322077\" duration=\"3270000\" />\r\n      <workItem from=\"1614547407276\" duration=\"240000\" />\r\n      <workItem from=\"1614614687411\" duration=\"1584000\" />\r\n      <workItem from=\"1614680435191\" duration=\"1332000\" />\r\n      <workItem from=\"1614715437638\" duration=\"4682000\" />\r\n      <workItem from=\"1614791403539\" duration=\"4648000\" />\r\n      <workItem from=\"1614854232731\" duration=\"2904000\" />\r\n      <workItem from=\"1614877764628\" duration=\"402000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Mudanças no adicionar serviços e detalhes serviços\">\r\n      <created>1613424516471</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613424516471</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação\">\r\n      <created>1613508689550</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613508689550</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido.\">\r\n      <created>1613593331033</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613593331033</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Cards para registar e entrar na conta\">\r\n      <created>1613682607056</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1613682607056</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"tentativa em arte\">\r\n      <created>1614096716108</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614096716108</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"arte listas em progresso\">\r\n      <created>1614161772707</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614161772707</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\".\">\r\n      <created>1614291105871</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614291105871</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"registar\">\r\n      <created>1614333901312</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614333901312</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"edit\">\r\n      <created>1614339943813</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614339943813</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"serviço detalhes e o edit\">\r\n      <created>1614343557152</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614343557152</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"tabelas serviços\">\r\n      <created>1614547631682</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614547631682</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"include\">\r\n      <created>1614681838051</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614681838051</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"front office e resolução do botão no login e registar\">\r\n      <created>1614720129233</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614720129233</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"[Leandro] config.inc.php\">\r\n      <created>1614855355744</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614855355744</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"[Leandro] Base de dados Versão 1.0\">\r\n      <created>1614861292461</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614861292461</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"16\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Mudanças no adicionar serviços e detalhes serviços\" />\r\n    <MESSAGE value=\"barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação\" />\r\n    <MESSAGE value=\"Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido.\" />\r\n    <MESSAGE value=\"Cards para registar e entrar na conta\" />\r\n    <MESSAGE value=\"tentativa em arte\" />\r\n    <MESSAGE value=\"arte listas em progresso\" />\r\n    <MESSAGE value=\".\" />\r\n    <MESSAGE value=\"registar\" />\r\n    <MESSAGE value=\"edit\" />\r\n    <MESSAGE value=\"serviço detalhes e o edit\" />\r\n    <MESSAGE value=\"tabelas serviços\" />\r\n    <MESSAGE value=\"include\" />\r\n    <MESSAGE value=\"front office e resolução do botão no login e registar\" />\r\n    <MESSAGE value=\"[Leandro] config.inc.php\" />\r\n    <MESSAGE value=\"[Leandro] Base de dados Versão 1.0\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"[Leandro] Base de dados Versão 1.0\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2ed076ab9ec5e87c6e03da06f85016ad88fffbb6)
++++ b/.idea/workspace.xml	(date 1614940785505)
+@@ -4,9 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="[Leandro] Base de dados Versão 1.0">
++    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="[Leandro] confirmaNovaCategoria.php">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2021_22_12_[Default_Changelist]/shelved.patch" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/admin/confirmaNovaCategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/confirmaNovaCategoria.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -87,7 +87,8 @@
+       <workItem from="1614715437638" duration="4682000" />
+       <workItem from="1614791403539" duration="4648000" />
+       <workItem from="1614854232731" duration="2904000" />
+-      <workItem from="1614877764628" duration="402000" />
++      <workItem from="1614877764628" duration="889000" />
++      <workItem from="1614940772297" duration="13000" />
+     </task>
+     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
+       <created>1613424516471</created>
+@@ -194,7 +195,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1614861292461</updated>
+     </task>
+-    <option name="localTasksCounter" value="16" />
++    <task id="LOCAL-00016" summary="[Leandro] confirmaNovaCategoria.php">
++      <created>1614878407448</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1614878407448</updated>
++    </task>
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -228,6 +236,7 @@
+     <MESSAGE value="front office e resolução do botão no login e registar" />
+     <MESSAGE value="[Leandro] config.inc.php" />
+     <MESSAGE value="[Leandro] Base de dados Versão 1.0" />
+-    <option name="LAST_COMMIT_MESSAGE" value="[Leandro] Base de dados Versão 1.0" />
++    <MESSAGE value="[Leandro] confirmaNovaCategoria.php" />
++    <option name="LAST_COMMIT_MESSAGE" value="[Leandro] confirmaNovaCategoria.php" />
+   </component>
+ </project>
+\ No newline at end of file
