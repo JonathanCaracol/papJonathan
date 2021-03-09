@@ -9,8 +9,9 @@ $result=mysqli_query($con,$sql);
     <section>
         <div class="container">
 
-            <div class="text-center">
+            <div class="text-center" style="margin-bottom: 5%">
                 <h1>Back-office categorias</h1>
+                <br>
             </div>
 
             <div id="tableContent">

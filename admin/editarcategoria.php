@@ -11,29 +11,50 @@ $dados=mysqli_fetch_array($result);
 
     <section>
         <div class="container">
-
             <div class="text-center">
-                <h1>Editar a categoria: <?php echo $dados['categoriaNome']?></h1>
+                <h1><?php echo $dados['categoriaNome']?></h1>
             </div>
-
-            <form action="confirmaEditaCategoria.php" method="post" enctype="multipart/form-data">
-
-                <input type="hidden" name="id" value="<?php echo $id?>">
-
-                <label>Nome da categoria:</label>
-                <input type="text" name="nome" value="<?php echo $dados['categoriaNome']?>">
-                <br>
-                <label>Descrição da categoria:</label>
-                <input type="text" name="descricao" value="<?php echo $dados['categoriaDescricao']?>">
-                <br>
-                <label>Imagem</label><br>
-                <img width="120" src="../<?php echo $dados['categoriaImagemURL']?>"><br>
-                <input type="file" name="imagem"><br>
-                <input type="submit" value="Edita">
-            </form>
-
         </div>
     </section>
+
+    <section id="contact">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 col-sm-12">
+                    <form id="contact-form" role="form" action="confirmaEditaCategoria.php" enctype="multipart/form-data" method="post">
+                        <div class="section-title">
+                            <h2>Editar a categoria</h2>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <input type="hidden" name="id" value="<?php echo $id?>">
+
+                            <input type="text" class="form-control" name="nome" required value="<?php echo $dados['categoriaNome']?>"><br>
+
+                            <textarea type="text" class="form-control" name="descricao" required placeholder="<?php echo $dados['categoriaDescricao']?>"></textarea><br>
+
+                            <img width="120" src="../<?php echo $dados['categoriaImagemURL']?>">
+                            <input type="file" name="imagem"><br>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12">
+                            <input type="submit" class="form-control" value="Editar">
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="contact-image">
+                        <img src="../images/edit.png" style="height: 404px; width: 404px" class="img-responsive" alt="Smiling Two Girls">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
 <?php
 bottomAdmin();

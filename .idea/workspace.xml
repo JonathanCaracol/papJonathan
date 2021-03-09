@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/confirmaEditaServico.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/editaServico.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_03_2021_10_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_03_2021_10_09__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/confirmaEditaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/confirmaEditaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adicionaServicos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adicionaCategorias.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionaCategorias.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adicionarServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionarServico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/confirmaEditaServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/confirmaEditaServico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/confirmaNovaCategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/confirmaNovaCategoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/editaServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editaServico.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/editarcategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editarcategoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaNovoServico.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/editarServicos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/adicionarservico.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/adicionarservico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +31,16 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -45,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fase2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,7 +114,9 @@
       <workItem from="1614952546844" duration="8821000" />
       <workItem from="1614972325675" duration="581000" />
       <workItem from="1614982530038" duration="898000" />
-      <workItem from="1615154883551" duration="984000" />
+      <workItem from="1615154883551" duration="1247000" />
+      <workItem from="1615221114538" duration="45000" />
+      <workItem from="1615293388426" duration="8397000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -224,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614983427730</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="editar e confirma edita servico a fazer, ainda não é funcional">
+      <created>1615156130498</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615156130498</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +288,7 @@
     <MESSAGE value="eliminar e editar feito (Back-office)" />
     <MESSAGE value="adicionar servicos, confirma edita perfil, confirma novo servico, melhorar a pagina do perfil" />
     <MESSAGE value="eliminar servico" />
-    <option name="LAST_COMMIT_MESSAGE" value="eliminar servico" />
+    <MESSAGE value="editar e confirma edita servico a fazer, ainda não é funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="editar e confirma edita servico a fazer, ainda não é funcional" />
   </component>
 </project>

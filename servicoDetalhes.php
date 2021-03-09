@@ -1,16 +1,19 @@
 <?php
 include_once("includes/body.inc.php");
 top(OFFERS);
+$id=intval($_GET['id']);
+$sql= "Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoId=".$id;
+$result=mysqli_query($con,$sql);
+$dados=mysqli_fetch_array($result);
 ?>
 
 <section>
     <div class="container">
         <div class="text-center">
-            <h1>Detalhes do serviço</h1>
+            <h1><?php echo $dados['servicoNome']?></h1>
 
             <br>
 
-            <p class="lead">Contacta esta pessoa e desfruta do seu serviço!</p>
         </div>
     </div>
 </section>
@@ -26,11 +29,13 @@ top(OFFERS);
                     </div>
 
                     <div class="col-md-12 col-sm-12">
-                        <input readonly type="text" class="form-control" placeholder="Nome do serviço" name="name" required>
+                        <input readonly type="text" class="form-control" placeholder="<?php echo $dados['utilizadorNome']?>" name="name" required>
 
-                        <input readonly type="email" class="form-control" placeholder="email@gmail.com" name="email" required>
+                        <input readonly type="email" class="form-control" placeholder="<?php echo $dados['utilizadorEmail']?>" name="email" required>
 
-                        <textarea readonly class="form-control" rows="6" placeholder="Descrição" name="message" required></textarea>
+                        <input readonly type="email" class="form-control" placeholder="<?php echo $dados['utilizadorTelefone']?>" name="email" required>
+
+                        <textarea readonly class="form-control" rows="6" placeholder="<?php echo $dados['servicoDescricao']?>" name="message" required></textarea>
                     </div>
 
                 </form>

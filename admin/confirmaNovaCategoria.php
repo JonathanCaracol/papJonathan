@@ -14,7 +14,7 @@ $novoNome="../images/".$imagem;
 
 copy($_FILES['imagem']['tmp_name'],$novoNome);
 
-echo $sql="insert into categorias(categoriaNome,categoriaDescricao,categoriaImagemURL) values('.$nome.','$descricao','images/".$imagem."');";
+echo $sql="insert into categorias(categoriaNome,categoriaDescricao,categoriaImagemURL) values('$nome','$descricao','images/".$imagem."');";
 mysqli_query($con,$sql);
 
 header("location:../admin/offersAdmin.php");

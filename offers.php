@@ -5,7 +5,7 @@ top(OFFERS);
 $sql ="Select * from categorias";
 $result=mysqli_query($con,$sql);
 ?>
-
+<button><a href="admin/offersAdmin.php">admin offers</a></button>
      <section>
           <div class="container">
                <div class="text-center">

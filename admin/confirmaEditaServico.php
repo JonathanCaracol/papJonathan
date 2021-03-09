@@ -1,7 +1,7 @@
 <?php
 include_once ("../includes/config.inc.php");
 $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
-$id=intval($_GET['id']);
+$id=intval($_POST['id']);
 
 $nome=addslashes($_POST['nome']);
 $descricao=addslashes($_POST['descricao']);
@@ -11,6 +11,7 @@ $sql="Update servicos set servicoNome='".$nome."'";
 $sql.=", servicoCategoriaId='".$categoria."'";
 $sql.=", servicoDescricao='".$descricao."'";
 $sql.=" where servicoId=".$id;
+
 
 mysqli_query($con,$sql);
 header("location:../perfil.php");
