@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_03_2021_10_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_03_2021_10_09__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adicionaServicos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/adicionaCategorias.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionaCategorias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/adicionarServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionarServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/confirmaEditaServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/confirmaEditaServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/confirmaNovaCategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/confirmaNovaCategoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/editaServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editaServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/editarcategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editarcategoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaNovoServico.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editarServicos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/adicionarservico.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/adicionarservico.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +103,8 @@
       <workItem from="1614982530038" duration="898000" />
       <workItem from="1615154883551" duration="1247000" />
       <workItem from="1615221114538" duration="45000" />
-      <workItem from="1615293388426" duration="8397000" />
+      <workItem from="1615293388426" duration="8475000" />
+      <workItem from="1615387739490" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -251,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615156130498</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos">
+      <created>1615312717645</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615312717645</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +284,7 @@
     <MESSAGE value="adicionar servicos, confirma edita perfil, confirma novo servico, melhorar a pagina do perfil" />
     <MESSAGE value="eliminar servico" />
     <MESSAGE value="editar e confirma edita servico a fazer, ainda não é funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="editar e confirma edita servico a fazer, ainda não é funcional" />
+    <MESSAGE value="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos" />
   </component>
 </project>
