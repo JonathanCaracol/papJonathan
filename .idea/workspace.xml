@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicolista.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +105,7 @@
       <workItem from="1615154883551" duration="1247000" />
       <workItem from="1615221114538" duration="45000" />
       <workItem from="1615293388426" duration="8475000" />
-      <workItem from="1615387739490" duration="1258000" />
+      <workItem from="1615387739490" duration="5240000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615312717645</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="layout de desativar utilizadores feito">
+      <created>1615390024553</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615390024553</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +293,7 @@
     <MESSAGE value="eliminar servico" />
     <MESSAGE value="editar e confirma edita servico a fazer, ainda não é funcional" />
     <MESSAGE value="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos" />
+    <MESSAGE value="layout de desativar utilizadores feito" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout de desativar utilizadores feito" />
   </component>
 </project>

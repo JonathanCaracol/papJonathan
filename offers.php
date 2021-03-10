@@ -34,8 +34,8 @@ $result=mysqli_query($con,$sql);
                            </div>
 
                            <div class="courses-detail">
-                               <h3><a href="babysitting.php"><?php echo $dados['categoriaNome'] ?></a></h3>
-                               <br><p><?php echo $dados['categoriaDescricao'] ?></p>
+                               <h3><a href="servicolista.php?id=<?php echo $dados['categoriaId']?>"><?php echo $dados['categoriaNome'] ?></a></h3>
+                               <br><p><?php echo $dados['categoriaDescricao']?></p>
                            </div>
                        </div>
                    </div>
