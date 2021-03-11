@@ -4,11 +4,11 @@ topAdmin(OFFERS);
 
 $sql ="Select * from categorias where categoriaCategoriaId is NULL";
 $result=mysqli_query($con,$sql);
-$sql2 ="Select * from categorias where categoriaCategoriaId is not null ";
-$result2=mysqli_query($con,$sql);
+$sql2 ="Select * from categorias where categoriaCategoriaId is not NULL";
+$result2=mysqli_query($con,$sql2);
 ?>
 
-    <section>
+<section>
         <div class="container">
 
             <div class="text-center" style="margin-bottom: 5%">
@@ -90,7 +90,7 @@ while($dados2=mysqli_fetch_array($result2)){// enquanto existirem registos no re
                         <td><img width="120" src="../<?php echo $dados2['categoriaImagemURL']?>"></td>
                         <td><?php echo $dados2['categoriaNome']?></td>
                         <td align="center"><a href="editarSubcategoria.php?id=<?php echo $dados2['categoriaId']?>">Editar</a></td>
-                        <td align="center"><a href="eliminarSubcategoria.php?id=<?php echo $dados2['categoriaId']?>">Apagar</a></td>
+                        <td align="center"><a href="eliminarcategoria.php?id=<?php echo $dados2['categoriaId']?>">Apagar</a></td>
                     </tr>
     <?php
 }
