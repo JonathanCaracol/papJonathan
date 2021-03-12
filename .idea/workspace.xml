@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/adicionaSubCategorias.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/ativarUtilizador.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/confirmaEditaSubcategoria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/confirmarAdicionaSubcategorias.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/desativarUtilizador.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/editarSubcategoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_03_2021_01_48__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_03_2021_01_48__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_03_2021_08_54__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_03_2021_08_54__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administracao.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseDados/modeloEpris_v1.0.5.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/baseDados/modeloEpris_v1.0.5.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +107,8 @@
       <workItem from="1615454329728" duration="175000" />
       <workItem from="1615455728219" duration="594000" />
       <workItem from="1615466402299" duration="25000" />
-      <workItem from="1615471853388" duration="6492000" />
+      <workItem from="1615471853388" duration="6562000" />
+      <workItem from="1615541340922" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -272,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615413002730</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="CRUDs subcategorias&#10;CRUDs utilizadores inativo/ativo">
+      <created>1615494255363</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615494255363</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +312,7 @@
     <MESSAGE value="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos" />
     <MESSAGE value="layout de desativar utilizadores feito" />
     <MESSAGE value="servicoLista criado para ter só uma pagina para todos os serviços&#10;Back office layout das sub categorias a fazer, problema com where is not null" />
-    <option name="LAST_COMMIT_MESSAGE" value="servicoLista criado para ter só uma pagina para todos os serviços&#10;Back office layout das sub categorias a fazer, problema com where is not null" />
+    <MESSAGE value="CRUDs subcategorias&#10;CRUDs utilizadores inativo/ativo" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUDs subcategorias&#10;CRUDs utilizadores inativo/ativo" />
   </component>
 </project>

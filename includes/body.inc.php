@@ -68,6 +68,7 @@ function top($menu=HOME){
                 </li>
                 <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="register.php">Registrar-se/Entrar</a></li>
                 <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php">Meu perfil</a></li>
+                <li><a href="administracao.php">Administração</a></li>
             </ul>
         </div>
 
@@ -238,6 +239,7 @@ function topAdmin($menu=HOME){
                 </li>
                 <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="../register.php">Registrar-se/Entrar</a></li>
                 <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="../perfil.php">Meu perfil</a></li>
+                <li><a href="../administracao.php">Administração</a></li>
             </ul>
         </div>
 
