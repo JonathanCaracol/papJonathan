@@ -10,6 +10,7 @@
 
 <section>
     <div class="container">
+        <div class="row">
 
             <div class="text-center">
                 <h1>Meu perfil</h1>
@@ -18,6 +19,40 @@
 
                 <p class="lead">Pode ver seus serviços aqui</p>
             </div>
+
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-6 col-sm-12">
+                            <form id="contact-form" role="form" action="admin/confirmaEditaPerfil.php?id=<?php echo $dados['utilizadorId']?>" enctype="multipart/form-data" method="post">
+                                <div class="col-md-12 col-sm-12">
+                                    <input type="email" class="form-control" value="<?php echo $dados['utilizadorEmail']?>" name="email" required>
+
+                                    <input type="text" class="form-control" value="<?php echo $dados['utilizadorNome']?>" name="nome" required>
+
+                                    <input type="text" value="<?php echo $dados['utilizadorTelefone']?>" class="form-control" name="telefone" required>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12">
+                                    <input type="submit" class="form-control" value="Editar">
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12">
+                            <div class="contact-image">
+                                <img src="images/lock.png" style="height: 300px; width: 300px" class="img-responsive" alt="Smiling Two Girls">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
 
         <div class="container col-12">
             <div class="row">
@@ -55,43 +90,6 @@
                 ?>
                 </table>
             </div>
-            </div>
-            <div class="row">
-
-                <section id="contact">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-6 col-sm-12">
-                                <form id="contact-form" role="form" action="admin/confirmaEditaPerfil.php?id=<?php echo $dados['utilizadorId']?>" enctype="multipart/form-data" method="post">
-                                    <div class="section-title">
-                                        <h2>Meu perfil<small>Aqui pode ver seu perfil e editar as suas informações!</small></h2>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12">
-                                        <input type="email" class="form-control" value="<?php echo $dados['utilizadorEmail']?>" name="email" required>
-
-                                        <input type="text" class="form-control" value="<?php echo $dados['utilizadorNome']?>" name="nome" required>
-
-                                        <input type="text" value="<?php echo $dados['utilizadorTelefone']?>" class="form-control" name="telefone" required>
-                                    </div>
-
-                                    <div class="col-md-12 col-sm-12">
-                                        <input type="submit" class="form-control" value="Editar">
-                                    </div>
-
-                                </form>
-                            </div>
-
-                            <div class="col-md-6 col-sm-12">
-                                <div class="contact-image">
-                                    <img src="images/lock.png" style="height: 404px; width: 404px" class="img-responsive" alt="Smiling Two Girls">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
             </div>
         </div>
     </div>
