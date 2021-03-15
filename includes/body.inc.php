@@ -68,7 +68,7 @@ function top($menu=HOME){
                 </li>
                 <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="register.php">Registrar-se/Entrar</a></li>
                 <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php">Meu perfil</a></li>
-                <li><a href="administracao.php">Administração</a></li>
+                <li><a href="../papJonathan/admin/offersAdmin.php">Administração</a></li>
             </ul>
         </div>
 
@@ -220,26 +220,15 @@ function topAdmin($menu=HOME){
             </button>
 
             <!-- lOGO TEXT HERE -->
-            <a href="../index.php" class="navbar-brand">Epris</a>
+            <a class="navbar-brand">Epris</a>
         </div>
 
         <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-nav-first">
-                <li <?php if ($menu==HOME) echo "class=\"active\"";?> ><a href="../index.php">Home</a></li>
-                <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="../offers.php">Serviços</a></li>
-                <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="../contact.php">Contacte-nos</a></li>
-                <li <?php if ($menu==MAIS) echo "class=\"active\"";?> class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
-
-                    <ul class="dropdown-menu">
-                        <li><a href="../about-us.php">Sobre nós</a></li>
-                        <li><a href="../team.php">Equipa</a></li>
-                    </ul>
-                </li>
-                <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="../register.php">Registrar-se/Entrar</a></li>
-                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="../perfil.php">Meu perfil</a></li>
-                <li><a href="../administracao.php">Administração</a></li>
+                <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offersAdmin.php">Serviços Admin</a></li>
+                <li <?php if ($menu==HOME) echo "class=\"active\"";?>><a href="utilizadorAtivoDesativo.php">Utilizadores Admin</a></li>
+                <li><a href="../index.php">Sair da administração</a></li>
             </ul>
         </div>
 

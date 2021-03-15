@@ -1,6 +1,6 @@
 <?php
 include_once("../includes/body.inc.php");
-topAdmin(OFFERS);
+topAdmin(HOME);
 
 $sql ="Select * from utilizadores where (utilizadorEstado = 'ativo') or (utilizadorEstado = 'inativo')";
 $sql2 ="Select * from utilizadores where utilizadorEstado = 'pendente'";

@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/subcategoriasAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_03_2021_01_48_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_03_2021_01_48__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,8 @@
       <workItem from="1615466402299" duration="25000" />
       <workItem from="1615471853388" duration="6562000" />
       <workItem from="1615541340922" duration="333000" />
-      <workItem from="1615722020063" duration="1437000" />
+      <workItem from="1615722020063" duration="1611000" />
+      <workItem from="1615834059469" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -279,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615541660574</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="subcategorias Admin&#10;Perfil ao contrario">
+      <created>1615723911182</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1615723911182</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +331,7 @@
     <MESSAGE value="servicoLista criado para ter só uma pagina para todos os serviços&#10;Back office layout das sub categorias a fazer, problema com where is not null" />
     <MESSAGE value="CRUDs subcategorias&#10;CRUDs utilizadores inativo/ativo" />
     <MESSAGE value="navbar pagina admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar pagina admin" />
+    <MESSAGE value="subcategorias Admin&#10;Perfil ao contrario" />
+    <option name="LAST_COMMIT_MESSAGE" value="subcategorias Admin&#10;Perfil ao contrario" />
   </component>
 </project>
