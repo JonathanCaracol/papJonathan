@@ -1,6 +1,12 @@
 <?php
 include_once("includes/body.inc.php");
 top();
+
+$final1 = '0';
+$final2 = '0';
+$final3 = '0';
+$sql ="Select * from categorias";
+$result=mysqli_query($con,$sql);
 ?>
 
      <!-- HOME -->
@@ -60,62 +66,32 @@ top();
           </section>
 
           <!-- Serviços-->
-          <section>
-               <div class="container">
-                    <div class="row">
-                         <div class="col-md-12 col-sm-12">
-                              <div class="section-title text-center">
-                                   <h2>Serviços mais procurados<small>Procure o que necessite nos nossos temas variados!</small></h2>
-                              </div>
-                         </div>
-
+         <section class="section-background">
+             <div class="container">
+                 <div class="row">
+                    <?php
+                        while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
+                            ?>
                          <div class="col-md-4 col-sm-4">
-                              <div class="courses-thumb courses-thumb-secondary">
-                                   <div class="courses-top">
-                                        <div class="courses-image">
-                                             <img href="trabalhoManual.php" src="images/trabalhoManual.jpg" class="img-responsive" alt="">
-                                        </div>
-                                   </div>
+                             <div class="courses-thumb courses-thumb-secondary">
+                                 <div class="courses-top">
+                                     <div class="courses-image">
+                                         <img src="<?php echo $dados['categoriaImagemURL'] ?>" class="img-responsive" alt="">
+                                     </div>
+                                 </div>
 
-                                   <div class="courses-detail">
-                                        <h3><a href="trabalhoManual.php">Trabalho Manual</a></h3>
-                                        <br><p>De construções em madeira até instalação de ladrilho, temos tudo aqui!</p>
-                                   </div>
-                              </div>
+                                 <div class="courses-detail">
+                                     <h3><a href="servicolista.php?id=<?php echo $dados['categoriaId']?>"><?php echo $dados['categoriaNome'] ?></a></h3>
+                                     <br><p><?php echo $dados['categoriaDescricao']?></p>
+                                 </div>
+                             </div>
                          </div>
-
-                         <div class="col-md-4 col-sm-4">
-                              <div class="courses-thumb courses-thumb-secondary">
-                                   <div class="courses-top">
-                                        <div class="courses-image">
-                                             <img href="arte.php" src="images/arte.jpg" class="img-responsive" alt="">
-                                        </div>
-                                   </div>
-
-                                   <div class="courses-detail">
-                                        <h3><a href="arte.php">Arte </a></h3>
-                                        <br><p>Quer aprender a tocar um novo instrumento? Precisa de um artista para pintar um quadro? Não espere mais!</p>
-                                   </div>
-                              </div>
-                         </div>
-
-                         <div class="col-md-4 col-sm-4">
-                              <div class="courses-thumb courses-thumb-secondary">
-                                   <div class="courses-top">
-                                        <div class="courses-image">
-                                             <img src="images/babysitting.jpg" class="img-responsive" alt="">
-                                        </div>
-                                   </div>
-
-                                   <div class="courses-detail">
-                                        <h3><a href="babysitting.php">Baby-sitting</a></h3>
-                                        <br><p>Precisa de alguém que tome conta das suas crianças? Não procure mais!</p>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </section>
+                        <?php
+                            }
+                        ?>
+                 </div>
+             </div>
+         </section>
 
      </main>
 
