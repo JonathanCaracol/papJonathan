@@ -5,39 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/servicosAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameServico.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/adicionaCategorias.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionaCategorias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/adicionaSubCategorias.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionaSubCategorias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/adicionarServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionarServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/editaServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editaServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/editarSubcategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editarSubcategoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/editarcategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editarcategoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/subcategoriasAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/subcategoriasAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arte.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arteAdmin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/babysitting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/babysittingAdmin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desporto.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desportoAdmin.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicolista.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicolista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefaCasa.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefaCasaAdmin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalhoManual.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalhoManualAdmin.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +116,8 @@
       <workItem from="1615894592158" duration="1812000" />
       <workItem from="1615913347180" duration="8265000" />
       <workItem from="1615973619966" duration="792000" />
-      <workItem from="1616000582153" duration="5038000" />
+      <workItem from="1616000582153" duration="5129000" />
+      <workItem from="1616016116836" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -341,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615974408574</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="criar a pagina servicoadmin para poder apagar serviços que não respeitam as regras&#10;Melhoramento do site visualmente em geral e da pagina servicoLista">
+      <created>1616010690490</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1616010690490</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +341,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cards para registar e entrar na conta" />
     <MESSAGE value="tentativa em arte" />
     <MESSAGE value="arte listas em progresso" />
     <MESSAGE value="." />
@@ -385,6 +365,7 @@
     <MESSAGE value="separar front office e back office" />
     <MESSAGE value="Dificuldades no index" />
     <MESSAGE value="pagina principal a funcionar e admin melhorado" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagina principal a funcionar e admin melhorado" />
+    <MESSAGE value="criar a pagina servicoadmin para poder apagar serviços que não respeitam as regras&#10;Melhoramento do site visualmente em geral e da pagina servicoLista" />
+    <option name="LAST_COMMIT_MESSAGE" value="criar a pagina servicoadmin para poder apagar serviços que não respeitam as regras&#10;Melhoramento do site visualmente em geral e da pagina servicoLista" />
   </component>
 </project>
