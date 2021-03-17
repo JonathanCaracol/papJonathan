@@ -1,7 +1,6 @@
 <?php
 include_once("../includes/body.inc.php");
 topAdmin(HOME);
-
 $sql ="Select * from utilizadores where (utilizadorEstado = 'ativo') or (utilizadorEstado = 'inativo')";
 $sql2 ="Select * from utilizadores where utilizadorEstado = 'pendente'";
 $result=mysqli_query($con,$sql);
@@ -9,7 +8,6 @@ $result2=mysqli_query($con,$sql2);
 ?>
 
 <section>
-    <div class="container">
 
         <div class="text-center" style="margin-bottom: 5%">
             <h1>Back-office dos utilizadores</h1>
@@ -26,7 +24,11 @@ $result2=mysqli_query($con,$sql2);
                             </div>
                         </form>
                     </td>
+                    <td   align='center' style="vertical-align: middle">
+                        <a class="btn-sm btn-success" href="../admin/adicionaCategorias.php">Adiciona</a>
+                    </td>
                 </tr>
+
                 <tr>
                     <th width="30%">Nome do utilizador</th>
                     <th width="30%">Email do utilizador</th>
@@ -60,7 +62,6 @@ $result2=mysqli_query($con,$sql2);
                 ?>
             </table>
         </div>
-    </div>
 </section>
 
 

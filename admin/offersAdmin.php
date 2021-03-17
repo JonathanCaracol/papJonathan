@@ -13,6 +13,7 @@ $result=mysqli_query($con,$sql);
                 <h1>Back-office categorias</h1>
                 <br>
             </div>
+        </div>
 
             <div id="tableContent">
                 <table class='table table-striped' width="100%">
@@ -49,11 +50,7 @@ while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no resu
 ?>
                 </table>
             </div>
-        </div>
     </section>
-
-
-
 
 <?php
 bottomAdmin();

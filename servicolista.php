@@ -10,7 +10,7 @@ $result2=mysqli_query($con,$sql2);
 $dados2=mysqli_fetch_array($result2)
 ?>
 
-<section>
+<section style="background-color: lightcyan">
     <div class="container">
         <div class="text-center">
             <h1><?php echo $dados2['categoriaNome'] ?></h1>
@@ -22,11 +22,10 @@ $dados2=mysqli_fetch_array($result2)
     </div>
 </section>
 
-<section class="section-background">
-    <div class="container">
-            <div class="row">
+<section>
+
                 <div id="tableContent">
-                    <table class='table table-striped' width="100%">
+                    <table class='table table-striped'>
                         <tr>
                             <td colspan="2">
                                 <form>
@@ -35,15 +34,14 @@ $dados2=mysqli_fetch_array($result2)
                                     </div>
                                 </form>
                             </td>
-                            <td   align='center' style="vertical-align: middle">
-
+                            <td align='center' style="vertical-align: middle">
                                 <a class="btn-sm btn-success" href="admin/adicionarServico.php?id=1">Adiciona</a>
                             </td>
                         </tr>
                         <tr>
-                            <th width="50%">Nome do Serviço</th>
-                            <th width="50%">Nome do Prestador</th>
-                            <th width="50%">Email do Prestador</th>
+                            <th width="40%">Nome do Serviço</th>
+                            <th width="40%">Nome do Prestador</th>
+                            <th width="40%">Email do Prestador</th>
                         </tr>
                         <?php
                         while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result

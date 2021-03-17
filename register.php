@@ -3,7 +3,7 @@ include_once("includes/body.inc.php");
 top(LOGINREGISTAR);
 ?>
 
-<section>
+<section style="background-color: lightcyan">
     <div class="container">
         <div class="text-center">
             <h1>Regista-se</h1>

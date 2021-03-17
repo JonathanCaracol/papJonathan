@@ -6,7 +6,7 @@ $sql ="Select * from categorias";
 $result=mysqli_query($con,$sql);
 ?>
 
-<section>
+<section style="background-color: lightcyan">
     <div class="container">
         <div class="text-center">
             <h1>Adicionar uma nova categoria</h1>

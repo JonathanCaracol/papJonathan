@@ -7,7 +7,7 @@ $sql ="Select * from servicos";
 $result=mysqli_query($con,$sql);
 ?>
 
-<section>
+<section style="background-color: lightcyan">
 <div class="container">
 <div class="text-center">
     <h1>Adicionar novo servico</h1>

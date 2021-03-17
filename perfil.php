@@ -8,10 +8,9 @@
     $dados=mysqli_fetch_array($result);
 ?>
 
-<section>
+<section style="background-color: lightcyan">
     <div class="container">
         <div class="row">
-
             <div class="text-center">
                 <h1>Meu perfil</h1>
 
@@ -19,12 +18,14 @@
 
                 <p class="lead">Pode ver seus serviços aqui</p>
             </div>
-
+        </div>
+    </div>
+</section>
             <section id="contact">
-                <div class="container">
+
                     <div class="row">
 
-                        <div class="col-md-6 col-sm-12">
+                        <div style="margin-left: 10%" class="col-md-6 col-sm-12">
                             <form id="contact-form" role="form" action="admin/confirmaEditaPerfil.php?id=<?php echo $dados['utilizadorId']?>" enctype="multipart/form-data" method="post">
                                 <div class="col-md-12 col-sm-12">
                                     <input type="email" class="form-control" value="<?php echo $dados['utilizadorEmail']?>" name="email" required>
@@ -41,21 +42,16 @@
                             </form>
                         </div>
 
-                        <div class="col-md-6 col-sm-12">
+                        <div>
                             <div class="contact-image">
                                 <img src="images/lock.png" style="height: 300px; width: 300px" class="img-responsive" alt="Smiling Two Girls">
                             </div>
                         </div>
 
                     </div>
-                </div>
+
             </section>
 
-        </div>
-
-
-        <div class="container col-12">
-            <div class="row">
             <div id="tableContent">
                 <table class='table table-striped' width="100%">
                     <tr>
@@ -90,10 +86,6 @@
                 ?>
                 </table>
             </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <?php
     bottom();

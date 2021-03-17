@@ -226,7 +226,8 @@ function topAdmin($menu=HOME){
         <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-nav-first">
-                <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offersAdmin.php">Serviços Admin</a></li>
+                <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offersAdmin.php">Categorias Admin</a></li>
+                <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="servicosAdmin.php">Serviços Admin</a></li>
                 <li <?php if ($menu==HOME) echo "class=\"active\"";?>><a href="utilizadorAtivoDesativo.php">Utilizadores Admin</a></li>
                 <li><a href="../index.php">Sair da administração</a></li>
             </ul>
