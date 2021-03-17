@@ -2,10 +2,8 @@
 include_once("includes/body.inc.php");
 top();
 
-$final1 = '0';
-$final2 = '0';
-$final3 = '0';
-$sql ="Select * from categorias";
+
+$sql ="SELECT * FROM servicos inner join categorias on servicoCategoriaId = categoriaId GROUP BY servicoCategoriaId ORDER BY COUNT(servicoId) DESC LIMIT 3";
 $result=mysqli_query($con,$sql);
 ?>
 
@@ -69,6 +67,13 @@ $result=mysqli_query($con,$sql);
          <section class="section-background">
              <div class="container">
                  <div class="row">
+                     <div class="col-md-12 col-sm-12">
+                         <div class="text-center">
+                             <h2>Categorias destaquadas</h2>
+                             <br>
+                             <p class="lead">As categorias com mais serviços aparecem aqui para o cliente estar sempre atualizado e saber quais são as categorias do momento!</p>
+                         </div>
+                     </div>
                     <?php
                         while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
                             ?>

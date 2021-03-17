@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_03_2021_08_54_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_03_2021_08_54__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/eliminarcategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/eliminarcategoria.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +112,8 @@
       <workItem from="1615722020063" duration="1611000" />
       <workItem from="1615834059469" duration="721000" />
       <workItem from="1615894592158" duration="1812000" />
-      <workItem from="1615913347180" duration="8235000" />
+      <workItem from="1615913347180" duration="8265000" />
+      <workItem from="1615973619966" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -296,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615834778200</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Dificuldades no index">
+      <created>1615924467500</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1615924467500</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +323,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação" />
     <MESSAGE value="Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido." />
     <MESSAGE value="Cards para registar e entrar na conta" />
     <MESSAGE value="tentativa em arte" />
@@ -340,6 +347,7 @@
     <MESSAGE value="navbar pagina admin" />
     <MESSAGE value="subcategorias Admin&#10;Perfil ao contrario" />
     <MESSAGE value="separar front office e back office" />
-    <option name="LAST_COMMIT_MESSAGE" value="separar front office e back office" />
+    <MESSAGE value="Dificuldades no index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dificuldades no index" />
   </component>
 </project>
