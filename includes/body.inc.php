@@ -25,6 +25,8 @@ function top($menu=HOME){
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+
+
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
@@ -161,6 +163,15 @@ function bottom(){
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/smoothscroll.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    $('document').ready(function(){
+        fillTableServicos();
+
+        $('#search').keyup(function (){
+            fillTableServicos(this.value,$('#id').val());
+        });
+    })
+</script>
 
 </body>
 </html>
@@ -252,6 +263,16 @@ function bottomAdmin(){
 <script src="../js/common.js"></script>
 <script src="../js/smoothscroll.js"></script>
 <script src="../js/custom.js"></script>
+
+<script>
+    $('document').ready(function(){
+        fillTableServicosBackOffice();
+
+        $('#search').keyup(function (){
+            fillTableServicosBackOffice(this.value,$('#id').val());
+        });
+    })
+</script>
 
 </body>
 </html>

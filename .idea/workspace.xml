@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameServico.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameServico.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicolista.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicolista.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +119,9 @@
       <workItem from="1615913347180" duration="8265000" />
       <workItem from="1615973619966" duration="792000" />
       <workItem from="1616000582153" duration="5129000" />
-      <workItem from="1616016116836" duration="1508000" />
+      <workItem from="1616016116836" duration="1633000" />
+      <workItem from="1616058358524" duration="504000" />
+      <workItem from="1616062176211" duration="9139000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -322,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616010690490</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="tentativa de ajax falhada, ajuda do stor necessária">
+      <created>1616018237155</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1616018237155</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +352,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tentativa em arte" />
     <MESSAGE value="arte listas em progresso" />
     <MESSAGE value="." />
     <MESSAGE value="registar" />
@@ -366,6 +376,7 @@
     <MESSAGE value="Dificuldades no index" />
     <MESSAGE value="pagina principal a funcionar e admin melhorado" />
     <MESSAGE value="criar a pagina servicoadmin para poder apagar serviços que não respeitam as regras&#10;Melhoramento do site visualmente em geral e da pagina servicoLista" />
-    <option name="LAST_COMMIT_MESSAGE" value="criar a pagina servicoadmin para poder apagar serviços que não respeitam as regras&#10;Melhoramento do site visualmente em geral e da pagina servicoLista" />
+    <MESSAGE value="tentativa de ajax falhada, ajuda do stor necessária" />
+    <option name="LAST_COMMIT_MESSAGE" value="tentativa de ajax falhada, ajuda do stor necessária" />
   </component>
 </project>

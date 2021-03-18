@@ -8,23 +8,16 @@ $result=mysqli_query($con,$sql);
 
 ?>
 <section>
-
-    <div id="tableContent">
         <table class='table table-striped'>
             <tr>
                 <td colspan="2">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Pesquise">
-                        </div>
-                    </form>
                 </td>
                 <td align='center' style="vertical-align: middle">
                     <a class="btn-sm btn-success" href="admin/adicionarServico.php?id=1">Adiciona</a>
                 </td>
             </tr>
             <tr>
-                <th width="40%">Nome do Serviço</th>
+                <th width="40%">Nome do ServiÃ§o</th>
                 <th width="40%">Nome do Prestador</th>
                 <th width="40%">Email do Prestador</th>
             </tr>
@@ -40,5 +33,4 @@ $result=mysqli_query($con,$sql);
             }
             ?>
         </table>
-    </div>
 </section>
