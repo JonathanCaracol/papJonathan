@@ -17,7 +17,7 @@ $result2=mysqli_query($con,$sql2);
         <div id="tableContent">
             <table class='table table-striped' width="100%">
                 <tr>
-                    <td colspan="5">
+                    <td colspan="4">
                         <form>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Pesquise">

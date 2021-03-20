@@ -1,6 +1,6 @@
 <?php
 include_once("../includes/body.inc.php");
-topAdmin(CONTACTO);
+topAJAXAdmin(CONTACTO);
 
 ?>
 
@@ -22,6 +22,6 @@ topAdmin(CONTACTO);
 </section>
 
 <?php
-bottomAdmin();
+bottomAJAXAdmin();
 ?>
 
