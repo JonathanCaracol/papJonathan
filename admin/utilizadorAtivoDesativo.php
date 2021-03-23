@@ -24,9 +24,6 @@ $result2=mysqli_query($con,$sql2);
                             </div>
                         </form>
                     </td>
-                    <td   align='center' style="vertical-align: middle">
-                        <a class="btn-sm btn-success" href="../admin/adicionaCategorias.php">Adiciona</a>
-                    </td>
                 </tr>
 
                 <tr>

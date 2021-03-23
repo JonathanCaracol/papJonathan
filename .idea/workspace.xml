@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/servicosAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/servicosAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +116,13 @@
       <workItem from="1616016116836" duration="1633000" />
       <workItem from="1616058358524" duration="504000" />
       <workItem from="1616062176211" duration="9375000" />
-      <workItem from="1616246082730" duration="1908000" />
+      <workItem from="1616246082730" duration="1932000" />
+      <workItem from="1616279602585" duration="969000" />
+      <workItem from="1616415979659" duration="1628000" />
+      <workItem from="1616443100263" duration="2157000" />
+      <workItem from="1616494332619" duration="72000" />
+      <workItem from="1616515927610" duration="16000" />
+      <workItem from="1616522675178" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -337,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616084727760</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="problemas resolvidos">
+      <created>1616249422069</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1616249422069</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +367,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
     <MESSAGE value="registar" />
     <MESSAGE value="edit" />
     <MESSAGE value="serviço detalhes e o edit" />
@@ -381,6 +391,7 @@
     <MESSAGE value="criar a pagina servicoadmin para poder apagar serviços que não respeitam as regras&#10;Melhoramento do site visualmente em geral e da pagina servicoLista" />
     <MESSAGE value="tentativa de ajax falhada, ajuda do stor necessária" />
     <MESSAGE value="barra de pesquisa" />
-    <option name="LAST_COMMIT_MESSAGE" value="barra de pesquisa" />
+    <MESSAGE value="problemas resolvidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="problemas resolvidos" />
   </component>
 </project>
