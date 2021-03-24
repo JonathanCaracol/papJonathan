@@ -11,11 +11,9 @@ topAJAXUtilizador(HOME);
         </div>
 </section>
 
-<div class="form-group">
+
     <input id="search" type="text" class="form-control" placeholder="Pesquise">
-
-    <div id="tableContent"></div></div>
-
+    <div id="tableContent"></div>
 <?php
 bottomAJAXUtilizador();
 ?>

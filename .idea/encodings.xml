@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/AJAX/AJAXFillServicos.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AJAX/AJAXFillUtilizadorBackOffice.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AJAX/AJAXGetNameServico.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/adicionaCategorias.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/adicionaSubCategorias.php" charset="UTF-8" />

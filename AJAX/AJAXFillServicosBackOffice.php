@@ -2,12 +2,23 @@
 include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
 
+$sqlbutton="select * from categorias";
 $sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoNome LIKE '$txt%'";
 $result=mysqli_query($con,$sql);
+$resultbutton=mysqli_query($con,$sqlbutton)
 ?>
 
 <section>
     <table class='table table-striped' width="100%">
+        <tr>
+    <?php
+    while($dadosbutton=mysqli_fetch_array($resultbutton)){
+        ?>
+        <td><button class="btn btn-success"><?php echo $dadosbutton['categoriaNome']?></button></td>
+        <?php
+    }
+    ?>
+        </tr>
         <tr>
             <th width="10%">Id</th>
             <th width="40%">Nome do serviço</th>

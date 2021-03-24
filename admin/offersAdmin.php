@@ -18,16 +18,9 @@ $result=mysqli_query($con,$sql);
             <div id="tableContent">
                 <table class='table table-striped' width="100%">
                     <tr>
-                        <td colspan="3">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Pesquise">
-                                </div>
-                            </form>
-                        </td>
-                        <td   align='center' style="vertical-align: middle">
+                        <td colspan="4"  align='center' style="vertical-align: middle">
 
-                            <a class="btn-sm btn-success" href="../admin/adicionaCategorias.php">Adiciona</a>
+                            <a class="btn-sm btn-success" href="../admin/adicionaCategorias.php">Adicionar nova categoria</a>
                         </td>
                     </tr>
                     <tr>
