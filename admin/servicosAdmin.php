@@ -14,12 +14,10 @@ topAJAXAdmin(CONTACTO);
     </div>
 </section>
 
-<section>
     <div class="form-group">
         <input id="search" type="text" class="form-control" placeholder="Pesquise">
 
     <div id="tableContent"></div></div>
-</section>
 
 <?php
 bottomAJAXAdmin();

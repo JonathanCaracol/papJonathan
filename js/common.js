@@ -22,3 +22,15 @@ function fillTableServicosBackOffice(txt = ''){
         }
     });
 }
+function fillTableUtilizadorBackOffice(txt = ''){
+    $.ajax({
+        url:"../AJAX/AJAXFillUtilizadorBackOffice.php",
+        type:"post",
+        data:{
+            txt:txt
+        },
+        success:function (result){
+            $('#tableContent').html(result);
+        }
+    });
+}
