@@ -1,10 +1,10 @@
 <?php
 include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
-$id=addslashes($_POST['id']);
+$id=intval($_GET['id']);
 
 $sqlbutton="select * from categorias";
-$sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where (servicoNome LIKE '$txt%') or (servicoId =".$id.")";
+echo $sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where (servicoNome LIKE '$txt%') or (servicoCategoriaId =".$id.")";
 $result=mysqli_query($con,$sql);
 $resultbutton=mysqli_query($con,$sqlbutton)
 ?>
@@ -39,3 +39,5 @@ $resultbutton=mysqli_query($con,$sqlbutton)
         ?>
     </table>
 </section>
+
+

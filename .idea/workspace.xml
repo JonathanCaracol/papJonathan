@@ -7,7 +7,6 @@
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/servicosAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/servicosAdmin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,8 @@
       <workItem from="1616612761834" duration="588000" />
       <workItem from="1616623080530" duration="1508000" />
       <workItem from="1616669043162" duration="123000" />
-      <workItem from="1616669882704" duration="2491000" />
+      <workItem from="1616669882704" duration="2524000" />
+      <workItem from="1616703557052" duration="2317000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -375,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616624595706</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="botões nao consegui">
+      <created>1616675570824</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1616675570824</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +401,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tabelas serviços" />
     <MESSAGE value="include" />
     <MESSAGE value="front office e resolução do botão no login e registar" />
     <MESSAGE value="[Leandro] config.inc.php" />
@@ -419,6 +425,7 @@
     <MESSAGE value="pequena mudança" />
     <MESSAGE value="search bar utilizadores" />
     <MESSAGE value="introdução dos botãos" />
-    <option name="LAST_COMMIT_MESSAGE" value="introdução dos botãos" />
+    <MESSAGE value="botões nao consegui" />
+    <option name="LAST_COMMIT_MESSAGE" value="botões nao consegui" />
   </component>
 </project>
