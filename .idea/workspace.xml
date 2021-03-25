@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillUtilizadorBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillUtilizadorBackOffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/servicosAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/servicosAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +126,9 @@
       <workItem from="1616522675178" duration="643000" />
       <workItem from="1616602134188" duration="1207000" />
       <workItem from="1616612761834" duration="588000" />
-      <workItem from="1616623080530" duration="1272000" />
+      <workItem from="1616623080530" duration="1508000" />
+      <workItem from="1616669043162" duration="123000" />
+      <workItem from="1616669882704" duration="2491000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -371,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616603326786</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="introdução dos botãos">
+      <created>1616624595706</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1616624595706</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +394,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="serviço detalhes e o edit" />
     <MESSAGE value="tabelas serviços" />
     <MESSAGE value="include" />
     <MESSAGE value="front office e resolução do botão no login e registar" />
@@ -415,6 +418,7 @@
     <MESSAGE value="problemas resolvidos" />
     <MESSAGE value="pequena mudança" />
     <MESSAGE value="search bar utilizadores" />
-    <option name="LAST_COMMIT_MESSAGE" value="search bar utilizadores" />
+    <MESSAGE value="introdução dos botãos" />
+    <option name="LAST_COMMIT_MESSAGE" value="introdução dos botãos" />
   </component>
 </project>

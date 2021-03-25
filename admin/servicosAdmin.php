@@ -1,6 +1,7 @@
 <?php
 include_once("../includes/body.inc.php");
 topAJAXAdmin(CONTACTO);
+$id=intval($_GET['id']);
 
 ?>
 
@@ -16,7 +17,7 @@ topAJAXAdmin(CONTACTO);
 
 
     <input id="search" type="text" class="form-control" placeholder="Pesquise">
-    <div id="tableContent"></div>
+    <div name="idcategoria" value="<?php echo $id?>" id="tableContent"></div>
 
 <?php
 bottomAJAXAdmin();
