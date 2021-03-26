@@ -49,7 +49,7 @@ $result=mysqli_query($con,$sql);
 
      <main>
           <!-- Sobre Nós-->
-          <section style="background-color: lightcyan">
+          <section>
                <div class="container">
                     <div class="row">
                          <div class="col-md-12 col-sm-12">
