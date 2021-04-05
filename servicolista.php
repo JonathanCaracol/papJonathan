@@ -1,6 +1,7 @@
 <?php
 include_once("includes/body.inc.php");
 top(OFFERS);
+$id = $_GET["id"];
 
 $sql2 ="Select * from categorias where categoriaId =".$id;
 $result2=mysqli_query($con,$sql2);
