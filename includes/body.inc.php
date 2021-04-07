@@ -165,7 +165,7 @@ function bottom(){
 <script src="js/custom.js"></script>
 <script>
     $('document').ready(function(){
-        fillTableServicos();
+        fillTableServicos('',$('#id').val());
 
         $('#search').keyup(function (){
             fillTableServicos(this.value,$('#id').val());
@@ -350,7 +350,7 @@ function bottomAJAXAdmin(){
 
     <script>
         $('document').ready(function(){
-            fillTableServicosBackOffice();
+            fillTableServicosBackOffice('',$('#id').val());
 
             $('#search').keyup(function (){
                 fillTableServicosBackOffice(this.value,$('#id').val());

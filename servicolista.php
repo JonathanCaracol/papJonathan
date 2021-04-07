@@ -8,6 +8,7 @@ $result2=mysqli_query($con,$sql2);
 $dados2=mysqli_fetch_array($result2)
 ?>
 
+<input type="hidden" name="id" value="<?php echo $id; ?>" id="id">
 <section style="background-color: lightcyan">
     <div class="container">
         <div class="text-center">

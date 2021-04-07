@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/servicosAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/servicosAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicolista.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicolista.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +137,8 @@
       <workItem from="1616752188626" duration="76000" />
       <workItem from="1616757605976" duration="118000" />
       <workItem from="1617462632559" duration="270000" />
-      <workItem from="1617629118512" duration="789000" />
+      <workItem from="1617629118512" duration="816000" />
+      <workItem from="1617792133820" duration="4970000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -407,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617462895542</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="titulo servicolista">
+      <created>1617633017709</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1617633017709</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +439,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Leandro] config.inc.php" />
     <MESSAGE value="[Leandro] Base de dados Versão 1.0" />
     <MESSAGE value="eliminar e editar feito (Back-office)" />
     <MESSAGE value="adicionar servicos, confirma edita perfil, confirma novo servico, melhorar a pagina do perfil" />
@@ -451,6 +463,7 @@
     <MESSAGE value="botões nao consegui" />
     <MESSAGE value="tentativas falhadas" />
     <MESSAGE value="cores" />
-    <option name="LAST_COMMIT_MESSAGE" value="cores" />
+    <MESSAGE value="titulo servicolista" />
+    <option name="LAST_COMMIT_MESSAGE" value="titulo servicolista" />
   </component>
 </project>

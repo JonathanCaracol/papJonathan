@@ -1,22 +1,18 @@
 <?php
 include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
-$id=intval($_GET['id']);
+$id=intval($_POST['id']);
 
-$sqlbutton="select * from categorias";
-echo $sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where (servicoNome LIKE '$txt%') or (servicoCategoriaId =".$id.")";
+
+$sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoNome LIKE '$txt%'";
+if($id>0){
+    $sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoNome LIKE '$txt%' and servicoCategoriaId=".$id;
+}
 $result=mysqli_query($con,$sql);
-$resultbutton=mysqli_query($con,$sqlbutton)
 ?>
 
 <section>
-        <?php
-        while($dadosbutton=mysqli_fetch_array($resultbutton)){
-            ?>
-            <button onclick="location='../admin/servicosAdmin.php?id=<?php echo $dadosbutton['categoriaId']?>'" class="btn btn-success"><?php echo $dadosbutton['categoriaNome']?></button>
-            <?php
-        }
-        ?>
+
     <table class='table table-striped' width="100%">
         <tr>
             <th width="10%">Id</th>

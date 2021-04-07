@@ -1,8 +1,9 @@
-function fillTableServicos(txt = ''){
+function fillTableServicos(txt = '',id=0){
     $.ajax({
         url:"AJAX/AJAXFillServicos.php",
         type:"post",
         data:{
+            id: id,
             txt:txt
         },
         success:function (result){
@@ -10,11 +11,12 @@ function fillTableServicos(txt = ''){
         }
     });
 }
-function fillTableServicosBackOffice(txt = ''){
+function fillTableServicosBackOffice(txt = '',id=0){
     $.ajax({
         url:"../AJAX/AJAXFillServicosBackOffice.php",
         type:"post",
         data:{
+            id: id,
             txt:txt
         },
         success:function (result){
