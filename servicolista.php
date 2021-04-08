@@ -19,7 +19,7 @@ $dados2=mysqli_fetch_array($result2)
     </div>
 </section>
 
-<section>
+<section style="width: 30%; margin-left: 35%">
     <div class="form-group">
         <input id="search" type="text" class="form-control" placeholder="Pesquise">
     </div>

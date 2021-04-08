@@ -23,7 +23,7 @@ while($dadosbutton=mysqli_fetch_array($resultbutton)){
     <button  type="submit" name="submit1" value="<?php echo $dadosbutton['categoriaId'] ?>" class="btn btn-success"><?php echo $dadosbutton['categoriaNome']?></button>
     <?php
     if(isset($_POST["Submit1"])){ ?>
-        <input onload="window.location.href=window.location.href" type="hidden" name="id" value="<?php echo $dadosbutton['categoriaId'] ?>" id="id">
+        <input onload="window.location.refresh()" type="hidden" name="id" value="<?php echo $dadosbutton['categoriaId'] ?>" id="id">
    <?php
     }
 }
