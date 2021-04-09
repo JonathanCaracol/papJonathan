@@ -21,6 +21,7 @@
         </div>
     </div>
 </section>
+<section style="padding-left: 20%;padding-right: 20%;">
             <section id="contact">
 
                     <div class="row">
@@ -86,7 +87,7 @@
                 ?>
                 </table>
             </div>
-
+    </section>
 <?php
     bottom();
 ?>

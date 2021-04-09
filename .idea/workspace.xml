@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -137,7 +139,8 @@
       <workItem from="1617872288761" duration="3621000" />
       <workItem from="1617891018164" duration="4000" />
       <workItem from="1617905544511" duration="307000" />
-      <workItem from="1617905931302" duration="2495000" />
+      <workItem from="1617905931302" duration="2515000" />
+      <workItem from="1617958053597" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -433,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617876791947</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="tabela em servicolista">
+      <created>1617909039980</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1617909039981</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +462,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adicionar servicos, confirma edita perfil, confirma novo servico, melhorar a pagina do perfil" />
     <MESSAGE value="eliminar servico" />
     <MESSAGE value="editar e confirma edita servico a fazer, ainda não é funcional" />
     <MESSAGE value="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos" />
@@ -477,6 +486,7 @@
     <MESSAGE value="titulo servicolista" />
     <MESSAGE value="trabalhar sobre id no servico lista para mandar para AJAX" />
     <MESSAGE value="inicio de tabela em vez de lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="inicio de tabela em vez de lista" />
+    <MESSAGE value="tabela em servicolista" />
+    <option name="LAST_COMMIT_MESSAGE" value="tabela em servicolista" />
   </component>
 </project>

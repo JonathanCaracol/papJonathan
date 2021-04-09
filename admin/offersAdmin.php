@@ -25,7 +25,7 @@ $result=mysqli_query($con,$sql);
                     </tr>
                     <tr>
                         <th width="40%">Imagem</th>
-                        <th width="60%">Nome da categoria</th>
+                        <th width="40%">Nome da categoria</th>
                         <th colspan="2" style="text-align: center">Opções</th>
                     </tr>
 
