@@ -34,7 +34,7 @@ while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no resu
     ?>
                     <tr>
                         <td><img width="120" src="../<?php echo $dados['categoriaImagemURL']?>"></td>
-                        <td><a href="subcategoriasAdmin.php?id=<?php echo $dados['categoriaId']?>"><?php echo $dados['categoriaNome']?></a></td>
+                        <td><?php echo $dados['categoriaNome']?></td>
                         <td align="center"><a href="editarcategoria.php?id=<?php echo $dados['categoriaId']?>">Editar</a></td>
                         <td align="center"><a href="eliminarcategoria.php?id=<?php echo $dados['categoriaId']?>">Apagar</a></td>
                     </tr>

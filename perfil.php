@@ -8,7 +8,7 @@
     $dados=mysqli_fetch_array($result);
 ?>
 
-<section style="background-color: lightcyan">
+<section style="background-color: powderblue">
     <div class="container">
         <div class="row">
             <div class="text-center">

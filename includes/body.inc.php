@@ -60,14 +60,6 @@ function top($menu=HOME){
                 <li <?php if ($menu==HOME) echo "class=\"active\"";?> ><a href="index.php">Home</a></li>
                 <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offers.php">Serviços</a></li>
                 <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="contact.php">Contacte-nos</a></li>
-                <li <?php if ($menu==MAIS) echo "class=\"active\"";?> class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
-
-                    <ul class="dropdown-menu">
-                        <li><a href="about-us.php">Sobre nós</a></li>
-                        <li><a href="team.php">Equipa</a></li>
-                    </ul>
-                </li>
                 <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="register.php">Registrar-se/Entrar</a></li>
                 <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php">Meu perfil</a></li>
                 <li><a href="../papJonathan/admin/offersAdmin.php">Administração</a></li>
@@ -126,8 +118,6 @@ function bottom(){
                         <h2>Quick Links</h2>
                         <ul>
                             <li ><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="terms.html">Terms & Conditions</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>

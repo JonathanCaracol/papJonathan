@@ -3,7 +3,7 @@ include_once("includes/body.inc.php");
 top(CONTACTO);
 ?>
 
-     <section style="background-color: lightcyan">
+     <section style="background-color: powderblue">
           <div class="container">
                <div class="text-center">
                     <h1>Contacte-nos</h1>

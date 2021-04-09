@@ -9,7 +9,7 @@ $dados2=mysqli_fetch_array($result2)
 ?>
 
 <input type="hidden" name="id" value="<?php echo $id; ?>" id="id">
-<section style="background-color: lightcyan">
+<section style="background-color: powderblue">
     <div class="container">
         <div class="text-center">
             <h1><?php echo $dados2['categoriaNome'] ?></h1>
