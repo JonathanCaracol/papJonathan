@@ -11,6 +11,18 @@ function fillTableServicos(txt = '',id=0){
         }
     });
 }
+function fillTablePerfil(id=0){
+    $.ajax({
+        url:"AJAX/AJAXFillPerfil.php",
+        type:"post",
+        data:{
+            id: id
+        },
+        success:function (result){
+            $('#tableContent').html(result);
+        }
+    });
+}
 function fillTableServicosBackOffice(txt = '',id=0){
     $.ajax({
         url:"../AJAX/AJAXFillServicosBackOffice.php",

@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillPerfil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicolista.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicolista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +143,8 @@
       <workItem from="1617905544511" duration="307000" />
       <workItem from="1617905931302" duration="2515000" />
       <workItem from="1617958053597" duration="1627000" />
-      <workItem from="1617960173210" duration="357000" />
+      <workItem from="1617960173210" duration="446000" />
+      <workItem from="1618235570583" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -456,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617959682506</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="trocar de cores no header">
+      <created>1617960616500</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1617960616500</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +480,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="editar e confirma edita servico a fazer, ainda não é funcional" />
     <MESSAGE value="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos" />
     <MESSAGE value="layout de desativar utilizadores feito" />
     <MESSAGE value="servicoLista criado para ter só uma pagina para todos os serviços&#10;Back office layout das sub categorias a fazer, problema com where is not null" />
@@ -500,6 +504,7 @@
     <MESSAGE value="inicio de tabela em vez de lista" />
     <MESSAGE value="tabela em servicolista" />
     <MESSAGE value="meu perfil, inicio de resolução" />
-    <option name="LAST_COMMIT_MESSAGE" value="meu perfil, inicio de resolução" />
+    <MESSAGE value="trocar de cores no header" />
+    <option name="LAST_COMMIT_MESSAGE" value="trocar de cores no header" />
   </component>
 </project>
