@@ -54,9 +54,6 @@
 
     <div id="tableContent">
 
-                            <td><?php echo $dados2['utilizadorNome']?></td>
-                            <td align="center"><a href="../papJonathan/admin/editaServico.php?id=<?php echo $dados2['servicoId']?>">Editar</a></td>
-                            <td align="center"><a href="../papJonathan/admin/eliminarServico.php?id=<?php echo $dados2['servicoId']?>">Apagar</a></td>
 
     </section>
 <?php

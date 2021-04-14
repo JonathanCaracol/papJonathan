@@ -25,7 +25,7 @@ $dados=mysqli_fetch_array($result);
             <div class="col-md-6 col-sm-12">
                 <form id="contact-form" role="form" action="" method="post">
                     <div class="section-title">
-                        <h2>Manda email <small>Contacta esta pessoa e ela irá ajudar!</small></h2>
+                        <h2>Requisite este serviço <small>Contacta esta pessoa e ela irá ajudar!</small></h2>
                     </div>
 
                     <div class="col-md-12 col-sm-12">
@@ -36,6 +36,9 @@ $dados=mysqli_fetch_array($result);
                         <input readonly type="email" class="form-control" placeholder="<?php echo $dados['utilizadorTelefone']?>" name="email" required>
 
                         <textarea readonly class="form-control" rows="6" placeholder="<?php echo $dados['servicoDescricao']?>" name="message" required></textarea>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <input type="submit" class="form-control" value="Requesitar o serviço">
                     </div>
 
                 </form>

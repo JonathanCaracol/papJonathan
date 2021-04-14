@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,8 @@
       <workItem from="1617905931302" duration="2515000" />
       <workItem from="1617958053597" duration="1627000" />
       <workItem from="1617960173210" duration="446000" />
-      <workItem from="1618235570583" duration="694000" />
+      <workItem from="1618235570583" duration="971000" />
+      <workItem from="1618399054125" duration="2596000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -461,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617960616500</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="perfil em ajax feito">
+      <created>1618236538011</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1618236538012</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos" />
     <MESSAGE value="layout de desativar utilizadores feito" />
     <MESSAGE value="servicoLista criado para ter só uma pagina para todos os serviços&#10;Back office layout das sub categorias a fazer, problema com where is not null" />
     <MESSAGE value="CRUDs subcategorias&#10;CRUDs utilizadores inativo/ativo" />
@@ -505,6 +511,7 @@
     <MESSAGE value="tabela em servicolista" />
     <MESSAGE value="meu perfil, inicio de resolução" />
     <MESSAGE value="trocar de cores no header" />
-    <option name="LAST_COMMIT_MESSAGE" value="trocar de cores no header" />
+    <MESSAGE value="perfil em ajax feito" />
+    <option name="LAST_COMMIT_MESSAGE" value="perfil em ajax feito" />
   </component>
 </project>
