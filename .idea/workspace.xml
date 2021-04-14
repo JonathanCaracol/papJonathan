@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pedidos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,8 @@
       <workItem from="1617958053597" duration="1627000" />
       <workItem from="1617960173210" duration="446000" />
       <workItem from="1618235570583" duration="971000" />
-      <workItem from="1618399054125" duration="2596000" />
+      <workItem from="1618399054125" duration="2616000" />
+      <workItem from="1618423460551" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
       <created>1613424516471</created>
@@ -468,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618236538012</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="botão requisitar serviço">
+      <created>1618419775055</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1618419775056</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +494,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="layout de desativar utilizadores feito" />
     <MESSAGE value="servicoLista criado para ter só uma pagina para todos os serviços&#10;Back office layout das sub categorias a fazer, problema com where is not null" />
     <MESSAGE value="CRUDs subcategorias&#10;CRUDs utilizadores inativo/ativo" />
     <MESSAGE value="navbar pagina admin" />
@@ -512,6 +518,7 @@
     <MESSAGE value="meu perfil, inicio de resolução" />
     <MESSAGE value="trocar de cores no header" />
     <MESSAGE value="perfil em ajax feito" />
-    <option name="LAST_COMMIT_MESSAGE" value="perfil em ajax feito" />
+    <MESSAGE value="botão requisitar serviço" />
+    <option name="LAST_COMMIT_MESSAGE" value="botão requisitar serviço" />
   </component>
 </project>

@@ -51,7 +51,9 @@
                     </div>
 
             </section>
-
+    <section style="padding-left: 40%;padding-right: 40%;">
+        <a href="pedidos.php"><div style="margin-left: 200%; background-color: yellow" class="form-control">Pedidos pendentes: 1</div></a>
+    </section>
     <div id="tableContent">
 
 
