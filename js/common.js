@@ -23,6 +23,18 @@ function fillTablePerfil(id=0){
         }
     });
 }
+function fillTablePedidos(id=0){
+    $.ajax({
+        url:"AJAX/AJAXFillPedidos.php",
+        type:"post",
+        data:{
+            id: id
+        },
+        success:function (result){
+            $('#tableContent').html(result);
+        }
+    });
+}
 function fillTableServicosBackOffice(txt = '',id=0){
     $.ajax({
         url:"../AJAX/AJAXFillServicosBackOffice.php",

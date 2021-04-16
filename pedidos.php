@@ -17,18 +17,8 @@ top(PERFIL);
     </div>
 </section>
 <section style="padding-left: 20%;padding-right: 20%;">
-    <div>
-        <div style="background-color: #aff3d8" class="courses-thumb courses-thumb-secondary">
-            <div class="courses-detail">
-                <h2>Nome do serviço: Estatuas de madeira</h2>
-                <h4>Informação do cliente</h4>
-                <br><p><a href="">Aceitar</a></p>
-                <br><p><a href="">Recusar</a></p>
-            </div>
-        </div>
-    </div>
-
+    <div id="tableContent">
 </section>
 <?php
-bottomPerfil();
+bottomPedidos();
 ?>

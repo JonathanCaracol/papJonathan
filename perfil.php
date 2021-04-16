@@ -2,7 +2,6 @@
     include_once("includes/body.inc.php");
     top(PERFIL);
     $sql ="Select * from utilizadores where utilizadorId = '1'";
-
     $result=mysqli_query($con,$sql);
     $dados=mysqli_fetch_array($result);
 ?>
@@ -52,7 +51,7 @@
 
             </section>
     <section style="padding-left: 40%;padding-right: 40%;">
-        <a href="pedidos.php"><div style="margin-left: 200%; background-color: yellow" class="form-control">Pedidos pendentes: 1</div></a>
+        <a href="pedidos.php"><div style="margin-left: 200%; background-color: yellow" class="form-control">Pedidos pendentes: 2</div></a>
     </section>
     <div id="tableContent">
 
