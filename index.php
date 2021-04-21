@@ -69,7 +69,7 @@ $result=mysqli_query($con,$sql);
                  <div class="row">
                      <div class="col-md-12 col-sm-12">
                          <div class="text-center">
-                             <h2>Categorias destaquadas</h2>
+                             <h2>Categorias destacadas</h2>
                              <br>
                              <p class="lead">As categorias com mais serviços aparecem aqui para o cliente estar sempre atualizado e saber quais são as categorias do momento!</p>
                          </div>
