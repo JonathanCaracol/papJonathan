@@ -4,6 +4,10 @@
     $sql ="Select * from utilizadores where utilizadorId = '1'";
     $result=mysqli_query($con,$sql);
     $dados=mysqli_fetch_array($result);
+$sqlNotif="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId where servicoUtilizadorId=1";
+$resultnotif=mysqli_query($con,$sqlNotif);
+$dadosNotif=mysqli_fetch_array($resultnotif);
+$notif=(int)$dadosNotif['count(pedidoId)'];
 ?>
 
 <section style="background-color: powderblue">
@@ -27,6 +31,9 @@
                         <div style="margin-left: 10%" class="col-md-6 col-sm-12">
                             <form id="contact-form" role="form" action="admin/confirmaEditaPerfil.php?id=<?php echo $dados['utilizadorId']?>" enctype="multipart/form-data" method="post">
                                 <div class="col-md-12 col-sm-12">
+                                    <a href="pedidos.php?id="<?php echo $dados['utilizadorId']?> class="badge badge-pill" style="background-color: white;color: #29ca8e"><span class="badge badge-pill" style="background-color: white; color: #29ca8e"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                                        </svg><?php echo $notif; ?></span></a>
                                     <input type="email" class="form-control" value="<?php echo $dados['utilizadorEmail']?>" name="email" required>
 
                                     <input type="text" class="form-control" value="<?php echo $dados['utilizadorNome']?>" name="nome" required>
@@ -50,9 +57,7 @@
                     </div>
 
             </section>
-    <section style="padding-left: 40%;padding-right: 40%;">
-        <a href="pedidos.php"><div style="margin-left: 200%; background-color: yellow" class="form-control">Pedidos pendentes: 2</div></a>
-    </section>
+
     <div id="tableContent">
 
 
