@@ -1,0 +1,117 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : localhost_3306
+ Source Server Type    : MySQL
+ Source Server Version : 100410
+ Source Host           : localhost:3306
+ Source Schema         : pap2021epris
+
+ Target Server Type    : MySQL
+ Target Server Version : 100410
+ File Encoding         : 65001
+
+ Date: 15/04/2021 15:46:16
+*/
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for categorias
+-- ----------------------------
+DROP TABLE IF EXISTS `categorias`;
+CREATE TABLE `categorias`  (
+  `categoriaId` int NOT NULL AUTO_INCREMENT,
+  `categoriaNome` varchar(45) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `categoriaDescricao` text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `categoriaImagemURL` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `categoriaCategoriaId` int NULL DEFAULT NULL,
+  PRIMARY KEY (`categoriaId`) USING BTREE,
+  INDEX `fk_categorias_categorias_idx`(`categoriaCategoriaId`) USING BTREE,
+  CONSTRAINT `fk_categorias_categorias` FOREIGN KEY (`categoriaCategoriaId`) REFERENCES `categorias` (`categoriaId`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE = InnoDB AUTO_INCREMENT = 26 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of categorias
+-- ----------------------------
+INSERT INTO `categorias` VALUES (1, 'Trabalho manual', 'adsda', 'images/trabalhoManual.jpg', NULL);
+INSERT INTO `categorias` VALUES (2, 'Desporto e atividades fÃ­sicas', 'Quer aprender a danÃ§ar? Melhorar o seu remate a bola? Procure aqui!', 'images/desporto.jpeg', NULL);
+INSERT INTO `categorias` VALUES (3, 'Arte ', 'Quer aprender a tocar um novo instrumento? Precisa de um artista para pintar um quadro? Não espere mais!', 'images/arte.jpg', NULL);
+INSERT INTO `categorias` VALUES (4, 'Tarefas de casa', 'Precisa de alguém que cozinhe por si? Que lave a loiça? Temos o que necessíta!', 'images/cozinha.jpg', NULL);
+INSERT INTO `categorias` VALUES (5, 'Baby-sitting', '\r\nPrecisa de alguém que tome conta das suas crianças? Não procure mais!', 'images/babysitting.jpg', NULL);
+INSERT INTO `categorias` VALUES (20, 'EducaÃ§Ã£o', 'EducaÃ§Ã£o', 'images/educacao.jpg', NULL);
+
+-- ----------------------------
+-- Table structure for pedidos
+-- ----------------------------
+DROP TABLE IF EXISTS `pedidos`;
+CREATE TABLE `pedidos`  (
+  `pedidoId` int NOT NULL AUTO_INCREMENT,
+  `pedidoServicoId` int NOT NULL,
+  `pedidoClienteId` int NOT NULL,
+  PRIMARY KEY (`pedidoId`) USING BTREE,
+  INDEX `fk_pedidos_servicos1_idx`(`pedidoServicoId`) USING BTREE,
+  INDEX `fk_pedidos_utilizadores1_idx`(`pedidoClienteId`) USING BTREE,
+  CONSTRAINT `fk_pedidos_servicos1` FOREIGN KEY (`pedidoServicoId`) REFERENCES `servicos` (`servicoId`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_pedidos_utilizadores1` FOREIGN KEY (`pedidoClienteId`) REFERENCES `utilizadores` (`utilizadorId`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of pedidos
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for servicos
+-- ----------------------------
+DROP TABLE IF EXISTS `servicos`;
+CREATE TABLE `servicos`  (
+  `servicoId` int NOT NULL AUTO_INCREMENT,
+  `servicoNome` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `servicoCategoriaId` int NOT NULL,
+  `servicoDescricao` text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `servicoUtilizadorId` int NOT NULL,
+  PRIMARY KEY (`servicoId`) USING BTREE,
+  INDEX `fk_servicos_categorias1_idx`(`servicoCategoriaId`) USING BTREE,
+  INDEX `fk_servicos_utilizadores1_idx`(`servicoUtilizadorId`) USING BTREE,
+  CONSTRAINT `fk_servicos_categorias1` FOREIGN KEY (`servicoCategoriaId`) REFERENCES `categorias` (`categoriaId`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_servicos_utilizadores1` FOREIGN KEY (`servicoUtilizadorId`) REFERENCES `utilizadores` (`utilizadorId`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE = InnoDB AUTO_INCREMENT = 29 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of servicos
+-- ----------------------------
+INSERT INTO `servicos` VALUES (9, 'BalÃµes de agua', 2, 'afasjfjaio umhfsimd', 1);
+INSERT INTO `servicos` VALUES (11, 'Madeira Estatuas', 4, 'Eu faÃ§o estatuas de madeira bem fixes', 1);
+INSERT INTO `servicos` VALUES (16, 'asdasd', 2, 'asdad', 2);
+INSERT INTO `servicos` VALUES (17, 'sadadaas', 4, 'asdd', 3);
+INSERT INTO `servicos` VALUES (18, 'asdadwd', 5, 'dasdad', 2);
+INSERT INTO `servicos` VALUES (19, 'asdasd', 3, 'asdasd', 3);
+INSERT INTO `servicos` VALUES (20, 'wdawda', 5, 'asdad', 1);
+INSERT INTO `servicos` VALUES (21, 'ADDWD', 1, 'DAWDAW', 3);
+INSERT INTO `servicos` VALUES (24, 'asdsad', 1, 'asdad', 1);
+INSERT INTO `servicos` VALUES (25, 'asdad', 1, 'asdasd', 1);
+INSERT INTO `servicos` VALUES (28, 'ola', 1, 'fsdffs', 2);
+
+-- ----------------------------
+-- Table structure for utilizadores
+-- ----------------------------
+DROP TABLE IF EXISTS `utilizadores`;
+CREATE TABLE `utilizadores`  (
+  `utilizadorId` int NOT NULL AUTO_INCREMENT,
+  `utilizadorNome` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `utilizadorTelefone` varchar(45) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `utilizadorEmail` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `utilizadorEstado` enum('pendente','ativo','inativo') CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'pendente',
+  PRIMARY KEY (`utilizadorId`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of utilizadores
+-- ----------------------------
+INSERT INTO `utilizadores` VALUES (1, 'Jonathan  Carajoinas Sanches', '917346505', 'joncarajoinas@gmail.com', 'ativo');
+INSERT INTO `utilizadores` VALUES (2, 'Leandro', '918329182', 'Leandro@gmail.com', 'ativo');
+INSERT INTO `utilizadores` VALUES (3, 'Luis', '918291823', 'Luis@gmail.com', 'inativo');
+INSERT INTO `utilizadores` VALUES (4, 'Simao', '919324231', 'Simao@gmail.com', 'ativo');
+
+SET FOREIGN_KEY_CHECKS = 1;

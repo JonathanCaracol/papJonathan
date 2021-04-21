@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseDados/modeloEpris_v1.0.5.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/baseDados/modeloEpris_v1.0.5.mwb" afterDir="false" />
-    </list>
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="correção ortográfica" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,13 +145,7 @@
       <workItem from="1618497307856" duration="749000" />
       <workItem from="1618558068553" duration="3097000" />
       <workItem from="1618825913937" duration="4215000" />
-    </task>
-    <task id="LOCAL-00001" summary="Mudanças no adicionar serviços e detalhes serviços">
-      <created>1613424516471</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1613424516471</updated>
+      <workItem from="1618931847407" duration="97000" />
     </task>
     <task id="LOCAL-00002" summary="barra de pesquisa, botão de adicionar, scrollbar horizontal para numero de horas&#10;&#10;!!!!!ATENÇÂO!!!!!&#10;Problema com bootstrap e links, necessario resolver para continuação">
       <created>1613508689550</created>
@@ -492,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618498051060</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="correção ortográfica">
+      <created>1618931927054</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1618931927054</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +509,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="navbar pagina admin" />
     <MESSAGE value="subcategorias Admin&#10;Perfil ao contrario" />
     <MESSAGE value="separar front office e back office" />
     <MESSAGE value="Dificuldades no index" />
@@ -536,6 +533,7 @@
     <MESSAGE value="botão requisitar serviço" />
     <MESSAGE value="criação da pagina pedidos.php &#10;inclusão do botão na pagina perfil e na pagina do serviço" />
     <MESSAGE value="base de dados v1.1 feito" />
-    <option name="LAST_COMMIT_MESSAGE" value="base de dados v1.1 feito" />
+    <MESSAGE value="correção ortográfica" />
+    <option name="LAST_COMMIT_MESSAGE" value="correção ortográfica" />
   </component>
 </project>
