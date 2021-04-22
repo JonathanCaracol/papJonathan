@@ -24,8 +24,8 @@ $result=mysqli_query($con,$sql);
                    <?php
                    while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
                    ?>
-                   <div class="col-md-4 col-sm-4">
-                       <div class="courses-thumb courses-thumb-secondary">
+                       </a><div class="col-md-4 col-sm-4">
+                           <a href="servicolista.php?id=<?php echo $dados['categoriaId']?>"> <div class="courses-thumb courses-thumb-secondary">
                            <div class="courses-top">
                                <div class="courses-image">
                                    <img src="<?php echo $dados['categoriaImagemURL'] ?>" class="img-responsive" alt="">
@@ -33,10 +33,10 @@ $result=mysqli_query($con,$sql);
                            </div>
 
                            <div class="courses-detail">
-                               <h3><a href="servicolista.php?id=<?php echo $dados['categoriaId']?>"><?php echo $dados['categoriaNome'] ?></a></h3>
+                               <h3><?php echo $dados['categoriaNome'] ?></h3>
                                <br><p><?php echo $dados['categoriaDescricao']?></p>
                            </div>
-                       </div>
+                       </div></a>
                    </div>
                        <?php
                    }
