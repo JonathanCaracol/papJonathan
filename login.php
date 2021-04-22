@@ -20,13 +20,13 @@ top(LOGINREGISTAR);
         <div class="row">
 
             <div class="col-md-6 col-sm-12">
-                <form id="contact-form" role="form" action="" method="post">
+                <form id="contact-form" role="form" action="confirmaLogin.php" method="post">
                     <div class="section-title">
                         <h2>Volte para sua conta <small>Faça parte da grande comunidade do voluntariado!</small></h2>
                     </div>
 
                     <div class="col-md-12 col-sm-12">
-                        <input type="email" class="form-control" placeholder="Escreva o seu email" name="email" required>
+                        <input type="text" class="form-control" placeholder="Escreva o seu nome de utilizador" name="nome" required>
 
                         <input type="password" class="form-control" placeholder="Escreva a sua palavra-passe" name="password" required>
                     </div>

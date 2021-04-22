@@ -1,7 +1,7 @@
 <?php
 // dados na base de dados
 include_once("../includes/body.inc.php");
-$sql="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoUtilizadorId=1";
+$sql="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoUtilizadorId=".$_SESSION['id'];
 $result=mysqli_query($con,$sql);
 
 

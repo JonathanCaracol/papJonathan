@@ -1,12 +1,16 @@
 <?php
 include_once ("config.inc.php");
+session_start();
 $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
 function top($menu=HOME){
     $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
-$sqlNotif="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId where servicoUtilizadorId=1";
+if(!isset($_SESSION['id'])){
+}else{
+$sqlNotif="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId where servicoUtilizadorId=".$_SESSION['id'];
                       $resultnotif=mysqli_query($con,$sqlNotif);
                           $dadosNotif=mysqli_fetch_array($resultnotif);
                           $notif=(int)$dadosNotif['count(pedidoId)'];
+}
 ?>
 
     <!DOCTYPE html>
@@ -65,9 +69,18 @@ $sqlNotif="select count(pedidoId) from pedidos inner join servicos on pedidoServ
                 <li <?php if ($menu==HOME) echo "class=\"active\"";?> ><a href="index.php">Home</a></li>
                 <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offers.php">Serviços</a></li>
                 <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="contact.php">Contacte-nos</a></li>
+                <?php
+                if(!isset($_SESSION['id'])){
+                ?>
                 <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="register.php">Registrar-se/Entrar</a></li>
-                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php">Meu perfil<span class="badge badge-pill" style="padding-left: 5px;margin-left: 5px;background-color: lightcyan;color: #29ca8e ";><?php echo $notif; ?></span></a></li>
-                <li><a href="../papJonathan/admin/offersAdmin.php">Administração</a></li>
+                    <?php
+                }else{
+                ?>
+                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php?id=<?php echo $_SESSION['id']?>"><?php echo $_SESSION['nome']?><span class="badge badge-pill" style="padding-left: 5px;margin-left: 5px;background-color: lightcyan;color: #29ca8e ";><?php echo $notif; ?></span></a></li>
+                <li><a href="logout.php">Logout</a></li>
+                    <?php
+                }
+                ?>
             </ul>
         </div>
 

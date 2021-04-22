@@ -16,15 +16,15 @@ $result=mysqli_query($con,$sql);
             <?php
             while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
                 ?>
-                <div>
+                <a href="servicoDetalhes.php?id=<?php echo $dados['servicoId']?>"><div>
                     <div style="background-color: #aff3d8" class="courses-thumb courses-thumb-secondary">
                         <div class="courses-detail">
-                            <h3><a href="servicoDetalhes.php?id=<?php echo $dados['servicoId']?>"><?php echo $dados['servicoNome'] ?></a></h3>
+                            <h3><?php echo $dados['servicoNome'] ?></h3>
                             <br><p><?php echo $dados['utilizadorNome']?></p>
                             <br><p><?php echo $dados['utilizadorEmail']?></p>
                         </div>
                     </div>
-                </div>
+                </div></a>
                 <?php
             }
             ?>

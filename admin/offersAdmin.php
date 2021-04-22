@@ -2,7 +2,7 @@
 include_once("../includes/body.inc.php");
 topAdmin(OFFERS);
 
-$sql ="Select * from categorias where categoriaCategoriaId is NULL";
+$sql ="Select * from categorias";
 $result=mysqli_query($con,$sql);
 ?>
 
@@ -30,7 +30,7 @@ $result=mysqli_query($con,$sql);
                     </tr>
 
 <?php
-while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
+    while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
     ?>
                     <tr>
                         <td><img width="120" src="../<?php echo $dados['categoriaImagemURL']?>"></td>

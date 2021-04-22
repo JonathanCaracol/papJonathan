@@ -1,13 +1,16 @@
 <?php
+    $id=intval($_GET['id']);
     include_once("includes/body.inc.php");
     top(PERFIL);
-    $sql ="Select * from utilizadores where utilizadorId = '1'";
+
+    $sql ="Select * from utilizadores where utilizadorId =".$id;
     $result=mysqli_query($con,$sql);
     $dados=mysqli_fetch_array($result);
-$sqlNotif="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId where servicoUtilizadorId=1";
-$resultnotif=mysqli_query($con,$sqlNotif);
-$dadosNotif=mysqli_fetch_array($resultnotif);
-$notif=(int)$dadosNotif['count(pedidoId)'];
+
+    $sqlNotif="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId where servicoUtilizadorId=".$id;
+    $resultnotif=mysqli_query($con,$sqlNotif);
+    $dadosNotif=mysqli_fetch_array($resultnotif);
+    $notif=(int)$dadosNotif['count(pedidoId)'];
 ?>
 
 <section style="background-color: powderblue">

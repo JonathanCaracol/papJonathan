@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="base de dados">
-      <change afterPath="$PROJECT_DIR$/pedidoCriar.php" afterDir="false" />
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="icons e requisitar serviço&#10;:)">
+      <change afterPath="$PROJECT_DIR$/confirmaLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/criarconta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perfilCliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos.php" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicoDetalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicoDetalhes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fase2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papGiovanna-main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,14 +162,8 @@
       <workItem from="1618558068553" duration="3097000" />
       <workItem from="1618825913937" duration="4215000" />
       <workItem from="1618931847407" duration="97000" />
-      <workItem from="1618993517346" duration="12302000" />
-    </task>
-    <task id="LOCAL-00003" summary="Nao consegui fazer modulo, dá problema&#10;PRoblema com navbar resolvido: usei outra navbar, pequeno problema com essa nova navbar precisa ser resolvido.">
-      <created>1613593331033</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1613593331033</updated>
+      <workItem from="1618993517346" duration="12354000" />
+      <workItem from="1619080546375" duration="11858000" />
     </task>
     <task id="LOCAL-00004" summary="Cards para registar e entrar na conta">
       <created>1613682607056</created>
@@ -500,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618993626107</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="icons e requisitar serviço&#10;:)">
+      <created>1619019455409</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1619019455409</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +527,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="separar front office e back office" />
     <MESSAGE value="Dificuldades no index" />
     <MESSAGE value="pagina principal a funcionar e admin melhorado" />
     <MESSAGE value="criar a pagina servicoadmin para poder apagar serviços que não respeitam as regras&#10;Melhoramento do site visualmente em geral e da pagina servicoLista" />
@@ -544,6 +551,7 @@
     <MESSAGE value="base de dados v1.1 feito" />
     <MESSAGE value="correção ortográfica" />
     <MESSAGE value="base de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="base de dados" />
+    <MESSAGE value="icons e requisitar serviço&#10;:)" />
+    <option name="LAST_COMMIT_MESSAGE" value="icons e requisitar serviço&#10;:)" />
   </component>
 </project>

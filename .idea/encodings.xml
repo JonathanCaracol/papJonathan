@@ -25,12 +25,14 @@
     <file url="file://$PROJECT_DIR$/admin/servicosAdmin.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/subcategoriasAdmin.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/criarconta.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/editarServicos.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/includes/body.inc.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/includes/bodyinc.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/common.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pedidos.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/perfil.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/perfilCliente.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/servicolista.php" charset="UTF-8" />
     <file url="PROJECT" charset="ISO-8859-1" />
   </component>
