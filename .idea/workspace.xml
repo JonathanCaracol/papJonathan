@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="" />
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/avaliarPedido.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recusarPedido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_20_47__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_20_47__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criarconta.php" beforeDir="false" afterPath="$PROJECT_DIR$/criarconta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginexemplo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoCriar.php" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoCriar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos.php" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilCliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilCliente.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

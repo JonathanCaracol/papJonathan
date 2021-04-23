@@ -25,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/admin/servicosAdmin.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/subcategoriasAdmin.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/utilizadorAtivoDesativo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/avaliarPedido.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/confirmaLogin.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/criarconta.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/editarServicos.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/includes/body.inc.php" charset="UTF-8" />

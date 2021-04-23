@@ -1,6 +1,7 @@
 <?php
+session_start();
 $id=intval($_POST['id']);
-$cliente=4;
+$cliente=$_SESSION['id'];
 include_once("includes/body.inc.php");
 $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
 top(OFFERS);

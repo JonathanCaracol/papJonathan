@@ -1,11 +1,8 @@
 <?php
 include_once("includes/body.inc.php");
 top(PERFIL);
-$id = $_GET["id"];
 ?>
 
-
-<input type="hidden" name="id" value="<?php echo $id; ?>" id="id">
 <section style="background-color: powderblue">
     <div class="container">
         <div class="row">

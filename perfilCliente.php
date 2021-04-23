@@ -10,7 +10,7 @@ $dados=mysqli_fetch_array($result);
     <section style="background-color: powderblue">
         <div class="container">
             <div class="text-center">
-                <h1>Perfil de <?php echo  $dados['utilizadorNome']?></h1>
+                <h1>Informações do cliente</h1>
 
                 <br>
 
@@ -25,16 +25,14 @@ $dados=mysqli_fetch_array($result);
             <div class="row">
 
                 <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" role="form" action="" method="post">
-                        <div class="section-title">
-                            <h2>Contacte-nos <small>Adoramos conversar, mande-nos uma mensagem!</small></h2>
-                        </div>
+                    <form id="contact-form" role="form" action="pedidos.php" method="post">
 
                         <div class="col-md-12 col-sm-12">
-                            <input type="email" class="form-control" value="<?php echo $dados['utilizadorEmail']?>" name="email" required>
-
-                            <input type="text" class="form-control" value="<?php echo $dados['utilizadorNome']?>" name="nome" required>
-
+                            <label>Nome do cliente:</label>
+                            <input type="email" class="form-control" value="<?php echo $dados['utilizadorEmail']?>" name="email" required><br>
+                            <label>Email do cliente:</label>
+                            <input type="text" class="form-control" value="<?php echo $dados['utilizadorNome']?>" name="nome" required><br>
+                            <label>Numero de telefone do cliente:</label>
                             <input type="text" value="<?php echo $dados['utilizadorTelefone']?>" class="form-control" name="telefone" required>
                         </div>
 
@@ -47,7 +45,7 @@ $dados=mysqli_fetch_array($result);
 
                 <div class="col-md-6 col-sm-12">
                     <div class="contact-image">
-                        <img src="images/contact-1-600x400.jpg" style="height: 404px; width: 404px" class="img-responsive" alt="Smiling Two Girls">
+                        <img src="images/perfil.png" style="height: 404px; width: 404px" class="img-responsive">
                     </div>
                 </div>
 
