@@ -82,7 +82,7 @@ if(!isset($_SESSION['id'])){
                     <?php
                 }else{
                 ?>
-                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php?id=<?php echo $_SESSION['id']?>"><?php echo $_SESSION['nome']?><span class="badge badge-pill" style="padding-left: 5px;margin-left: 5px;background-color: lightcyan;color: #29ca8e ";><?php echo $notificacao; ?></span></a></li>
+                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php"><?php echo $_SESSION['nome']?><span class="badge badge-pill" style="padding-left: 5px;margin-left: 5px;background-color: lightcyan;color: #29ca8e ";><?php echo $notificacao; ?></span></a></li>
                 <li><a href="logout.php">Logout</a></li>
                     <?php
                 }
