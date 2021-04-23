@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="icons e requisitar serviço&#10;:)">
-      <change afterPath="$PROJECT_DIR$/loginexemplo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,14 +147,7 @@
       <workItem from="1618931847407" duration="97000" />
       <workItem from="1618993517346" duration="12354000" />
       <workItem from="1619080546375" duration="11858000" />
-      <workItem from="1619167143257" duration="316000" />
-    </task>
-    <task id="LOCAL-00004" summary="Cards para registar e entrar na conta">
-      <created>1613682607056</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613682607056</updated>
+      <workItem from="1619167143257" duration="358000" />
     </task>
     <task id="LOCAL-00005" summary="tentativa em arte">
       <created>1614096716108</created>
@@ -495,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619019455409</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="login escondido para jonathan">
+      <created>1619167480205</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1619167480206</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +511,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dificuldades no index" />
     <MESSAGE value="pagina principal a funcionar e admin melhorado" />
     <MESSAGE value="criar a pagina servicoadmin para poder apagar serviços que não respeitam as regras&#10;Melhoramento do site visualmente em geral e da pagina servicoLista" />
     <MESSAGE value="tentativa de ajax falhada, ajuda do stor necessária" />
@@ -539,6 +535,7 @@
     <MESSAGE value="correção ortográfica" />
     <MESSAGE value="base de dados" />
     <MESSAGE value="icons e requisitar serviço&#10;:)" />
-    <option name="LAST_COMMIT_MESSAGE" value="icons e requisitar serviço&#10;:)" />
+    <MESSAGE value="login escondido para jonathan" />
+    <option name="LAST_COMMIT_MESSAGE" value="login escondido para jonathan" />
   </component>
 </project>
