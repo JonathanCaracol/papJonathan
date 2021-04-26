@@ -3,15 +3,18 @@
 include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
 $id=intval($_POST['id']);
-$sql="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoNome LIKE '$txt%'";
+$sql="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoNome LIKE '%$txt%'";
 if($id>0){
-    $sql="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoNome LIKE '$txt%' and servicoCategoriaId=".$id;
+    $sql="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoNome LIKE '%$txt%' and servicoCategoriaId=".$id;
 }
 
 $result=mysqli_query($con,$sql);
 
 ?>
-<section >
+<section>
+    <a href="admin/adicionarServico.php" style="margin-bottom: 20px;background-color: #aff3d8;color:black ; width: 170px; height: 40px" class="badge badge-pill">
+        <h5>Adicionar um serviço</h5>
+    </a>
 
             <?php
             while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result

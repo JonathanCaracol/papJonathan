@@ -1,7 +1,7 @@
 <?php
 include_once ("includes/config.inc.php");
 $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
-$sql="select * from users";
+$sql="select * from users inner join utilizadores on userId = utilizadorUserId";
 $result=mysqli_query($con,$sql);
 
 $nome=addslashes($_POST['nome']);
@@ -11,16 +11,21 @@ if ($nome === 'admin' AND $password ==='admin'){
     header("location:admin/offersAdmin.php");
 }else{
     while ($dados=mysqli_fetch_array($result)){
-        if ($nome === $dados['userName'] AND $password === $dados['userPassword']){
+        if ($nome === $dados['userName'] AND $password === $dados['userPassword'] AND $dados['utilizadorEstado'] == 'ativo') {
             session_start();
-            $_SESSION['id']=$dados['userId'];
-            $_SESSION['nome']=$dados['userName'];
+            $_SESSION['id'] = $dados['userId'];
+            $_SESSION['nome'] = $dados['userName'];
             header("location:index.php");
-        }else{
+        }else if($nome === $dados['userName'] AND $password === $dados['userPassword'] AND $dados['utilizadorEstado'] == 'inativo'){{
+            $verificacao='sim';
+            header("location:login.php?message");
         }
-    }
-    header("location:index.php");
-}
+        }
+        else if(!isset($_SESSION['id']) AND !isset($verificacao)){{
+            header("location:login.php?msg");
+        }
+        }
+}}
 ?>
 
 <script src="../js/jquery.js"></script>

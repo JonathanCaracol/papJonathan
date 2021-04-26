@@ -1,10 +1,13 @@
 <?php
-$id=intval($_GET['id']);
 include_once("../includes/body.inc.php");
 topAdmin(OFFERS);
 
 $sql ="Select * from servicos";
 $result=mysqli_query($con,$sql);
+
+if(!isset($_SESSION['id'])){
+    header("location:../login.php?conetar");
+}
 ?>
 
 <section style="background-color: lightcyan">
@@ -26,7 +29,7 @@ $result=mysqli_query($con,$sql);
                         <h2>Crie um serviço<small>Ajude mais pessoas criando mais serviços!</small></h2>
                     </div>
                     <div class="col-md-12 col-sm-12">
-                        <input type="hidden" name="id" value="<?php echo $id?>">
+                        <input type="hidden" name="id" value="<?php echo $_SESSION['id']?>">
 
                         <input type="text" class="form-control" placeholder="Nome do serviço" name="nome" required>
 

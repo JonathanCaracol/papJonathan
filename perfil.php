@@ -10,6 +10,11 @@
     $resultnotif=mysqli_query($con,$sqlNotif);
     $dadosNotif=mysqli_fetch_array($resultnotif);
     $notif=(int)$dadosNotif['count(pedidoId)'];
+    $sqlNotif2="select count(avaliacaoId) from avaliacao where avaliacaoClienteId=".$_SESSION['id'];
+    $resultnotif2=mysqli_query($con,$sqlNotif2);
+    $dadosNotif2=mysqli_fetch_array($resultnotif2);
+    $notif2=(int)$dadosNotif2['count(avaliacaoId)'];
+    $notificacao= $notif+$notif2;
 ?>
 
 <section style="background-color: powderblue">
@@ -35,7 +40,7 @@
                                 <div class="col-md-12 col-sm-12">
                                     <a href="pedidos.php?id="<?php echo $dados['utilizadorId']?> class="badge badge-pill" style="background-color: white;color: #29ca8e"><span class="badge badge-pill" style="background-color: white; color: #29ca8e"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
                                             <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
-                                        </svg><?php echo $notif; ?></span></a>
+                                        </svg><?php echo $notificacao; ?></span></a>
                                     <input type="email" class="form-control" value="<?php echo $dados['utilizadorEmail']?>" name="email" required>
 
                                     <input type="text" class="form-control" value="<?php echo $dados['utilizadorNome']?>" name="nome" required>

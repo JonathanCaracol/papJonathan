@@ -1,16 +1,18 @@
 <?php
-session_start();
-$id=intval($_POST['id']);
-$cliente=$_SESSION['id'];
 include_once("includes/body.inc.php");
 $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
 top(OFFERS);
 
-
+if(!isset($_SESSION['id'])){
+    header("location:login.php?conetar");
+}else{
+    $id=intval($_POST['id']);
+    $cliente=$_SESSION['id'];
 $sql="insert into pedidos(pedidoServicoId,pedidoClienteId) values('$id','$cliente');";
 mysqli_query($con,$sql);
 
 header("location:offers.php");
+}
 ?>
 
 <script src="../js/jquery.js"></script>
