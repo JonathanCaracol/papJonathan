@@ -5,12 +5,25 @@ $sql="Select * from pedidos inner join servicos on pedidoServicoId = servicoId i
 $result=mysqli_query($con,$sql);
 $sql2="Select * from avaliacao inner join servicos on avaliacaoServicoId = servicoId inner join utilizadores on avaliacaoClienteId = utilizadorId where avaliacaoClienteId=".$_SESSION['id'];
 $result2=mysqli_query($con,$sql2);
-
+$count="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId where servicoUtilizadorId=".$_SESSION['id'];
+$count2="select count(avaliacaoId) from avaliacao where avaliacaoClienteId=".$_SESSION['id'];
+$resultcount=mysqli_query($con,$count);
+$resultcount2=mysqli_query($con,$count2);
+$dadoscount=mysqli_fetch_array($resultcount);
+$dadoscount2=mysqli_fetch_array($resultcount2);
+$finalcount=(int)$dadoscount['count(pedidoId)'];
+$finalcount2=(int)$dadoscount2['count(avaliacaoId)'];
 
 ?>
-<section >
-
+<section>
     <?php
+    if ($finalcount>0){
+    ?>
+    <div class="text-center">
+        <h1>Pedidos</h1>
+    </div>
+    <?php
+    }
     while($dados=mysqli_fetch_array($result)){// enquanto existirem registos no result
         ?>
         <div>
@@ -18,7 +31,7 @@ $result2=mysqli_query($con,$sql2);
                 <div class="courses-detail">
                     <h2><a href="servicoDetalhes.php?id=<?php echo $dados['servicoId']?>">Nome do serviço: <?php echo $dados['servicoNome']?></a></h2>
                     <h4><a href="perfilCliente.php?id=<?php echo $dados['utilizadorId']?>"> Nome do cliente: <?php echo $dados['utilizadorNome'] ?></h4>
-                    <br><a href=""><h1 class="badge badge-pill" style="width: 200px;height: 30px;vertical-align: middle;background-color: white; color: green"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 14 12">
+                    <br><a href="aceitarPedido.php?id=<?php echo $dados['pedidoId']?>"><h1 class="badge badge-pill" style="width: 200px;height: 30px;vertical-align: middle;background-color: white; color: green"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 14 12">
                         <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                     </svg>Aceitar</h1></a>
                     <a href="recusarPedido.php?id=<?php echo $dados['pedidoId']?>"><h1 class="badge badge-pill" style="margin-left: 30px;width: 200px;height: 30px;vertical-align: middle;background-color: white; color: #ff0000"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 14 12">
@@ -29,8 +42,13 @@ $result2=mysqli_query($con,$sql2);
         </div>
         <?php
     }
+    if ($finalcount2>0){
     ?>
+    <div class="text-center">
+        <h1>Avaliações</h1>
+    </div>
     <?php
+    }
     while($dados2=mysqli_fetch_array($result2)){// enquanto existirem registos no result
         ?>
         <div>
@@ -38,7 +56,7 @@ $result2=mysqli_query($con,$sql2);
                 <div class="courses-detail">
                     <h2><a href="servicoDetalhes.php?id=<?php echo $dados2['servicoId']?>">Nome do serviço: <?php echo $dados2['servicoNome']?></a></h2>
                     <h4><a href="perfilCliente.php?id=<?php echo $dados2['utilizadorId']?>"> Nome do cliente: <?php echo $dados2['utilizadorNome'] ?></h4>
-                    <br><a href=""><h1 class="badge badge-pill" style="width: 200px;height: 30px;vertical-align: middle;background-color: white; color: green"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 14 12">
+                    <br><a href="avaliarPedido.php?id=<?php echo $dados2['avaliacaoId']?>"><h1 class="badge badge-pill" style="width: 200px;height: 30px;vertical-align: middle;background-color: white; color: green"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 14 12">
                             <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                         </svg>Avaliar</h1></a>
                 </div>

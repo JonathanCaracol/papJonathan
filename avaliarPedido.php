@@ -1,7 +1,8 @@
 <?php
+$id=intval($_GET['id']);
 include_once("includes/body.inc.php");
 top(PERFIL);
-$sql= "Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoId=".$_SESSION['servicoId'];
+$sql= "Select * from avaliacao inner join servicos on avaliacaoServicoId = servicoId inner join utilizadores on servicoUtilizadorId = utilizadorId where avaliacaoId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
@@ -24,7 +25,7 @@ $dados=mysqli_fetch_array($result);
             <div class="col-md-6 col-sm-12">
                 <form id="contact-form" role="form" action="pedidoCriar.php" method="post">
                     <div class="section-title">
-                        <h2>Requisite este serviço <small>Contacta esta pessoa e ela irá ajudar!</small></h2>
+                        <h2>Avalie este serviço</h2>
                     </div>
 
                     <div class="col-md-12 col-sm-12">

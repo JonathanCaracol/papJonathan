@@ -7,11 +7,11 @@ top(PERFIL);
     <div class="container">
         <div class="row">
             <div class="text-center">
-                <h1>Pedidos</h1>
+                <h1>Notificações</h1>
 
                 <br>
 
-                <p class="lead">Pode ver os serviços que foram requisitados por clientes.</p>
+                <p class="lead">Pode ver os serviços que foram requisitados por clientes e que requisitou.</p>
             </div>
         </div>
     </div>
