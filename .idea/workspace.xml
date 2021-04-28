@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="verificacao se login feito, botão de adicionar servicos, nao deixar entrar em contas desativadas.">
-      <change afterPath="$PROJECT_DIR$/aceitarPedido.php" afterDir="false" />
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="avaliacao Inicio">
+      <change afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/avaliarPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/avaliarPedido.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos.php" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recusarPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/recusarPedido.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papGiovanna-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,14 +156,9 @@
       <workItem from="1619167616129" duration="162000" />
       <workItem from="1619202550217" duration="37000" />
       <workItem from="1619202782826" duration="477000" />
-      <workItem from="1619512802175" duration="3404000" />
-    </task>
-    <task id="LOCAL-00007" summary=".">
-      <created>1614291105871</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1614291105871</updated>
+      <workItem from="1619512802175" duration="3503000" />
+      <workItem from="1619598391307" duration="341000" />
+      <workItem from="1619600189607" duration="7445000" />
     </task>
     <task id="LOCAL-00008" summary="registar">
       <created>1614333901312</created>
@@ -504,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619450698427</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="avaliacao Inicio">
+      <created>1619538546405</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1619538546406</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +522,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tentativa de ajax falhada, ajuda do stor necessária" />
     <MESSAGE value="barra de pesquisa" />
     <MESSAGE value="problemas resolvidos" />
     <MESSAGE value="pequena mudança" />
@@ -548,6 +546,7 @@
     <MESSAGE value="login escondido para jonathan" />
     <MESSAGE value="login exemplo" />
     <MESSAGE value="verificacao se login feito, botão de adicionar servicos, nao deixar entrar em contas desativadas." />
-    <option name="LAST_COMMIT_MESSAGE" value="verificacao se login feito, botão de adicionar servicos, nao deixar entrar em contas desativadas." />
+    <MESSAGE value="avaliacao Inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="avaliacao Inicio" />
   </component>
 </project>
