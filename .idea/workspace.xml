@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="avaliacao Inicio">
-      <change afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="pequenas mudanças">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avaliarPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/avaliarPedido.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +156,9 @@
       <workItem from="1619512802175" duration="3503000" />
       <workItem from="1619598391307" duration="341000" />
       <workItem from="1619600189607" duration="7445000" />
+      <workItem from="1619699915877" duration="595000" />
+      <workItem from="1619722292135" duration="81000" />
+      <workItem from="1619770706027" duration="37000" />
     </task>
     <task id="LOCAL-00008" summary="registar">
       <created>1614333901312</created>

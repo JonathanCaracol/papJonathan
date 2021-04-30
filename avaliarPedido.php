@@ -41,10 +41,12 @@ $dados=mysqli_fetch_array($result);
                         <select class="form-control" name="categoria">
                             <option value="-1">Escolha a qualidade do serviço...</option>
                             <option value="1">Má</option>
+                            <option value="2">Boa</option>
+                            <option value="3">Muito boa</option>
                         </select>
                     </div>
                     <div class="col-md-12 col-sm-12">
-                        <input type="submit" class="form-control" value="Requisitar o serviço">
+                        <input type="submit" class="form-control" value="Submeter a avaliação">
                     </div>
 
                 </form>
