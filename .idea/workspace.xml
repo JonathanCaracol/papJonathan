@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="pequenas mudanças">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliarPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/avaliarPedido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaAvalia.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +163,10 @@
       <workItem from="1619699915877" duration="595000" />
       <workItem from="1619722292135" duration="81000" />
       <workItem from="1619770706027" duration="37000" />
+      <workItem from="1619793061169" duration="1925000" />
+      <workItem from="1620029477131" duration="615000" />
+      <workItem from="1620723703990" duration="6529000" />
+      <workItem from="1621242204476" duration="1148000" />
     </task>
     <task id="LOCAL-00008" summary="registar">
       <created>1614333901312</created>

@@ -38,7 +38,7 @@ $dados=mysqli_fetch_array($result);
 
                         <textarea readonly class="form-control" rows="6" placeholder="<?php echo $dados['servicoDescricao']?>" name="message" required></textarea>
 
-                        <select class="form-control" name="categoria">
+                        <select class="form-control" name="nota">
                             <option value="-1">Escolha a qualidade do serviço...</option>
                             <option value="1">Má</option>
                             <option value="2">Boa</option>
