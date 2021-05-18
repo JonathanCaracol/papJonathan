@@ -41,7 +41,7 @@ $dados=mysqli_fetch_array($result);
                                 $sql1="select * from categorias order by categoriaNome";
                                 $result1=mysqli_query($con,$sql1);
                                 while ($dados1=mysqli_fetch_array($result1)){
-                                    ?>
+                                    if ($dados1['categoriaId']<>$dados['categoriaId'])?>
                                     <option value="<?php echo $dados1['categoriaId']?>"><?php echo $dados1['categoriaNome']?></option>
                                     <?php
                                 }
