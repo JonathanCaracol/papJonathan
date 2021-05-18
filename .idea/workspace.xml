@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="pequenas mudanças">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="avaliacao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avaliarPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/avaliarPedido.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaAvalia.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/editaServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editaServico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/editarcategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editarcategoria.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +164,9 @@
       <workItem from="1619793061169" duration="1925000" />
       <workItem from="1620029477131" duration="615000" />
       <workItem from="1620723703990" duration="6529000" />
-      <workItem from="1621242204476" duration="1148000" />
-    </task>
-    <task id="LOCAL-00008" summary="registar">
-      <created>1614333901312</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1614333901312</updated>
+      <workItem from="1621242204476" duration="1340000" />
+      <workItem from="1621248160496" duration="1474000" />
+      <workItem from="1621326006348" duration="348000" />
     </task>
     <task id="LOCAL-00009" summary="edit">
       <created>1614339943813</created>
@@ -511,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619538546406</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="avaliacao">
+      <created>1621243536887</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1621243536887</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +530,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="barra de pesquisa" />
     <MESSAGE value="problemas resolvidos" />
     <MESSAGE value="pequena mudança" />
     <MESSAGE value="search bar utilizadores" />
@@ -555,6 +554,7 @@
     <MESSAGE value="login exemplo" />
     <MESSAGE value="verificacao se login feito, botão de adicionar servicos, nao deixar entrar em contas desativadas." />
     <MESSAGE value="avaliacao Inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="avaliacao Inicio" />
+    <MESSAGE value="avaliacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="avaliacao" />
   </component>
 </project>

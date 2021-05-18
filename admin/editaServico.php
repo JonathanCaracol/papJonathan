@@ -4,7 +4,7 @@ include_once("../includes/body.inc.php");
 topAdmin(OFFERS);
 
 
-$sql="select * from servicos where servicoId=".$id;
+$sql="select * from servicos inner join categorias on servicoCategoriaId = categoriaId where servicoId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 
@@ -33,16 +33,16 @@ $dados=mysqli_fetch_array($result);
 
                             <input type="text" class="form-control" name="nome" required value="<?php echo $dados['servicoNome']?>"><br>
 
-                            <textarea type="text" class="form-control" name="descricao" required placeholder="<?php echo $dados['servicoDescricao']?>"></textarea><br>
+                            <textarea type="text" class="form-control" name="descricao" required><?php echo $dados['servicoDescricao']?></textarea><br>
 
                             <select class="form-control" name="categoria" required>
-                                <option value="-1">Escolha a categoria...</option>
+                                <option value="<?php echo $dados['categoriaId']?>"><?php echo $dados['categoriaNome']?></option>
                                 <?php
-                                $sql="select * from categorias order by categoriaNome";
-                                $result=mysqli_query($con,$sql);
-                                while ($dados=mysqli_fetch_array($result)){
+                                $sql1="select * from categorias order by categoriaNome";
+                                $result1=mysqli_query($con,$sql1);
+                                while ($dados1=mysqli_fetch_array($result1)){
                                     ?>
-                                    <option value="<?php echo $dados['categoriaId']?>"><?php echo $dados['categoriaNome']?></option>
+                                    <option value="<?php echo $dados1['categoriaId']?>"><?php echo $dados1['categoriaNome']?></option>
                                     <?php
                                 }
                                 ?>

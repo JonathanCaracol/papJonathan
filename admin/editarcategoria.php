@@ -32,7 +32,7 @@ $dados=mysqli_fetch_array($result);
 
                             <input type="text" class="form-control" name="nome" required value="<?php echo $dados['categoriaNome']?>"><br>
 
-                            <textarea type="text" class="form-control" name="descricao" required placeholder="<?php echo $dados['categoriaDescricao']?>"></textarea><br>
+                            <textarea type="text" class="form-control" name="descricao" required><?php echo $dados['categoriaDescricao']?></textarea><br>
 
                             <img width="120" src="../<?php echo $dados['categoriaImagemURL']?>">
                             <input type="file" name="imagem"><br>
