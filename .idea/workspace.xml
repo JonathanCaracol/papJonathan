@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="editar Servico e Editar categorias back-office">
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="minimo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/eliminarcategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/eliminarcategoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/desativarUtilizador.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/desativarUtilizador.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,14 +169,11 @@
       <workItem from="1621412993988" duration="1806000" />
       <workItem from="1621939808728" duration="628000" />
       <workItem from="1622038764629" duration="3706000" />
-      <workItem from="1622215513075" duration="1406000" />
-    </task>
-    <task id="LOCAL-00011" summary="tabelas serviços">
-      <created>1614547631682</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1614547631682</updated>
+      <workItem from="1622215513075" duration="1426000" />
+      <workItem from="1622450645919" duration="21000" />
+      <workItem from="1624531289103" duration="397000" />
+      <workItem from="1624616590085" duration="176000" />
+      <workItem from="1624867994681" duration="1550000" />
     </task>
     <task id="LOCAL-00012" summary="include">
       <created>1614681838051</created>
@@ -514,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621351256744</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="minimo">
+      <created>1622216939373</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1622216939374</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pequena mudança" />
     <MESSAGE value="search bar utilizadores" />
     <MESSAGE value="introdução dos botãos" />
     <MESSAGE value="botões nao consegui" />
@@ -558,6 +561,7 @@
     <MESSAGE value="avaliacao Inicio" />
     <MESSAGE value="avaliacao" />
     <MESSAGE value="editar Servico e Editar categorias back-office" />
-    <option name="LAST_COMMIT_MESSAGE" value="editar Servico e Editar categorias back-office" />
+    <MESSAGE value="minimo" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimo" />
   </component>
 </project>
