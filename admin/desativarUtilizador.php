@@ -11,10 +11,13 @@ mysqli_query($con,$sql);
 echo $sql="delete from servicos where servicoUtilizadorId".$id;
 mysqli_query($con,$sql);
 
-echo $sql="delete from pedidos where pedidoServicoId".$id;
+echo $sql="delete from pedidos inner join servicos on pedidoServicoId = servicoId where servicoUtilizadorId".$id;
 mysqli_query($con,$sql);
 
-echo $sql="delete from avaliacao where avaliacaoServicoId".$id;
+echo $sql="delete from pedidos where pedidoClienteId".$id;
+mysqli_query($con,$sql);
+
+echo $sql="delete from avaliacao where avaliacaoClienteId".$id;
 mysqli_query($con,$sql);
 //header("location:utilizadorAtivoDesativo.php");
 ?>

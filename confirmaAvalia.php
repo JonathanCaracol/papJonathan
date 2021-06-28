@@ -44,5 +44,5 @@ if ($nota===1){
 }
 $delete ="delete from avaliacao where avaliacaoId=".$avaliacao;
 mysqli_query($con,$delete);
-//header("location:perfil.php");
+header("location:perfil.php");
 ?>

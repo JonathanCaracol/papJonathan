@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="minimo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/desativarUtilizador.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/desativarUtilizador.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaAvalia.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,14 +175,7 @@
       <workItem from="1622450645919" duration="21000" />
       <workItem from="1624531289103" duration="397000" />
       <workItem from="1624616590085" duration="176000" />
-      <workItem from="1624867994681" duration="1550000" />
-    </task>
-    <task id="LOCAL-00012" summary="include">
-      <created>1614681838051</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1614681838051</updated>
+      <workItem from="1624867994681" duration="4416000" />
     </task>
     <task id="LOCAL-00013" summary="front office e resolução do botão no login e registar">
       <created>1614720129233</created>
@@ -518,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622216939374</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="minimo">
+      <created>1624874534461</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1624874534462</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
