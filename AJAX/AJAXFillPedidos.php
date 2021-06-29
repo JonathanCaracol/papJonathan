@@ -1,12 +1,12 @@
 <?php
 // dados na base de dados
 include_once("../includes/body.inc.php");
-$sql="Select * from pedidos inner join servicos on pedidoServicoId = servicoId inner join utilizadores on pedidoClienteId = utilizadorId where servicoUtilizadorId=".$_SESSION['id'];
+$sql="Select * from pedidos inner join servicos on pedidoServicoId = servicoId inner join utilizadores on pedidoClienteId = utilizadorId where servicoUtilizadorId=".$_SESSION['id']." and utilizadorEstado ='ativo'";
 $result=mysqli_query($con,$sql);
-$sql2="Select * from avaliacao inner join servicos on avaliacaoServicoId = servicoId inner join utilizadores on avaliacaoClienteId = utilizadorId where avaliacaoClienteId=".$_SESSION['id'];
+$sql2="Select * from avaliacao inner join servicos on avaliacaoServicoId = servicoId inner join utilizadores on avaliacaoClienteId = utilizadorId where avaliacaoClienteId=".$_SESSION['id']." and utilizadorEstado ='ativo'";
 $result2=mysqli_query($con,$sql2);
-$count="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId where servicoUtilizadorId=".$_SESSION['id'];
-$count2="select count(avaliacaoId) from avaliacao where avaliacaoClienteId=".$_SESSION['id'];
+$count="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoUtilizadorId=".$_SESSION['id']." and utilizadorEstado ='ativo'";
+$count2="select count(avaliacaoId) from avaliacao inner join servicos on avaliacaoServicoId=servicoId inner join utilizadores on servicoUtilizadorId = utilizadorId where avaliacaoClienteId=".$_SESSION['id']." and utilizadorEstado ='ativo'";
 $resultcount=mysqli_query($con,$count);
 $resultcount2=mysqli_query($con,$count2);
 $dadoscount=mysqli_fetch_array($resultcount);

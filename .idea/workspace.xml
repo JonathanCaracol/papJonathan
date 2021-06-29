@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="minimo">
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="Searchbar servicos back-office">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/desativarUtilizador.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/desativarUtilizador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaAvalia.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/offersAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/offersAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +179,8 @@
       <workItem from="1622450645919" duration="21000" />
       <workItem from="1624531289103" duration="397000" />
       <workItem from="1624616590085" duration="176000" />
-      <workItem from="1624867994681" duration="4416000" />
-    </task>
-    <task id="LOCAL-00013" summary="front office e resolução do botão no login e registar">
-      <created>1614720129233</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1614720129233</updated>
+      <workItem from="1624867994681" duration="5074000" />
+      <workItem from="1624954667348" duration="8319000" />
     </task>
     <task id="LOCAL-00014" summary="[Leandro] config.inc.php">
       <created>1614855355744</created>
@@ -520,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624874534462</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Searchbar servicos back-office">
+      <created>1624888337879</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1624888337879</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="search bar utilizadores" />
     <MESSAGE value="introdução dos botãos" />
     <MESSAGE value="botões nao consegui" />
     <MESSAGE value="tentativas falhadas" />
@@ -564,6 +568,7 @@
     <MESSAGE value="avaliacao" />
     <MESSAGE value="editar Servico e Editar categorias back-office" />
     <MESSAGE value="minimo" />
-    <option name="LAST_COMMIT_MESSAGE" value="minimo" />
+    <MESSAGE value="Searchbar servicos back-office" />
+    <option name="LAST_COMMIT_MESSAGE" value="Searchbar servicos back-office" />
   </component>
 </project>

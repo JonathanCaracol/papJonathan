@@ -78,7 +78,7 @@ if(!isset($_SESSION['id'])){
                 <?php
                 if(!isset($_SESSION['id'])){
                 ?>
-                <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="register.php">Registrar-se/Entrar</a></li>
+                <li <?php if ($menu==LOGINREGISTAR) echo "class=\"active\"";?>><a href="login.php">Registrar-se/Entrar</a></li>
                     <?php
                 }else{
                 ?>

@@ -8,18 +8,7 @@ $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
 echo $sql="update utilizadores set utilizadorEstado ='inativo' where utilizadorId=".$id;
 mysqli_query($con,$sql);
 
-echo $sql="delete from servicos where servicoUtilizadorId".$id;
-mysqli_query($con,$sql);
-
-echo $sql="delete from pedidos inner join servicos on pedidoServicoId = servicoId where servicoUtilizadorId".$id;
-mysqli_query($con,$sql);
-
-echo $sql="delete from pedidos where pedidoClienteId".$id;
-mysqli_query($con,$sql);
-
-echo $sql="delete from avaliacao where avaliacaoClienteId".$id;
-mysqli_query($con,$sql);
-//header("location:utilizadorAtivoDesativo.php");
+header("location:utilizadorAtivoDesativo.php");
 ?>
 
 <script src="../js/jquery.js"></script>
