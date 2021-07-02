@@ -15,20 +15,26 @@ $resultbutton=mysqli_query($con,$sqlbutton)
 </section>
 
 
-    <input id="search" type="text" class="form-control" placeholder="Pesquise">
-<form method="post">
-<?php
-while($dadosbutton=mysqli_fetch_array($resultbutton)){
-    ?>
-    <button  type="submit" name="submit1" value="<?php echo $dadosbutton['categoriaId'] ?>" class="btn btn-success"><?php echo $dadosbutton['categoriaNome']?></button>
-    <?php
-    if(isset($_POST["Submit1"])){ ?>
-        <input onload="window.location.refresh()" type="hidden" name="id" value="<?php echo $dadosbutton['categoriaId'] ?>" id="id">
-   <?php
-    }
-}
-?>
-</form>
+
+<div>
+    <input id="search" type="text" class="form-control" style="width: 70%; float: left" placeholder="Pesquise">
+    &nbsp;
+
+    <select id="select" class="form-select" aria-label="Default select example">
+        <option selected>Categorias</option>
+        <?php
+        while($dadosbutton=mysqli_fetch_array($resultbutton)){
+            ?>
+            <option value="<?php echo $dadosbutton['categoriaId'] ?>"><?php echo $dadosbutton['categoriaNome']?></option>
+            <?php
+            if(isset($_POST["Submit1"])){ ?>
+                <input onload="window.location.refresh()" type="hidden" name="id" value="<?php echo $dadosbutton['categoriaId'] ?>" id="id">
+                <?php
+            }
+        }
+        ?>
+    </select>
+</div>
     <div id="tableContent"></div>
 
 <?php

@@ -2,7 +2,7 @@
 $id=intval($_GET['id']);
 include_once("includes/body.inc.php");
 top(PERFIL);
-$sql= "Select * from avaliacao inner join servicos on avaliacaoServicoId = servicoId inner join utilizadores on servicoUtilizadorId = utilizadorId where avaliacaoId=".$id;
+$sql= "Select * from pedidos inner join servicos on pedidoServicoId = servicoId inner join utilizadores on servicoUtilizadorId = utilizadorId where pedidoId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>

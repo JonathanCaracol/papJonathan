@@ -6,15 +6,12 @@ function top($menu=HOME){
     $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
 if(!isset($_SESSION['id'])){
 }else{
-                        $sqlNotif="select count(pedidoId) from pedidos inner join servicos on pedidoServicoId=servicoId where servicoUtilizadorId=".$_SESSION['id'];
+                        $sqlNotif="select count(pedidoId) as nPedidos from pedidos inner join servicos on pedidoServicoId=servicoId 
+                                    where pedidoEstado in ('aceite','pedido') and servicoUtilizadorId=".$_SESSION['id'];
                         $resultnotif=mysqli_query($con,$sqlNotif);
                         $dadosNotif=mysqli_fetch_array($resultnotif);
-                        $notif=(int)$dadosNotif['count(pedidoId)'];
-                        $sqlNotif2="select count(avaliacaoId) from avaliacao where avaliacaoClienteId=".$_SESSION['id'];
-                        $resultnotif2=mysqli_query($con,$sqlNotif2);
-                        $dadosNotif2=mysqli_fetch_array($resultnotif2);
-                        $notif2=(int)$dadosNotif2['count(avaliacaoId)'];
-                        $notificacao= $notif+$notif2;
+                        $notif=$dadosNotif['nPedidos'];
+
 
 }
 ?>
@@ -82,7 +79,7 @@ if(!isset($_SESSION['id'])){
                     <?php
                 }else{
                 ?>
-                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php"><?php echo $_SESSION['nome']?><span class="badge badge-pill" style="padding-left: 5px;margin-left: 5px;background-color: lightcyan;color: #29ca8e ";><?php echo $notificacao; ?></span></a></li>
+                <li <?php if ($menu==PERFIL) echo "class=\"active\"";?>><a href="perfil.php"><?php echo $_SESSION['nome']?><span class="badge badge-pill" style="padding-left: 5px;margin-left: 5px;background-color: lightcyan;color: #29ca8e ";><?php echo $notif; ?></span></a></li>
                 <li><a href="logout.php">Logout</a></li>
                     <?php
                 }
@@ -271,7 +268,7 @@ function bottomPedidos(){
     <script src="js/custom.js"></script>
     <script>
         $('document').ready(function(){
-            fillTablePedidos($('#id').val());
+            fillTablePedidos(<?php echo $_SESSION['id']?>);
         })
     </script>
 
