@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="na omostrar inativos">
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="Muitas mudanças nos pedidos e avaliações, funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillPedidos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aceitarPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/aceitarPedido.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/servicosAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/servicosAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avaliarPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/avaliarPedido.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confirmaAvalia.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recusarPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/recusarPedido.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,14 +175,8 @@
       <workItem from="1624616590085" duration="176000" />
       <workItem from="1624867994681" duration="5074000" />
       <workItem from="1624954667348" duration="8338000" />
-      <workItem from="1625223322776" duration="13175000" />
-    </task>
-    <task id="LOCAL-00015" summary="[Leandro] Base de dados Versão 1.0">
-      <created>1614861292461</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1614861292461</updated>
+      <workItem from="1625223322776" duration="13460000" />
+      <workItem from="1625473120040" duration="406000" />
     </task>
     <task id="LOCAL-00016" summary="eliminar e editar feito (Back-office)">
       <created>1614880897847</created>
@@ -527,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624980995514</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Muitas mudanças nos pedidos e avaliações, funcional">
+      <created>1625240994895</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1625240994895</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +540,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="botões nao consegui" />
     <MESSAGE value="tentativas falhadas" />
     <MESSAGE value="cores" />
     <MESSAGE value="titulo servicolista" />
@@ -571,6 +564,7 @@
     <MESSAGE value="minimo" />
     <MESSAGE value="Searchbar servicos back-office" />
     <MESSAGE value="na omostrar inativos" />
-    <option name="LAST_COMMIT_MESSAGE" value="na omostrar inativos" />
+    <MESSAGE value="Muitas mudanças nos pedidos e avaliações, funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Muitas mudanças nos pedidos e avaliações, funcional" />
   </component>
 </project>

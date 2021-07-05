@@ -68,5 +68,4 @@ mysqli_query($con,$delete);
 
 
 header("location:perfil.php");
-
 ?>
