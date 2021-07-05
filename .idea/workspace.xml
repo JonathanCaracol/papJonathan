@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="Muitas mudanças nos pedidos e avaliações, funcional">
+      <change afterPath="$PROJECT_DIR$/admin/slideBackOffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/servicosAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/servicosAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseDados/modeloEpris_v2.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/baseDados/modeloEpris_v2.0.mwb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confirmaAvalia.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,14 +184,7 @@
       <workItem from="1624867994681" duration="5074000" />
       <workItem from="1624954667348" duration="8338000" />
       <workItem from="1625223322776" duration="13460000" />
-      <workItem from="1625473120040" duration="406000" />
-    </task>
-    <task id="LOCAL-00016" summary="eliminar e editar feito (Back-office)">
-      <created>1614880897847</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1614880897847</updated>
+      <workItem from="1625473120040" duration="9774000" />
     </task>
     <task id="LOCAL-00017" summary="adicionar servicos, confirma edita perfil, confirma novo servico, melhorar a pagina do perfil">
       <created>1614972898012</created>
@@ -521,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625240994895</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Muitas mudanças nos pedidos e avaliações, funcional">
+      <created>1625473532439</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1625473532439</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

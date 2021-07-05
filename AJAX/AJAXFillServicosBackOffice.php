@@ -6,7 +6,7 @@ $id=intval($_POST['id']);
 
 $sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where (servicoNome LIKE '%$txt%') or (utilizadorNome LIKE '%$txt%')";
 if($id>0){
-    $sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where servicoNome LIKE '$txt%' and servicoCategoriaId=".$id;
+    $sql ="Select * from servicos inner join utilizadores on servicoUtilizadorId = utilizadorId where (servicoNome LIKE '$txt%' or utilizadorNome LIKE '%$txt%')and servicoCategoriaId=".$id;
 }
 $result=mysqli_query($con,$sql);
 ?>

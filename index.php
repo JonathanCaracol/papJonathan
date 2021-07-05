@@ -11,7 +11,12 @@ $result=mysqli_query($con,$sql);
      <section id="home">
           <div class="row">
                <div class="owl-carousel owl-theme home-slider">
-                    <div class="item item-first">
+                   <?php
+                        $sqlSlide="select * from slideshow";
+                        $resultSlide= mysqli_query($con, $sqlSlide);
+                        while ($dadosSlide=mysqli_fetch_array($resultSlide)){
+                   ?>
+                    <div class="item item-first" style="background-image: url(<?php echo $dadosSlide['UrlSlideShow'] ?>)">
                          <div class="caption">
                               <div class="container">
                                    <div class="col-md-6 col-sm-12">
@@ -21,28 +26,9 @@ $result=mysqli_query($con,$sql);
                               </div>
                          </div>
                     </div>
-
-                    <div class="item item-second">
-                         <div class="caption">
-                              <div class="container">
-                                   <div class="col-md-6 col-sm-12">
-                                        <h1>De fácil utilização para a maior satisfação possível!</h1>
-                                        <a href="offers.php" class="section-btn btn btn-default">Serviços</a>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="item item-third">
-                         <div class="caption">
-                              <div class="container">
-                                   <div class="col-md-6 col-sm-12">
-                                        <h1>Completamente gratuito, só precisamos do seu tempo!</h1><br>
-                                        <a href="offers.php" class="section-btn btn btn-default">Serviços</a>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
+                    <?php
+                       }
+                    ?>
                </div>
           </div>
      </section>

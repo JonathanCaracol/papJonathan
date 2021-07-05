@@ -482,20 +482,6 @@ https://templatemo.com/tm-516-known
   .caption h3 a { color: deepskyblue; }
   .caption h3 a:hover { color: deepskyblue; }
 
-  .home-slider .item-first {
-    background-image: url(../images/firstSlide.png);
-	background-position: center;
-  }
-
-  .home-slider .item-second {
-    background-image: url(../images/secondSlide.png);
-  }
-
-  .home-slider .item-third {
-    background-image: url(../images/thirdSlide.png);
-  }
-
-
 
   /*---------------------------------------
       FEATURE              

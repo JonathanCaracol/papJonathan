@@ -434,6 +434,7 @@ function topAdmin($menu=HOME){
                 <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offersAdmin.php">Categorias Admin</a></li>
                 <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="servicosAdmin.php">Serviços Admin</a></li>
                 <li <?php if ($menu==HOME) echo "class=\"active\"";?>><a href="utilizadorAtivoDesativo.php">Utilizadores Admin</a></li>
+                <li <?php if ($menu==MAIS) echo "class=\"active\"";?>><a href="slideBackOffice">SlideShow</a></li>
                 <li><a href="../index.php">Sair da administração</a></li>
             </ul>
         </div>
@@ -523,6 +524,7 @@ function bottomAdmin(){
                     <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offersAdmin.php">Categorias Admin</a></li>
                     <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="servicosAdmin.php">Serviços Admin</a></li>
                     <li <?php if ($menu==HOME) echo "class=\"active\"";?>><a href="utilizadorAtivoDesativo.php">Utilizadores Admin</a></li>
+                    <li <?php if ($menu==MAIS) echo "class=\"active\"";?>><a href="slideBackOffice">SlideShow</a></li>
                     <li><a href="../index.php">Sair da administração</a></li>
                 </ul>
             </div>
@@ -547,6 +549,9 @@ function bottomAJAXAdmin(){
 
             $('#search').keyup(function (){
                 fillTableServicosBackOffice(this.value,$('#id').val());
+            });
+            $('#id').change(function (){
+                fillTableServicosBackOffice('',this.value);
             });
         })
     </script>
@@ -616,6 +621,9 @@ function bottomAJAXAdmin(){
                 <li <?php if ($menu==OFFERS) echo "class=\"active\"";?>><a href="offersAdmin.php">Categorias Admin</a></li>
                 <li <?php if ($menu==CONTACTO) echo "class=\"active\"";?>><a href="servicosAdmin.php">Serviços Admin</a></li>
                 <li <?php if ($menu==HOME) echo "class=\"active\"";?>><a href="utilizadorAtivoDesativo.php">Utilizadores Admin</a></li>
+                <li <?php if ($menu==MAIS) echo "class=\"active\"";?>><a href="slideBackOffice">SlideShow</a></li>
+
+
                 <li><a href="../index.php">Sair da administração</a></li>
             </ul>
         </div>
