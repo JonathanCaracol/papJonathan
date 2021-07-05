@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="Muitas mudanças nos pedidos e avaliações, funcional">
-      <change afterPath="$PROJECT_DIR$/admin/slideBackOffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="base de dados atualizada e dropbox no servicoBackOffice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillServicosBackOffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/servicosAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/servicosAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseDados/modeloEpris_v2.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/baseDados/modeloEpris_v2.0.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaAvalia.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAvalia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/slideBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/slideBackOffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,14 +176,7 @@
       <workItem from="1624867994681" duration="5074000" />
       <workItem from="1624954667348" duration="8338000" />
       <workItem from="1625223322776" duration="13460000" />
-      <workItem from="1625473120040" duration="9774000" />
-    </task>
-    <task id="LOCAL-00017" summary="adicionar servicos, confirma edita perfil, confirma novo servico, melhorar a pagina do perfil">
-      <created>1614972898012</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1614972898012</updated>
+      <workItem from="1625473120040" duration="11522000" />
     </task>
     <task id="LOCAL-00018" summary="eliminar servico">
       <created>1614983427730</created>
@@ -529,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625473532439</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="base de dados atualizada e dropbox no servicoBackOffice">
+      <created>1625497922539</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1625497922540</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +540,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tentativas falhadas" />
     <MESSAGE value="cores" />
     <MESSAGE value="titulo servicolista" />
     <MESSAGE value="trabalhar sobre id no servico lista para mandar para AJAX" />
@@ -573,6 +564,7 @@
     <MESSAGE value="Searchbar servicos back-office" />
     <MESSAGE value="na omostrar inativos" />
     <MESSAGE value="Muitas mudanças nos pedidos e avaliações, funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Muitas mudanças nos pedidos e avaliações, funcional" />
+    <MESSAGE value="base de dados atualizada e dropbox no servicoBackOffice" />
+    <option name="LAST_COMMIT_MESSAGE" value="base de dados atualizada e dropbox no servicoBackOffice" />
   </component>
 </project>
