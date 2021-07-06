@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="base de dados atualizada e dropbox no servicoBackOffice">
-      <change afterPath="$PROJECT_DIR$/admin/eliminarSlideShow.php" afterDir="false" />
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/adicionaSlideShow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/confirmaNovaImagem.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseDados/modeloEpris_v2.0.5.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/baseDados/modeloEpris_v2.0.5.mwb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,14 +180,7 @@
       <workItem from="1625473120040" duration="11522000" />
       <workItem from="1625561772718" duration="2209000" />
       <workItem from="1625568193281" duration="2699000" />
-      <workItem from="1625580625640" duration="309000" />
-    </task>
-    <task id="LOCAL-00018" summary="eliminar servico">
-      <created>1614983427730</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1614983427730</updated>
+      <workItem from="1625580625640" duration="2465000" />
     </task>
     <task id="LOCAL-00019" summary="editar e confirma edita servico a fazer, ainda não é funcional">
       <created>1615156130498</created>
@@ -525,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625497922540</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="eliminar slideshow">
+      <created>1625581102136</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1625581102136</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cores" />
     <MESSAGE value="titulo servicolista" />
     <MESSAGE value="trabalhar sobre id no servico lista para mandar para AJAX" />
     <MESSAGE value="inicio de tabela em vez de lista" />
@@ -569,6 +568,7 @@
     <MESSAGE value="na omostrar inativos" />
     <MESSAGE value="Muitas mudanças nos pedidos e avaliações, funcional" />
     <MESSAGE value="base de dados atualizada e dropbox no servicoBackOffice" />
-    <option name="LAST_COMMIT_MESSAGE" value="base de dados atualizada e dropbox no servicoBackOffice" />
+    <MESSAGE value="eliminar slideshow" />
+    <option name="LAST_COMMIT_MESSAGE" value="eliminar slideshow" />
   </component>
 </project>
