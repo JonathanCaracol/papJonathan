@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="base de dados atualizada e dropbox no servicoBackOffice">
+      <change afterPath="$PROJECT_DIR$/admin/eliminarSlideShow.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/slideBackOffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/slideBackOffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseDados/modeloEpris_v2.0.5.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/baseDados/modeloEpris_v2.0.5.mwb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +178,9 @@
       <workItem from="1624954667348" duration="8338000" />
       <workItem from="1625223322776" duration="13460000" />
       <workItem from="1625473120040" duration="11522000" />
+      <workItem from="1625561772718" duration="2209000" />
+      <workItem from="1625568193281" duration="2699000" />
+      <workItem from="1625580625640" duration="309000" />
     </task>
     <task id="LOCAL-00018" summary="eliminar servico">
       <created>1614983427730</created>
