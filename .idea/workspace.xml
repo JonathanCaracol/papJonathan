@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/adicionaSlideShow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/confirmaNovaImagem.php" afterDir="false" />
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="criação da página slideBackOffice.php">
+      <change afterPath="$PROJECT_DIR$/admin/confirmaEditaSlideShow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/editarSlideShow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adicionaSlideShow.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionaSlideShow.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bibliotecaCoelhinhoBranco" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -181,6 +183,7 @@
       <workItem from="1625561772718" duration="2209000" />
       <workItem from="1625568193281" duration="2699000" />
       <workItem from="1625580625640" duration="2465000" />
+      <workItem from="1625669431674" duration="1713000" />
     </task>
     <task id="LOCAL-00019" summary="editar e confirma edita servico a fazer, ainda não é funcional">
       <created>1615156130498</created>
