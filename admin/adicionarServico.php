@@ -1,6 +1,6 @@
 <?php
 include_once("../includes/body.inc.php");
-topAdmin(OFFERS);
+topPerfil(PERFIL);
 
 $sql ="Select * from servicos";
 $result=mysqli_query($con,$sql);

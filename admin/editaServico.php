@@ -1,7 +1,7 @@
 <?php
 $id=intval($_GET['id']);
 include_once("../includes/body.inc.php");
-topAdmin(OFFERS);
+topPerfil(PERFIL);
 
 
 $sql="select * from servicos inner join categorias on servicoCategoriaId = categoriaId where servicoId=".$id;
