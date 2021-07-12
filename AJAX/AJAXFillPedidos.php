@@ -39,7 +39,7 @@ include_once("../includes/body.inc.php");
         }
     }
     // **********************************************************  avaliações
-   echo $sql="Select * from pedidos inner join servicos on pedidoServicoId = servicoId 
+    $sql="Select * from pedidos inner join servicos on pedidoServicoId = servicoId 
             inner join utilizadores on pedidoClienteId = utilizadorId 
             where pedidoClienteId=".$_SESSION['id']." and pedidoEstado ='aceite'";
     $result2=mysqli_query($con,$sql);

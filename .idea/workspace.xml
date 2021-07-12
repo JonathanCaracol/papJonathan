@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="Editar imagens do slideshow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/adicionarServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adicionarServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/editaServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/editaServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="bf240784-e864-48a2-8ae7-8d83ebe49029" name="Default Changelist" comment="resolução de pequenos problemas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,13 +180,7 @@
       <workItem from="1625669431674" duration="1989000" />
       <workItem from="1626082003194" duration="1423000" />
       <workItem from="1626098701279" duration="373000" />
-    </task>
-    <task id="LOCAL-00020" summary="CRUDS serviços + layout feitos, CRUDS categorias + layout feitos, CRUDS perfil + layout feitos">
-      <created>1615312717645</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1615312717645</updated>
+      <workItem from="1626099083817" duration="32000" />
     </task>
     <task id="LOCAL-00021" summary="layout de desativar utilizadores feito">
       <created>1615390024553</created>
@@ -530,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625671407924</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="resolução de pequenos problemas">
+      <created>1626099104656</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1626099104656</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="trabalhar sobre id no servico lista para mandar para AJAX" />
     <MESSAGE value="inicio de tabela em vez de lista" />
     <MESSAGE value="tabela em servicolista" />
     <MESSAGE value="meu perfil, inicio de resolução" />
@@ -574,6 +568,7 @@
     <MESSAGE value="base de dados atualizada e dropbox no servicoBackOffice" />
     <MESSAGE value="eliminar slideshow" />
     <MESSAGE value="Editar imagens do slideshow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editar imagens do slideshow" />
+    <MESSAGE value="resolução de pequenos problemas" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolução de pequenos problemas" />
   </component>
 </project>
