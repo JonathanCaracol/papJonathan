@@ -7,6 +7,7 @@ $sql ="SELECT * FROM servicos inner join categorias on servicoCategoriaId = cate
 $result=mysqli_query($con,$sql);
 ?>
 
+
      <!-- HOME -->
      <section id="home">
           <div class="row">
